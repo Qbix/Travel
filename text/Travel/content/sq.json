@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "po",
+        "No": "jo",
+        "to": "në",
+        "from": "nga",
+        "departTime": "largohem",
+        "arriveTime": "mbërrijnë",
+        "OfferRide": "Oferta një Ride",
+        "whatToOffer": "Çfarë doni të ofroni?",
+        "tripTo": "Udhetim ne",
+        "tripFrom": "Udhëtimi nga",
+        "startDriving": "Filloni makinën",
+        "pickUpName": "U zgjodh {{name}}",
+        "pickedUp": "U zgjova",
+        "pickMeUp": "Me merr",
+        "pickupLocation": "Vendi i marrjes",
+        "cancel": "anuloj",
+        "center": "qendër",
+        "shouldDepart": "Duhet të niset",
+        "departs": "niset",
+        "departed": "Departed",
+        "shouldArrive": "për të arritur",
+        "arrives": "mbërrin",
+        "arrived": "arriti",
+        "minutes": "minuta",
+        "estimatedTime": "Koha e parashikuar",
+        "leaveAt": "Dua të largohem",
+        "offerAtMostPeople": "Unë mund të ofroj një udhëtim për në më së shumti",
+        "people": "njerëz",
+        "maxDetour": "Zvarritje maksimale",
+        "share": "pjesë",
+        "tripComplete": "i plotë",
+        "driverDiscontinue": "ndërpritet",
+        "passengerRefuse": "Anulo udhëtimin",
+        "AreYouSure": "A je i sigurt?",
+        "CancellTripWarning": "Pasagjerët tuaj do të njoftohen se keni anuluar udhëtimin",
+        "TripAlreadyClosed": "Ky udhëtim tashmë është mbyllur.",
+        "preview": {
+            "Departs": "niset",
+            "Departed": "Departed",
+            "Arrives": "mbërrin",
+            "Arrived": "arriti"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Çfarë doni të ofroni?",
+        "PassengertripCanceled": "Refuzoni udhëtimin",
+        "Subscribe": "pajtohem",
+        "Subscribed": "regjistruar",
+        "Unsubscribe": "Unsubscribe",
+        "NeedRide": "Nevojë për një udhëtim",
+        "OfferRide": "Oferta një Ride",
+        "RideFrom": "Ride Nga",
+        "RideTo": "Ride To",
+        "WhereToPick": "Ku të të marr?",
+        "WhereToDrop": "Ku të të heqin dorë?",
+        "Recurring": "periodik",
+        "locationSubscribeNotice": "Ju do të njoftoheni kur të postoni udhëtime të reja.",
+        "locationUnsubscribeNotice": "Mos u njoftoheni kur të postoni udhëtime të reja."
+    },
+    "navigation": {
+        "loadingNavigation": "Loading navigation ...",
+        "routePanelError": "Nuk mund të vendosni panelin e rrugës",
+        "routeRecalculate": "Rillogaritjen e rrugës",
+        "passengerPickedUp": "Udhëtari kapi",
+        "nextRoute": "Llogaritja e rrugës tjetër",
+        "routeError": {
+            "INVALID_REQUEST": "KËRKESË E PAVLEFSHME",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS tejkaluar",
+            "NOT_FOUND": "NUK U GJET",
+            "OVER_QUERY_LIMIT": "PËR KUFIZIMIN E QUERY",
+            "REQUEST_DENIED": "KËRKESA MBAJTUR",
+            "UNKNOWN_ERROR": "GABIM I PANJOHUR",
+            "ZERO_RESULTS": "ZERO REZULTATET"
+        },
+        "reCenter": "RE-Qendra",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "tha:",
+            "pickuplocationChange": "{{userName}} ndryshoi vendndodhjen e marrjes",
+            "canceledTrip": "{{userName}} anuloi udhëtimin"
+        },
+        "speechFarManeuver": "në {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Udhëtim {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} është {{state}} në udhëtimin tuaj në grup.",
+        "Travel\/trip\/arriving": "Shoferi juaj po afrohet për t&#39;ju marrë.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} u kap.",
+        "Travel\/trip\/started": "Udhëtimi juaj ka filluar",
+        "Travel\/trip\/completed": "Udhëtimi juaj është përfunduar.",
+        "Travel\/trip\/discontinued": "Shoferi ka ndërprerë udhëtimin tuaj.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ka lëvizur",
+        "Travel\/trip\/added": "Udhëtimi i ri shtohet drejtimit që ju intereson."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Përfaqëson një udhëtim që njerëzit bëjnë, vetëm ose së bashku",
+            "displayType": "udhëtim"
+        }
+    }
+}

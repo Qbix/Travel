@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ναί",
+        "No": "Οχι",
+        "to": "προς το",
+        "from": "από",
+        "departTime": "φύγω",
+        "arriveTime": "φθάνω",
+        "OfferRide": "Προσφέρετε μια βόλτα",
+        "whatToOffer": "Τι θέλετε να προσφέρετε;",
+        "tripTo": "Ταξίδι σε",
+        "tripFrom": "Ταξίδι από",
+        "startDriving": "Ξεκινήστε την οδήγηση",
+        "pickUpName": "Έγινε λήψη {{name}}",
+        "pickedUp": "Πήρα εγώ",
+        "pickMeUp": "Πάρε με",
+        "pickupLocation": "Τοποθεσία παραλαβής",
+        "cancel": "Ματαίωση",
+        "center": "Κέντρο",
+        "shouldDepart": "Πρέπει να αναχωρήσει",
+        "departs": "Αναχωρεί",
+        "departed": "Περασμένος",
+        "shouldArrive": "να φτάσω",
+        "arrives": "Φτάνει",
+        "arrived": "Έφτασε",
+        "minutes": "λεπτά",
+        "estimatedTime": "Αναμενόμενη ώρα",
+        "leaveAt": "Θέλω να φύγω",
+        "offerAtMostPeople": "Μπορώ να προσφέρω μια βόλτα στο πολύ",
+        "people": "Ανθρωποι",
+        "maxDetour": "Μέγιστη παράκαμψη",
+        "share": "Μερίδιο",
+        "tripComplete": "Πλήρης",
+        "driverDiscontinue": "Διακόπτω",
+        "passengerRefuse": "Ακύρωση ταξιδιού",
+        "AreYouSure": "Είσαι σίγουρος?",
+        "CancellTripWarning": "Οι επιβάτες σας θα ειδοποιηθούν ότι ακυρώσατε το ταξίδι",
+        "TripAlreadyClosed": "Αυτό το ταξίδι έχει ήδη κλείσει.",
+        "preview": {
+            "Departs": "Αναχωρεί",
+            "Departed": "Περασμένος",
+            "Arrives": "Φτάνει",
+            "Arrived": "Έφτασε"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Τι θέλετε να προσφέρετε;",
+        "PassengertripCanceled": "Refuse Trip",
+        "Subscribe": "Εγγραφείτε",
+        "Subscribed": "Εγγραφή",
+        "Unsubscribe": "Κατάργηση εγγραφής",
+        "NeedRide": "Χρειάζεστε μια βόλτα",
+        "OfferRide": "Προσφέρετε μια βόλτα",
+        "RideFrom": "Ride Από",
+        "RideTo": "Ride To",
+        "WhereToPick": "Πού να σε παραλάβεις;",
+        "WhereToDrop": "Πού να σας αφήσω;",
+        "Recurring": "Επαναλαμβανόμενη",
+        "locationSubscribeNotice": "Θα σας ειδοποιηθούν όταν αναρτώνται νέα ταξίδια.",
+        "locationUnsubscribeNotice": "Σταματήστε να ενημερώνεστε όταν αναρτώνται νέα ταξίδια."
+    },
+    "navigation": {
+        "loadingNavigation": "Φόρτωση πλοήγησης ...",
+        "routePanelError": "Δεν είναι δυνατή η ρύθμιση του πίνακα διαδρομών",
+        "routeRecalculate": "Νέα διαδρομή",
+        "passengerPickedUp": "Ο επιβάτης σηκώθηκε",
+        "nextRoute": "Υπολογισμός της επόμενης διαδρομής",
+        "routeError": {
+            "INVALID_REQUEST": "ΑΚΥΡΗ ΑΙΤΗΣΗ",
+            "MAX_WAYPOINTS_EXCEEDED": "ΜΕΓΑΛΕΣ ΤΙΜΕΣ ΥΠΕΡΒΟΛΙΑΣ",
+            "NOT_FOUND": "ΔΕΝ ΒΡΕΘΗΚΕ",
+            "OVER_QUERY_LIMIT": "ΠΕΡΙΟΡΙΣΤΟ ΕΡΩΤΗΜΑΤΟΣ",
+            "REQUEST_DENIED": "ΤΟ ΑΙΤΗΜΑ ΑΠΟΡΡΙΦΘΗΚΕ",
+            "UNKNOWN_ERROR": "ΑΓΝΩΣΤΟ ΣΦΑΛΜΑ",
+            "ZERO_RESULTS": "ΔΕΝ ΑΠΟΤΕΛΕΣΜΑΤΑ"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "είπε,",
+            "pickuplocationChange": "{{userName}} αλλαγή θέσης παραλαβής",
+            "canceledTrip": "{{userName}} ακύρωσε το ταξίδι"
+        },
+        "speechFarManeuver": "σε {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Ταξίδι {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} είναι {{state}} στην ομαδική σας πορεία.",
+        "Travel\/trip\/arriving": "Ο οδηγός σας πλησιάζει να σας παραλάβει.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} παραλήφθηκε.",
+        "Travel\/trip\/started": "Το ταξίδι σας έχει ξεκινήσει",
+        "Travel\/trip\/completed": "Το ταξίδι σας έχει ολοκληρωθεί.",
+        "Travel\/trip\/discontinued": "Ο οδηγός έχει διακόψει το ταξίδι σας.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} έχει μετακινηθεί",
+        "Travel\/trip\/added": "Νέο ταξίδι προστέθηκε στην κατεύθυνση που σας ενδιαφέρει."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Αντιπροσωπεύει ένα ταξίδι που οι άνθρωποι παίρνουν, μόνοι τους ή μαζί",
+            "displayType": "Ταξίδι"
+        }
+    }
+}

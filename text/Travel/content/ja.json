@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "はい",
+        "No": "いいえ",
+        "to": "に",
+        "from": "から",
+        "departTime": "出発する",
+        "arriveTime": "着く",
+        "OfferRide": "ライドを申し出る",
+        "whatToOffer": "何を提供したいですか？",
+        "tripTo": "への旅",
+        "tripFrom": "からの旅行",
+        "startDriving": "運転を開始",
+        "pickUpName": "ピックアップ{{name}}",
+        "pickedUp": "私は拾われました",
+        "pickMeUp": "私を迎えに",
+        "pickupLocation": "ピックアップ場所",
+        "cancel": "キャンセル",
+        "center": "センター",
+        "shouldDepart": "出発するべきです",
+        "departs": "出発",
+        "departed": "出発",
+        "shouldArrive": "到着する",
+        "arrives": "到着",
+        "arrived": "到着した",
+        "minutes": "議事録",
+        "estimatedTime": "予定時刻",
+        "leaveAt": "私は出発したい",
+        "offerAtMostPeople": "せいぜい乗車できます",
+        "people": "人",
+        "maxDetour": "最大迂回路",
+        "share": "シェア",
+        "tripComplete": "コンプリート",
+        "driverDiscontinue": "中止する",
+        "passengerRefuse": "旅行をキャンセル",
+        "AreYouSure": "本気ですか？",
+        "CancellTripWarning": "あなたが旅行をキャンセルしたことがあなたの乗客に通知されます",
+        "TripAlreadyClosed": "この旅行はもう終わりました。",
+        "preview": {
+            "Departs": "出発",
+            "Departed": "出発",
+            "Arrives": "到着",
+            "Arrived": "到着した"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "何を提供したいですか？",
+        "PassengertripCanceled": "旅行を拒否",
+        "Subscribe": "申し込む",
+        "Subscribed": "購読しています",
+        "Unsubscribe": "退会する",
+        "NeedRide": "ライドが必要",
+        "OfferRide": "ライドを申し出る",
+        "RideFrom": "から乗る",
+        "RideTo": "に乗る",
+        "WhereToPick": "どこで迎えに行きますか？",
+        "WhereToDrop": "どこに降りるの？",
+        "Recurring": "繰り返し",
+        "locationSubscribeNotice": "新しい旅行が投稿されると通知されます。",
+        "locationUnsubscribeNotice": "新しい旅行が投稿されたときに通知を受けるのをやめる。"
+    },
+    "navigation": {
+        "loadingNavigation": "ナビゲーションを読み込んでいます...",
+        "routePanelError": "ルートパネルを設定できません",
+        "routeRecalculate": "再計算ルート",
+        "passengerPickedUp": "乗客が拾った",
+        "nextRoute": "次の経路を計算する",
+        "routeError": {
+            "INVALID_REQUEST": "無効なリクエスト",
+            "MAX_WAYPOINTS_EXCEEDED": "最大ウェイポイントを超えました",
+            "NOT_FOUND": "見つかりません",
+            "OVER_QUERY_LIMIT": "クエリ制限を超えて",
+            "REQUEST_DENIED": "要求は拒否されました",
+            "UNKNOWN_ERROR": "未知のエラー",
+            "ZERO_RESULTS": "ゼロ結果"
+        },
+        "reCenter": "再センター",
+        "kilometr": "km",
+        "meter": "メートル",
+        "minutes": "分",
+        "hours": "時。",
+        "messages": {
+            "said": "前記、",
+            "pickuplocationChange": "{{userName}}がピックアップ場所を変更しました",
+            "canceledTrip": "{{userName}}は旅行をキャンセルしました"
+        },
+        "speechFarManeuver": "{{distance}}、{{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "旅行{{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}}はあなたのグループのライドで{{state}}です。",
+        "Travel\/trip\/arriving": "あなたの運転手はあなたを迎えに近づいています。",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}}がピックアップされました。",
+        "Travel\/trip\/started": "あなたの旅は始まった",
+        "Travel\/trip\/completed": "あなたの旅行は完了しました。",
+        "Travel\/trip\/discontinued": "運転手はあなたの旅行を中止しました。",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}}は移動しました",
+        "Travel\/trip\/added": "興味のある方に新しい旅を追加しました。"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "人々が単独でまたは一緒に取る旅行を表します",
+            "displayType": "トリップ"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Is féidir",
+        "No": "Níl",
+        "to": "chun",
+        "from": "as",
+        "departTime": "imeacht",
+        "arriveTime": "teacht",
+        "OfferRide": "Taisteal a thairiscint",
+        "whatToOffer": "Cad ba mhaith leat a thairiscint?",
+        "tripTo": "Turas go",
+        "tripFrom": "Turas Ó",
+        "startDriving": "Tosaigh Tiomána",
+        "pickUpName": "Suas {{name}}",
+        "pickedUp": "Bhí mé ag piocadh suas",
+        "pickMeUp": "Pioc Mise Suas",
+        "pickupLocation": "Suíomh Pickup",
+        "cancel": "Cealaigh",
+        "center": "Ionad",
+        "shouldDepart": "Ba chóir imeacht",
+        "departs": "Imeacht",
+        "departed": "D&#39;imigh",
+        "shouldArrive": "le teacht",
+        "arrives": "Tagann sé",
+        "arrived": "Tháinig",
+        "minutes": "nóiméad",
+        "estimatedTime": "Am measta",
+        "leaveAt": "Ba mhaith liom imeacht ag",
+        "offerAtMostPeople": "Is féidir liom turas a thairiscint don chuid is mó",
+        "people": "Daoine",
+        "maxDetour": "Max detour",
+        "share": "Comhroinn",
+        "tripComplete": "Críochnaithe",
+        "driverDiscontinue": "Scoir",
+        "passengerRefuse": "Cealaigh Turas",
+        "AreYouSure": "An bhfuil tú cinnte?",
+        "CancellTripWarning": "Cuirfear do phaisinéirí ar an eolas gur chuir tú an turas ar ceal",
+        "TripAlreadyClosed": "Dúnadh an turas seo cheana féin.",
+        "preview": {
+            "Departs": "Imeacht",
+            "Departed": "D&#39;imigh",
+            "Arrives": "Tagann sé",
+            "Arrived": "Tháinig"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Cad ba mhaith leat a thairiscint?",
+        "PassengertripCanceled": "Turas Bruscair",
+        "Subscribe": "Liostáil",
+        "Subscribed": "Suibscríofa",
+        "Unsubscribe": "Díliostáil",
+        "NeedRide": "Riachtanas Taistil",
+        "OfferRide": "Taisteal a thairiscint",
+        "RideFrom": "Taisteal Ó",
+        "RideTo": "Taisteal go",
+        "WhereToPick": "Cá háit a ndéanfaidh tú do phiocadh suas?",
+        "WhereToDrop": "Cá háit is féidir leat titim amach?",
+        "Recurring": "Athfhillteach",
+        "locationSubscribeNotice": "Tabharfar fógra duit nuair a sheoltar turais nua.",
+        "locationUnsubscribeNotice": "Stop á chur in iúl nuair a sheoltar turais nua."
+    },
+    "navigation": {
+        "loadingNavigation": "Á lódáil nascleanúna ...",
+        "routePanelError": "Ní féidir painéal bealaigh a shocrú",
+        "routeRecalculate": "An bealach a athríomh",
+        "passengerPickedUp": "Paisinéirí bailithe",
+        "nextRoute": "An chéad bhealach eile a ríomh",
+        "routeError": {
+            "INVALID_REQUEST": "IARRATAS INVALID",
+            "MAX_WAYPOINTS_EXCEEDED": "SEACHTAIN MAX WAYPOINTS",
+            "NOT_FOUND": "NÍ FHAIGHTEAR",
+            "OVER_QUERY_LIMIT": "TAR ÉIS AN TEORAINN THAR",
+            "REQUEST_DENIED": "IARRATAS A FUARTHAS",
+            "UNKNOWN_ERROR": "EARRÁID NÍOS MÓ",
+            "ZERO_RESULTS": "TORTHAÍ ZERO"
+        },
+        "reCenter": "Ath-IONAD",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "dúirt sé,",
+            "pickuplocationChange": "D&#39;athraigh {{userName}} láthair roghnóireachta",
+            "canceledTrip": "Chuir an {{userName}} an turas ar ceal"
+        },
+        "speechFarManeuver": "i {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Turas {{state}}",
+        "Travel\/trip\/user\/state": "Is é {{call 'avatar.displayName'}} {{state}} i do thuras grúpa.",
+        "Travel\/trip\/arriving": "Tá do thiománaí ag druidim chun tú a phiocadh suas.",
+        "Travel\/trip\/pickedup": "Bailíodh {{call 'avatar.displayName'}}.",
+        "Travel\/trip\/started": "Tá do thuras tosaithe",
+        "Travel\/trip\/completed": "Tá do thuras críochnaithe.",
+        "Travel\/trip\/discontinued": "Chuir an tiománaí deireadh le do thuras.",
+        "Travel\/coordinates\/updated": "Tá {{call 'avatar.displayName'}} tar éis bogadh",
+        "Travel\/trip\/added": "Turas nua curtha le treoir a bhfuil spéis agat ann."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Is ionann é agus turas a ghlacann daoine, ina aonar nó le chéile",
+            "displayType": "Turas"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "დიახ",
+        "No": "არა",
+        "to": "to",
+        "from": "დან",
+        "departTime": "გამგზავრება",
+        "arriveTime": "ჩამოვა",
+        "OfferRide": "შეთავაზება Ride",
+        "whatToOffer": "რას გთავაზობთ",
+        "tripTo": "მოგზაურობა",
+        "tripFrom": "მოგზაურობა მდებარეობა",
+        "startDriving": "დაიწყეთ მართვის მოწმობა",
+        "pickUpName": "აიყვანეს {{name}}",
+        "pickedUp": "მე აიყვანეს",
+        "pickMeUp": "Წამიყვანე, გამიყოლე",
+        "pickupLocation": "Ლოკაციის არჩევა",
+        "cancel": "გაუქმება",
+        "center": "ცენტრი",
+        "shouldDepart": "უნდა წავიდეს",
+        "departs": "გადის",
+        "departed": "წავიდა",
+        "shouldArrive": "ჩამოსვლა",
+        "arrives": "ჩამოსვლა",
+        "arrived": "ჩამოვიდა",
+        "minutes": "წუთი",
+        "estimatedTime": "სავარაუდო დრო",
+        "leaveAt": "მინდა დატოვონ",
+        "offerAtMostPeople": "შემიძლია შემოგთავაზოთ ride ყველაზე მეტად",
+        "people": "ხალხი",
+        "maxDetour": "მაქს შემოვლითი",
+        "share": "გაზიარება",
+        "tripComplete": "სრული",
+        "driverDiscontinue": "შეწყვეტა",
+        "passengerRefuse": "გაუქმება",
+        "AreYouSure": "Დარწმუნებული ხარ?",
+        "CancellTripWarning": "თქვენს მგზავრებს ეცნობებათ, რომ გააუქმეთ მოგზაურობა",
+        "TripAlreadyClosed": "ეს მოგზაურობა უკვე დაიხურა.",
+        "preview": {
+            "Departs": "გადის",
+            "Departed": "წავიდა",
+            "Arrives": "ჩამოსვლა",
+            "Arrived": "ჩამოვიდა"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "რას გთავაზობთ",
+        "PassengertripCanceled": "უარი თქვა მოგზაურობა",
+        "Subscribe": "გამოწერა",
+        "Subscribed": "გამოწერილია",
+        "Unsubscribe": "გაუქმება",
+        "NeedRide": "Need Ride",
+        "OfferRide": "შეთავაზება Ride",
+        "RideFrom": "მიგყავს",
+        "RideTo": "მიგყავს",
+        "WhereToPick": "სად უნდა აირჩიოთ?",
+        "WhereToDrop": "სად უნდა ჩამოაგდეს?",
+        "Recurring": "განმეორებადი",
+        "locationSubscribeNotice": "ახალი ტურისტების გამოქვეყნებაზე შეტყობინებას მიიღებთ.",
+        "locationUnsubscribeNotice": "გაფრთხილების შეწყვეტა ახალი მოგზაურობის დროს."
+    },
+    "navigation": {
+        "loadingNavigation": "ნავიგაციის ჩატვირთვა ...",
+        "routePanelError": "მარშრუტის პანელის დაყენება ვერ ხერხდება",
+        "routeRecalculate": "მარშრუტის გამეორება",
+        "passengerPickedUp": "მგზავრი აიყვანეს",
+        "nextRoute": "მომდევნო მარშრუტის გაანგარიშება",
+        "routeError": {
+            "INVALID_REQUEST": "გამოცხადების მოთხოვნა",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "არ არის ნაპოვნი",
+            "OVER_QUERY_LIMIT": "მეტი QUERY LIMIT",
+            "REQUEST_DENIED": "მოითხოვა მოთხოვნა",
+            "UNKNOWN_ERROR": "ᲣᲪᲜᲝᲑᲘ ᲨᲔᲪᲓᲝᲛᲐ",
+            "ZERO_RESULTS": "ZERO RESULTS"
+        },
+        "reCenter": "RE- ცენტრი",
+        "kilometr": "კმ",
+        "meter": "მ",
+        "minutes": "წთ.",
+        "hours": "სთ.",
+        "messages": {
+            "said": "განაცხადა,",
+            "pickuplocationChange": "{{userName}} შეიცვალა პიკაპის მდებარეობა",
+            "canceledTrip": "{{userName}} მგზავრობამ გააუქმა"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "მოგზაურობა {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} არის {{state}} თქვენს ჯგუფში.",
+        "Travel\/trip\/arriving": "შენი მძღოლი ახლოვდება, რომ აირჩიოთ.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} აიყვანეს.",
+        "Travel\/trip\/started": "თქვენი მოგზაურობა დაიწყო",
+        "Travel\/trip\/completed": "თქვენი მოგზაურობა დასრულდა.",
+        "Travel\/trip\/discontinued": "მძღოლი შეწყვიტა თქვენი მოგზაურობა.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} გადავიდა",
+        "Travel\/trip\/added": "ახალი მოგზაურობა დაინტერესდა მიმართულებით."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "წარმოადგენს მოგზაურობას, რომელსაც ხალხი ატარებს, მარტო ან ერთად",
+            "displayType": "მოგზაურობა"
+        }
+    }
+}

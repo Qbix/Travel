@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "అవును",
+        "No": "తోబుట్టువుల",
+        "to": "కు",
+        "from": "నుండి",
+        "departTime": "తిరిగి వెళ్ళు",
+        "arriveTime": "చేరుకుంటుంది",
+        "OfferRide": "ఆఫర్ రైడ్",
+        "whatToOffer": "మీరు ఏమి అందించాలనుకుంటున్నారు?",
+        "tripTo": "పర్యటన",
+        "tripFrom": "ట్రిప్ ఫ్రొం",
+        "startDriving": "డ్రైవింగ్ ప్రారంభించండి",
+        "pickUpName": "పిక్చర్ అప్ {{name}}",
+        "pickedUp": "నేను కైవసం చేసుకున్నాను",
+        "pickMeUp": "నన్ను తీసుకువెళ్ళు",
+        "pickupLocation": "స్థానాన్ని ఎంచుకొని",
+        "cancel": "రద్దు",
+        "center": "సెంటర్",
+        "shouldDepart": "బయలుదేరాలి",
+        "departs": "నిష్క్రమిస్తాడు",
+        "departed": "డిపార్టెడ్",
+        "shouldArrive": "రావడం",
+        "arrives": "వస్తాడు",
+        "arrived": "వచ్చారు",
+        "minutes": "నిమిషాల",
+        "estimatedTime": "అంచనా వేసిన సమయం",
+        "leaveAt": "నేను వదిలివేయాలనుకుంటున్నాను",
+        "offerAtMostPeople": "నేను చాలా వరకు రైడ్ ను అందించగలను",
+        "people": "పీపుల్",
+        "maxDetour": "మాక్స్ ప్రక్కతోవ",
+        "share": "Share",
+        "tripComplete": "పూర్తి",
+        "driverDiscontinue": "ఆపివేయాలనే",
+        "passengerRefuse": "ట్రిప్ని రద్దు చేయి",
+        "AreYouSure": "మీరు చెప్పేది నిజమా?",
+        "CancellTripWarning": "మీరు పర్యటనను రద్దు చేసినట్లు మీ ప్రయాణీకులు తెలియజేయబడతారు",
+        "TripAlreadyClosed": "ఈ పర్యటన ఇప్పటికే మూసివేయబడింది.",
+        "preview": {
+            "Departs": "నిష్క్రమిస్తాడు",
+            "Departed": "డిపార్టెడ్",
+            "Arrives": "వస్తాడు",
+            "Arrived": "వచ్చారు"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "మీరు ఏమి అందించాలనుకుంటున్నారు?",
+        "PassengertripCanceled": "ట్రిప్ తిరస్కరించు",
+        "Subscribe": "సబ్స్క్రయిబ్",
+        "Subscribed": "సబ్ స్క్రైబ్",
+        "Unsubscribe": "చందా రద్దుచేసే",
+        "NeedRide": "ఒక రైడ్ అవసరం",
+        "OfferRide": "ఆఫర్ రైడ్",
+        "RideFrom": "రైడ్ ఫ్రొం",
+        "RideTo": "రైడ్ టు",
+        "WhereToPick": "ఎక్కడ నిలపాలి?",
+        "WhereToDrop": "మీకు ఎక్కడ డ్రాప్ చెయ్యాలి?",
+        "Recurring": "పునరావృత",
+        "locationSubscribeNotice": "కొత్త పర్యటనలు పోస్ట్ చేసినప్పుడు మీకు తెలియజేయబడుతుంది.",
+        "locationUnsubscribeNotice": "క్రొత్త పర్యటనలను పోస్ట్ చేసినప్పుడు నోటిఫై చేయబడకుండా ఉండండి."
+    },
+    "navigation": {
+        "loadingNavigation": "నావిగేషన్ లోడ్ అవుతోంది ...",
+        "routePanelError": "మార్గం ప్యానెల్ సెట్ చేయలేదు",
+        "routeRecalculate": "మార్గం పునరావృతమైంది",
+        "passengerPickedUp": "ప్రయాణీకుడు కైవసం చేసుకున్నాడు",
+        "nextRoute": "తదుపరి మార్గం లెక్కిస్తోంది",
+        "routeError": {
+            "INVALID_REQUEST": "INVALID విన్నపం",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "దొరకలేదు",
+            "OVER_QUERY_LIMIT": "QUERY LIMIT కంటే ఎక్కువ",
+            "REQUEST_DENIED": "అభ్యర్థన తగ్గించబడింది",
+            "UNKNOWN_ERROR": "గుర్తించలేని పొరపాటు",
+            "ZERO_RESULTS": "జీరో RESULTS"
+        },
+        "reCenter": "రీసెంటర్",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "అన్నారు",
+            "pickuplocationChange": "{{userName}} పికప్ స్థానాన్ని మార్చారు",
+            "canceledTrip": "{{userName}} యాత్రను రద్దు చేసింది"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "ట్రిప్ {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} మీ గుంపులో {{state}} ఉంది.",
+        "Travel\/trip\/arriving": "మీ డ్రైవర్ మిమ్మల్ని ఎంచుకునేందుకు చేరుకుంటోంది.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} తీసుకోబడింది.",
+        "Travel\/trip\/started": "మీ ట్రిప్ ప్రారంభమైంది",
+        "Travel\/trip\/completed": "మీ పర్యటన పూర్తయింది.",
+        "Travel\/trip\/discontinued": "డ్రైవర్ మీ ట్రిప్ను నిలిపివేసారు.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} తరలించబడింది",
+        "Travel\/trip\/added": "మీకు ఆసక్తి ఉన్న దిశకు కొత్త యాత్ర జోడించబడింది."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "ఒంటరిగా లేదా కలిసి ప్రజలు తీసుకునే యాత్రను సూచిస్తుంది",
+            "displayType": "ట్రిప్"
+        }
+    }
+}

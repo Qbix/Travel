@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ya",
+        "No": "Tidak",
+        "to": "kepada",
+        "from": "dari",
+        "departTime": "berlepas",
+        "arriveTime": "tiba",
+        "OfferRide": "Tawaran Ride",
+        "whatToOffer": "Apa yang anda mahu tawarkan?",
+        "tripTo": "Perjalanan ke",
+        "tripFrom": "Perjalanan dari",
+        "startDriving": "Mula Memandu",
+        "pickUpName": "Menaikkan {{name}}",
+        "pickedUp": "Saya Telah Dijemput",
+        "pickMeUp": "Ambil aku",
+        "pickupLocation": "Lokasi Pengambilan",
+        "cancel": "Batalkan",
+        "center": "Pusat",
+        "shouldDepart": "Sekiranya berangkat",
+        "departs": "Berlepas",
+        "departed": "Berlepas",
+        "shouldArrive": "tiba",
+        "arrives": "Tiba",
+        "arrived": "Tiba",
+        "minutes": "minit",
+        "estimatedTime": "Anggaran masa",
+        "leaveAt": "Saya mahu pergi pada",
+        "offerAtMostPeople": "Saya boleh menawarkan perjalanan paling banyak",
+        "people": "Orang",
+        "maxDetour": "Melencong maks",
+        "share": "Kongsi",
+        "tripComplete": "Lengkap",
+        "driverDiscontinue": "Hentikan",
+        "passengerRefuse": "Batal Perjalanan",
+        "AreYouSure": "Adakah anda pasti?",
+        "CancellTripWarning": "Penumpang anda akan diberitahu bahawa anda membatalkan perjalanan",
+        "TripAlreadyClosed": "Perjalanan ini sudah ditutup.",
+        "preview": {
+            "Departs": "Berlepas",
+            "Departed": "Berlepas",
+            "Arrives": "Tiba",
+            "Arrived": "Tiba"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Apa yang anda mahu tawarkan?",
+        "PassengertripCanceled": "Tolak Lawatan",
+        "Subscribe": "Langgan",
+        "Subscribed": "Dilanggan",
+        "Unsubscribe": "Berhenti berlangganan",
+        "NeedRide": "Perlu Ride",
+        "OfferRide": "Tawaran Ride",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Di mana untuk menjemput anda?",
+        "WhereToDrop": "Di mana untuk menggugurkan anda?",
+        "Recurring": "Berulang",
+        "locationSubscribeNotice": "Anda akan dimaklumkan apabila perjalanan baru dihantar.",
+        "locationUnsubscribeNotice": "Berhenti diberitahu apabila perjalanan baru dihantar."
+    },
+    "navigation": {
+        "loadingNavigation": "Memuatkan navigasi ...",
+        "routePanelError": "Tidak dapat menetapkan panel laluan",
+        "routeRecalculate": "Laluan mengira semula",
+        "passengerPickedUp": "Penumpang naik",
+        "nextRoute": "Mengira laluan seterusnya",
+        "routeError": {
+            "INVALID_REQUEST": "PERMINTAAN TIDAK SAH",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "TIDAK DITEMUI",
+            "OVER_QUERY_LIMIT": "OVER LIMIT QUERY",
+            "REQUEST_DENIED": "SILA HANTAR",
+            "UNKNOWN_ERROR": "RALAT TIDAK DIKETAHUI",
+            "ZERO_RESULTS": "KEPUTUSAN ZERO"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "berkata,",
+            "pickuplocationChange": "{{userName}} menukar lokasi pickup",
+            "canceledTrip": "{{userName}} membatalkan perjalanan"
+        },
+        "speechFarManeuver": "dalam {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Lawatan {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ialah {{state}} dalam perjalanan kumpulan anda.",
+        "Travel\/trip\/arriving": "Pemandu anda menghampiri untuk menjemput anda.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} telah dijemput.",
+        "Travel\/trip\/started": "Perjalanan anda telah bermula",
+        "Travel\/trip\/completed": "Perjalanan anda telah selesai.",
+        "Travel\/trip\/discontinued": "Pemandu telah berhenti perjalanan anda.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} telah berpindah",
+        "Travel\/trip\/added": "Perjalanan baru ditambah ke arah yang anda berminat."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Mewakili perjalanan yang dibawa oleh orang, bersendirian atau bersama",
+            "displayType": "Perjalanan"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Igen",
+        "No": "Nem",
+        "to": "nak nek",
+        "from": "tól től",
+        "departTime": "indul",
+        "arriveTime": "megérkezik",
+        "OfferRide": "Ride kínálat",
+        "whatToOffer": "Mit akarsz kínálni?",
+        "tripTo": "Túra valahova",
+        "tripFrom": "Utazás innen",
+        "startDriving": "Indítsa el a vezetést",
+        "pickUpName": "Felkapott {{name}}",
+        "pickedUp": "Felkaptam",
+        "pickMeUp": "Vegyél fel",
+        "pickupLocation": "Pickup Location",
+        "cancel": "Megszünteti",
+        "center": "Központ",
+        "shouldDepart": "El kell indulnia",
+        "departs": "Indulás",
+        "departed": "Elhunyt",
+        "shouldArrive": "megérkezni",
+        "arrives": "érkezik",
+        "arrived": "Megérkezett",
+        "minutes": "percek",
+        "estimatedTime": "Becsült idő",
+        "leaveAt": "El akarok menni",
+        "offerAtMostPeople": "Legfeljebb ajánlatot tudok ajánlani",
+        "people": "Emberek",
+        "maxDetour": "Max. Körút",
+        "share": "Részvény",
+        "tripComplete": "teljes",
+        "driverDiscontinue": "Abba kell hagyni a",
+        "passengerRefuse": "Utazás törlése",
+        "AreYouSure": "biztos vagy ebben?",
+        "CancellTripWarning": "Az utasok értesülnek arról, hogy visszavonták az utazást",
+        "TripAlreadyClosed": "Ez az út már bezárt.",
+        "preview": {
+            "Departs": "Indulás",
+            "Departed": "Elhunyt",
+            "Arrives": "érkezik",
+            "Arrived": "Megérkezett"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Mit akarsz kínálni?",
+        "PassengertripCanceled": "Visszautasítás",
+        "Subscribe": "Iratkozz fel",
+        "Subscribed": "Jegyzett",
+        "Unsubscribe": "Leiratkozás",
+        "NeedRide": "Kell egy fuvar",
+        "OfferRide": "Ride kínálat",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Hol lehet felvenni?",
+        "WhereToDrop": "Hol hagytad le?",
+        "Recurring": "Ismétlődő",
+        "locationSubscribeNotice": "Ön értesítést kap, amikor új utakat tesz közzé.",
+        "locationUnsubscribeNotice": "Hagyja abba az értesítést, amikor új utakat küldünk."
+    },
+    "navigation": {
+        "loadingNavigation": "Navigáció betöltése ...",
+        "routePanelError": "Nem lehet beállítani az útvonalpanelt",
+        "routeRecalculate": "Az útvonal újraszámítása",
+        "passengerPickedUp": "Utas felvette",
+        "nextRoute": "A következő útvonal kiszámítása",
+        "routeError": {
+            "INVALID_REQUEST": "ÉRVÉNYTELEN KÉRELEM",
+            "MAX_WAYPOINTS_EXCEEDED": "A MAX WAYPOINTS TÖBB",
+            "NOT_FOUND": "NEM TALÁLHATÓ",
+            "OVER_QUERY_LIMIT": "KÖVETKEZŐ LÉPÉS",
+            "REQUEST_DENIED": "KÉRÉS MEGTAGADVA",
+            "UNKNOWN_ERROR": "ISMERETLEN HIBA",
+            "ZERO_RESULTS": "NULL EREDMÉNYEK"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "mondott,",
+            "pickuplocationChange": "{{userName}} megváltoztatta a felvételi helyet",
+            "canceledTrip": "{{userName}} törölte az utazást"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Utazás {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} {{state}} a csoportos utazásban.",
+        "Travel\/trip\/arriving": "A járművezető közeledik, hogy felveszi.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} felvették.",
+        "Travel\/trip\/started": "Az utazás megkezdődött",
+        "Travel\/trip\/completed": "Az utazás befejeződött.",
+        "Travel\/trip\/discontinued": "A vezető megszüntette utazását.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} költözött",
+        "Travel\/trip\/added": "Új utazás adta az érdeklődés irányát."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Olyan utat képvisel, amelyet az emberek egyedül vagy együtt vesznek el",
+            "displayType": "Utazás"
+        }
+    }
+}

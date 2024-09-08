@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "ใช่",
+        "No": "ไม่",
+        "to": "ไปยัง",
+        "from": "จาก",
+        "departTime": "ออก",
+        "arriveTime": "มาถึง",
+        "OfferRide": "เสนอขี่",
+        "whatToOffer": "คุณต้องการเสนออะไร",
+        "tripTo": "เดินทางไป",
+        "tripFrom": "การเดินทางจาก",
+        "startDriving": "เริ่มขับรถ",
+        "pickUpName": "มารับ {{name}}",
+        "pickedUp": "ฉันถูกเลือกขึ้น",
+        "pickMeUp": "รับฉัน",
+        "pickupLocation": "สถานที่รับรถ",
+        "cancel": "ยกเลิก",
+        "center": "ศูนย์",
+        "shouldDepart": "ควรออกเดินทาง",
+        "departs": "ออกเดินทาง",
+        "departed": "Departed",
+        "shouldArrive": "ที่จะมาถึง",
+        "arrives": "มาถึง",
+        "arrived": "มาถึง",
+        "minutes": "นาที",
+        "estimatedTime": "เวลาโดยประมาณ",
+        "leaveAt": "ฉันต้องการออกจากที่",
+        "offerAtMostPeople": "ฉันสามารถเสนอให้นั่งได้มากที่สุด",
+        "people": "คน",
+        "maxDetour": "ทางอ้อมสูงสุด",
+        "share": "หุ้น",
+        "tripComplete": "สมบูรณ์",
+        "driverDiscontinue": "หยุด",
+        "passengerRefuse": "ยกเลิกการเดินทาง",
+        "AreYouSure": "คุณแน่ใจไหม?",
+        "CancellTripWarning": "ผู้โดยสารของคุณจะได้รับแจ้งว่าคุณยกเลิกการเดินทาง",
+        "TripAlreadyClosed": "ทริปนี้ปิดไปแล้ว",
+        "preview": {
+            "Departs": "ออกเดินทาง",
+            "Departed": "Departed",
+            "Arrives": "มาถึง",
+            "Arrived": "มาถึง"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "คุณต้องการเสนออะไร",
+        "PassengertripCanceled": "ปฏิเสธการเดินทาง",
+        "Subscribe": "สมัครสมาชิก",
+        "Subscribed": "สมัครเป็นสมาชิก",
+        "Unsubscribe": "ยกเลิกการรับข่าวสาร",
+        "NeedRide": "ต้องการขอติดรถ",
+        "OfferRide": "เสนอขี่",
+        "RideFrom": "นั่งจาก",
+        "RideTo": "ขี่ไป",
+        "WhereToPick": "จะไปรับคุณที่ไหน",
+        "WhereToDrop": "จะส่งที่ไหนดี?",
+        "Recurring": "การคืน",
+        "locationSubscribeNotice": "คุณจะได้รับแจ้งเมื่อมีการโพสต์ทริปใหม่",
+        "locationUnsubscribeNotice": "หยุดรับการแจ้งเตือนเมื่อมีการโพสต์ทริปใหม่"
+    },
+    "navigation": {
+        "loadingNavigation": "กำลังโหลดการนำทาง ...",
+        "routePanelError": "ไม่สามารถตั้งค่าแผงเส้นทาง",
+        "routeRecalculate": "คำนวณเส้นทางใหม่",
+        "passengerPickedUp": "ผู้โดยสารหยิบขึ้นมา",
+        "nextRoute": "กำลังคำนวณเส้นทางถัดไป",
+        "routeError": {
+            "INVALID_REQUEST": "คำขอไม่ถูกต้อง",
+            "MAX_WAYPOINTS_EXCEEDED": "เกินจำนวน WAYPOINTS แล้ว",
+            "NOT_FOUND": "ไม่พบ",
+            "OVER_QUERY_LIMIT": "เกินขีด จำกัด QUERY",
+            "REQUEST_DENIED": "คำขอถูกปฏิเสธ",
+            "UNKNOWN_ERROR": "ข้อผิดพลาดที่ไม่รู้จัก",
+            "ZERO_RESULTS": "ผลลัพธ์เป็นศูนย์"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "กม.",
+        "meter": "ม.",
+        "minutes": "นาที",
+        "hours": "ชม",
+        "messages": {
+            "said": "กล่าวว่า,",
+            "pickuplocationChange": "{{userName}} เปลี่ยนตำแหน่งรถกระบะ",
+            "canceledTrip": "{{userName}} ยกเลิกการเดินทาง"
+        },
+        "speechFarManeuver": "ใน {{distance}}, {{1,000}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "การเดินทาง {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} คือ {{state}} ในการนั่งกลุ่ม",
+        "Travel\/trip\/arriving": "คนขับรถของคุณกำลังจะมารับคุณ",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} หยิบขึ้นมา",
+        "Travel\/trip\/started": "การเดินทางของคุณได้เริ่มขึ้นแล้ว",
+        "Travel\/trip\/completed": "การเดินทางของคุณเสร็จสมบูรณ์แล้ว",
+        "Travel\/trip\/discontinued": "คนขับรถหยุดการเดินทางของคุณ",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ย้ายแล้ว",
+        "Travel\/trip\/added": "ใหม่เพิ่มการเดินทางไปยังทิศทางที่คุณสนใจ"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "แสดงให้เห็นถึงการเดินทางที่คนใช้คนเดียวหรือร่วมกัน",
+            "displayType": "การเดินทาง"
+        }
+    }
+}

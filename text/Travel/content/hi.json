@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "हाँ",
+        "No": "नहीं",
+        "to": "सेवा मेरे",
+        "from": "से",
+        "departTime": "रवाना होना",
+        "arriveTime": "आने",
+        "OfferRide": "एक सवारी प्रदान करते हैं",
+        "whatToOffer": "आप क्या पेशकश करना चाहते हैं?",
+        "tripTo": "करने के लिए यात्रा",
+        "tripFrom": "ट्रिप से",
+        "startDriving": "ड्राइविंग शुरू करें",
+        "pickUpName": "{{name}} उठाया",
+        "pickedUp": "आई वाज़ पिकेड अप",
+        "pickMeUp": "मुझे ले लें",
+        "pickupLocation": "उठाने की जगह",
+        "cancel": "रद्द करना",
+        "center": "केंद्र",
+        "shouldDepart": "विदा होना चाहिए",
+        "departs": "प्रस्थान",
+        "departed": "स्वर्गवासी",
+        "shouldArrive": "आने के लिए",
+        "arrives": "आने वाला",
+        "arrived": "पहुंच गए",
+        "minutes": "मिनट",
+        "estimatedTime": "अनुमानित समय",
+        "leaveAt": "मैं पर छोड़ना चाहता हूँ",
+        "offerAtMostPeople": "मैं अधिक से अधिक सवारी की पेशकश कर सकता हूं",
+        "people": "लोग",
+        "maxDetour": "अधिकतम चक्कर",
+        "share": "शेयर",
+        "tripComplete": "पूर्ण",
+        "driverDiscontinue": "जारी न",
+        "passengerRefuse": "ट्रिप रद्द करें",
+        "AreYouSure": "क्या आपको यकीन है?",
+        "CancellTripWarning": "आपके यात्रियों को सूचित किया जाएगा कि आपने यात्रा रद्द कर दी है",
+        "TripAlreadyClosed": "यह यात्रा पहले ही बंद हो गई।",
+        "preview": {
+            "Departs": "प्रस्थान",
+            "Departed": "स्वर्गवासी",
+            "Arrives": "आने वाला",
+            "Arrived": "पहुंच गए"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "आप क्या पेशकश करना चाहते हैं?",
+        "PassengertripCanceled": "इंकार ट्रिप",
+        "Subscribe": "सदस्यता लें",
+        "Subscribed": "सदस्यता लिया",
+        "Unsubscribe": "सदस्यता रद्द",
+        "NeedRide": "एक सवारी की जरूरत है",
+        "OfferRide": "एक सवारी प्रदान करते हैं",
+        "RideFrom": "से सवारी",
+        "RideTo": "के लिए सवारी",
+        "WhereToPick": "तुम्हें कहाँ से उठाऊँ?",
+        "WhereToDrop": "आपको कहाँ छोड़ना है?",
+        "Recurring": "आवर्ती",
+        "locationSubscribeNotice": "नई यात्राएँ पोस्ट किए जाने पर आपको सूचित किया जाएगा।",
+        "locationUnsubscribeNotice": "नई यात्राएं पोस्ट किए जाने पर सूचित किया जाना बंद करें।"
+    },
+    "navigation": {
+        "loadingNavigation": "नेविगेशन लोड हो रहा है ...",
+        "routePanelError": "रूट पैनल सेट नहीं कर सकते",
+        "routeRecalculate": "पुनर्गणना मार्ग",
+        "passengerPickedUp": "यात्री उठा",
+        "nextRoute": "अगले मार्ग की गणना",
+        "routeError": {
+            "INVALID_REQUEST": "अमान्य अनुरोध",
+            "MAX_WAYPOINTS_EXCEEDED": "अधिकतम भुगतान किया गया",
+            "NOT_FOUND": "नहीं मिला",
+            "OVER_QUERY_LIMIT": "कभी कभी सीमा",
+            "REQUEST_DENIED": "अनुरोध अस्वीकार किया",
+            "UNKNOWN_ERROR": "अज्ञात त्रुटि",
+            "ZERO_RESULTS": "शून्य परिणाम"
+        },
+        "reCenter": "फिर से केंद्र",
+        "kilometr": "किमी",
+        "meter": "मीटर",
+        "minutes": "मि।",
+        "hours": "घंटा।",
+        "messages": {
+            "said": "कहा हुआ,",
+            "pickuplocationChange": "{{userName}} ने पिकअप स्थान बदल दिया",
+            "canceledTrip": "{{userName}} ने यात्रा रद्द कर दी"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}} में"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "ट्रिप {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} आपके समूह की सवारी में {{state}} है।",
+        "Travel\/trip\/arriving": "आपका ड्राइवर आपको लेने आ रहा है।",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} उठाया गया था।",
+        "Travel\/trip\/started": "आपकी यात्रा शुरू हो गई है",
+        "Travel\/trip\/completed": "आपकी यात्रा पूरी हो गई है।",
+        "Travel\/trip\/discontinued": "ड्राइवर ने आपकी यात्रा बंद कर दी है।",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} स्थानांतरित हो गया है",
+        "Travel\/trip\/added": "आपकी रुचि को दिशा देने के लिए नई यात्रा जोड़ी गई।"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "एक यात्रा का प्रतिनिधित्व करता है जो लोग अकेले या एक साथ लेते हैं",
+            "displayType": "यात्रा"
+        }
+    }
+}

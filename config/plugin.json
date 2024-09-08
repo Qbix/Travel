@@ -1,0 +1,111 @@
+{
+	"Q": {
+		"pluginInfo": {
+			"Travel": {
+				"version": "0.4.1",
+				"compatible": "0.3",
+				"requires": {"Places": "1.0"},
+				"permissions": [],
+				"connections": ["Streams", "Travel"]
+			}
+		},
+		"handlersBeforeEvent": {
+			"Q/responseExtras": ["Travel/before/Q_responseExtras"]
+		},
+		"handlersAfterEvent": {
+			"Streams/create/Travel/trip": ["Travel/after/Streams_create_Travel_trip"]
+		},
+		"web": {
+			"requireValidNonce": ["Travel"]
+		},
+		"environments": {
+			"live": {
+				"prepare": {
+					"{{Travel}}": ["js", "css"]
+				}
+			}
+		}
+	},
+	"Streams": {
+		"types": {
+			"Travel/trip": {
+				"emoji": "🛣️",
+				"create": true,
+				"edit": true,
+				"extend": ["Travel_Trip"],
+				"defaults": {
+					"icon": "{{Travel}}/img/icons/Travel/trip",
+					"title": "Trip"
+				},
+				"uri": "Travel/trip publisherId={{publisherId}} tripId={{streamName.[2]}}",
+				"participating": ["Travel/participating/trips"],
+				"messages": {
+					"Streams/chat/message": {
+						"post": true
+					},
+					"Travel/trip/state": {
+						"description": "Trip state has changed. Can be 'new', 'started', 'ended'",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/state"]]
+					},
+					"Travel/trip/user/state": {
+						"description": "Trip participant state changed.",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/user/state"]]
+					},
+					"Travel/trip/arriving": {
+						"description": "Driver near passenger enough for arriving notification",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/arriving"]]
+					},
+					"Travel/trip/pickedup": {
+						"description": "Driver has picked up a passenger",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/pickedup"]]
+					},
+					"Travel/trip/started": {
+						"description": "The trip has started.",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/started"]]
+					},
+					"Travel/trip/completed": {
+						"description": "The trip has been completed.",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/completed"]]
+					},
+					"Travel/trip/discontinued": {
+						"description": "Driver has discontinued the trip.",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/discontinued"]]
+					},
+					"Travel/coordinates/updated": {
+						"description": "Participant has updated their coordinates in the trip.",
+						"subject": ["Travel/content", ["notifications", "Travel/coordinates/updated"]]
+					}
+				}
+			},
+		 	"Places/nearby": {
+				"messages": {
+					"Travel/trip/added": {
+						"description": "New trip added to direction you interested.",
+						"subject": ["Travel/content", ["notifications", "Travel/trip/added"]]
+					}
+				}
+			}
+		},
+		"notifications": {
+			"notices": {
+				"Travel/trip/arriving": {
+					"timeout": 10
+				}
+			}
+		}
+	},
+	"Travel": {
+		"Trip": {
+			"arriveTime": 7200, /* default arrive time in seconds = current time + 2 hours */
+			"departTime": 900, /* default depart time in seconds = current time + 15 minutes */
+			"distances": {
+				"route": 100, /* distance between any participant and route, where route recalculated*/
+				"riding": 100,
+				"arriving": 100, /* distance between driver and passenger, where button "pickedup passenger" appear */
+				"pickup": 10, /* distance between driver and passenger, which automark passenger as pickedup */
+				"mapZoom": 100, /* rezoom the map if driver move more than this value meters */
+				"subscribe": 1000 /* radius to find Places/nearby streams to subscribe passengers */
+			}
+		}
+	}
+}

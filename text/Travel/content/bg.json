@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "да",
+        "No": "Не",
+        "to": "да се",
+        "from": "от",
+        "departTime": "отклоняват",
+        "arriveTime": "пристигам",
+        "OfferRide": "Оферта Ride",
+        "whatToOffer": "Какво искате да предложите?",
+        "tripTo": "Пътуване до",
+        "tripFrom": "Trip From",
+        "startDriving": "Започнете шофиране",
+        "pickUpName": "Избран {{name}}",
+        "pickedUp": "Бях взета",
+        "pickMeUp": "Вземи ме",
+        "pickupLocation": "Pickup Location",
+        "cancel": "Отказ",
+        "center": "център",
+        "shouldDepart": "Трябва да се отклони",
+        "departs": "Тръгва",
+        "departed": "Отклонила",
+        "shouldArrive": "пристигам",
+        "arrives": "Пристига",
+        "arrived": "Пристигна",
+        "minutes": "минути",
+        "estimatedTime": "Очаквано време",
+        "leaveAt": "Искам да напусна",
+        "offerAtMostPeople": "Мога да предложа най-много пътуване",
+        "people": "хора",
+        "maxDetour": "Макс обход",
+        "share": "Дял",
+        "tripComplete": "пълен",
+        "driverDiscontinue": "Прекратяване",
+        "passengerRefuse": "Отказ от пътуването",
+        "AreYouSure": "Сигурен ли си?",
+        "CancellTripWarning": "Вашите пътници ще бъдат уведомени, че сте отменили пътуването",
+        "TripAlreadyClosed": "Това пътуване вече е затворено.",
+        "preview": {
+            "Departs": "Тръгва",
+            "Departed": "Отклонила",
+            "Arrives": "Пристига",
+            "Arrived": "Пристигна"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Какво искате да предложите?",
+        "PassengertripCanceled": "Отказ от пътуване",
+        "Subscribe": "Абонирай се",
+        "Subscribed": "Записан",
+        "Unsubscribe": "Отписване",
+        "NeedRide": "Нуждаете се от езда",
+        "OfferRide": "Оферта Ride",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Къде да ви вземем?",
+        "WhereToDrop": "Къде да ви откарам?",
+        "Recurring": "повтарящ се",
+        "locationSubscribeNotice": "Ще бъдете уведомени при публикуването на нови пътувания.",
+        "locationUnsubscribeNotice": "Спрете да бъдете уведомявани при нови пътувания."
+    },
+    "navigation": {
+        "loadingNavigation": "Навигацията се зарежда ...",
+        "routePanelError": "Не може да се зададе панел с маршрути",
+        "routeRecalculate": "Преизчисляване на маршрут",
+        "passengerPickedUp": "Пътникът се надигна",
+        "nextRoute": "Изчисляване на следващия маршрут",
+        "routeError": {
+            "INVALID_REQUEST": "НЕВАЛИДНА ЗАЯВКА",
+            "MAX_WAYPOINTS_EXCEEDED": "МАКС УЕЙПОИНТС СЕ ПРЕВЪРНЕТ",
+            "NOT_FOUND": "НЕ Е НАЛИЧЕН",
+            "OVER_QUERY_LIMIT": "ОГРАНИЧАВАНЕ НА ЗАПИТАТА",
+            "REQUEST_DENIED": "ЗАЯВКА ОТКАЗЕН",
+            "UNKNOWN_ERROR": "НЕИЗВЕСТНА ГРЕШКА",
+            "ZERO_RESULTS": "НУЛСКИ РЕЗУЛТАТИ"
+        },
+        "reCenter": "RE-ЦЕНТЪР",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "мин.",
+        "hours": "ч.",
+        "messages": {
+            "said": "казах,",
+            "pickuplocationChange": "{{userName}} промени местоположението на пикап",
+            "canceledTrip": "{{userName}} отмени пътуването"
+        },
+        "speechFarManeuver": "в {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Trip {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} е {{state}} в групата ви.",
+        "Travel\/trip\/arriving": "Вашият шофьор наближава да ви вземе.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} беше взето.",
+        "Travel\/trip\/started": "Вашето пътуване е започнало",
+        "Travel\/trip\/completed": "Вашето пътуване е завършено.",
+        "Travel\/trip\/discontinued": "Шофьорът е спрял пътуването ви.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} се премести",
+        "Travel\/trip\/added": "Новото пътуване добави към посоката, която ви интересува."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Представлява пътуване, което хората предприемат, сами или заедно",
+            "displayType": "Пътуване"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Jah",
+        "No": "Ei",
+        "to": "kuni",
+        "from": "alates",
+        "departTime": "lahkuda",
+        "arriveTime": "saabuma",
+        "OfferRide": "Paku sõitu",
+        "whatToOffer": "Mida soovite pakkuda?",
+        "tripTo": "Reis",
+        "tripFrom": "Reisi algus",
+        "startDriving": "Alusta sõitu",
+        "pickUpName": "Valitud {{name}}",
+        "pickedUp": "Ma valiti üles",
+        "pickMeUp": "Võta mind peale",
+        "pickupLocation": "Pickup Asukoht",
+        "cancel": "Tühista",
+        "center": "Keskus",
+        "shouldDepart": "Peaks lahkuma",
+        "departs": "Välju",
+        "departed": "Lahkus",
+        "shouldArrive": "saabuma",
+        "arrives": "Saabuvad",
+        "arrived": "Saabunud",
+        "minutes": "minutit",
+        "estimatedTime": "Eeldatav kellaaeg",
+        "leaveAt": "Ma tahan lahkuda",
+        "offerAtMostPeople": "Ma saan pakkuda maksimaalset sõitu",
+        "people": "Inimesed",
+        "maxDetour": "Maksimaalne ümbersõit",
+        "share": "Jaga",
+        "tripComplete": "Täielik",
+        "driverDiscontinue": "Lõpeta",
+        "passengerRefuse": "Tühista reis",
+        "AreYouSure": "Oled sa kindel?",
+        "CancellTripWarning": "Teie reisijatele teatatakse, et te reisi tühistate",
+        "TripAlreadyClosed": "See reis oli juba suletud.",
+        "preview": {
+            "Departs": "Välju",
+            "Departed": "Lahkus",
+            "Arrives": "Saabuvad",
+            "Arrived": "Saabunud"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Mida soovite pakkuda?",
+        "PassengertripCanceled": "Reisija keeldumine",
+        "Subscribe": "Telli",
+        "Subscribed": "Tellitud",
+        "Unsubscribe": "Tellimuse tühistamine",
+        "NeedRide": "Vajad sõitu",
+        "OfferRide": "Paku sõitu",
+        "RideFrom": "Sõitma",
+        "RideTo": "Sõitke",
+        "WhereToPick": "Kuhu teid üles võtta?",
+        "WhereToDrop": "Kuhu sa maha jätad?",
+        "Recurring": "Korduv",
+        "locationSubscribeNotice": "Teid teavitatakse uute reiside postitamisest.",
+        "locationUnsubscribeNotice": "Lõpetage teavitamine uute reiside postitamisest."
+    },
+    "navigation": {
+        "loadingNavigation": "Navigeerimise laadimine ...",
+        "routePanelError": "Marsruudipaneeli ei saa seadistada",
+        "routeRecalculate": "Marsruudi ümberarvutamine",
+        "passengerPickedUp": "Reisija tõusis",
+        "nextRoute": "Järgmise marsruudi arvutamine",
+        "routeError": {
+            "INVALID_REQUEST": "KEHTESTATUD TAOTLUS",
+            "MAX_WAYPOINTS_EXCEEDED": "Maksimaalne maksimummäär ületab",
+            "NOT_FOUND": "EI LEITUD",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "TAOTLUSE TAGASI",
+            "UNKNOWN_ERROR": "TUNDMATU VIGA",
+            "ZERO_RESULTS": "NULL TULEMUSED"
+        },
+        "reCenter": "RE-KESKUS",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "ütles,",
+            "pickuplocationChange": "{{userName}} muutis valiku asukohta",
+            "canceledTrip": "{{userName}} tühistas reisi"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Reis {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} on {{state}} teie rühma sõites.",
+        "Travel\/trip\/arriving": "Sinu juht läheneb teid üles.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} võeti üles.",
+        "Travel\/trip\/started": "Teie reis on alanud",
+        "Travel\/trip\/completed": "Teie reis on lõpetatud.",
+        "Travel\/trip\/discontinued": "Juht on reisi lõpetanud.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} on liikunud",
+        "Travel\/trip\/added": "Uus reis lisati huvitavasse suunda."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Esindab reisi, mille inimesed ette võtavad, üksi või koos",
+            "displayType": "Reis"
+        }
+    }
+}

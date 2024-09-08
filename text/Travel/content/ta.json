@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "ஆம்",
+        "No": "இல்லை",
+        "to": "க்கு",
+        "from": "இருந்து",
+        "departTime": "புறப்படு",
+        "arriveTime": "வரும்",
+        "OfferRide": "ஒரு ரைடு வழங்கவும்",
+        "whatToOffer": "நீங்கள் என்ன வழங்க விரும்புகிறீர்கள்?",
+        "tripTo": "பயணம் செய்ய",
+        "tripFrom": "பயணம் இருந்து",
+        "startDriving": "டிரைவைத் தொடங்குங்கள்",
+        "pickUpName": "எடுத்துக் கொள்ளப்பட்ட {{name}}",
+        "pickedUp": "நான் எடுத்துக்கொள்ளப்பட்டேன்",
+        "pickMeUp": "என்னை எடு",
+        "pickupLocation": "இருப்பிடம்",
+        "cancel": "ரத்து",
+        "center": "மையம்",
+        "shouldDepart": "புறப்பட வேண்டும்",
+        "departs": "புறப்படுகிறது",
+        "departed": "டிபார்ட்டெட்",
+        "shouldArrive": "வருகை",
+        "arrives": "வந்துசேரும்",
+        "arrived": "வந்துசேர்ந்தார்",
+        "minutes": "நிமிடங்கள்",
+        "estimatedTime": "கணிக்கப்பட்ட நேரம்",
+        "leaveAt": "நான் வெளியேற விரும்புகிறேன்",
+        "offerAtMostPeople": "நான் மிகவும் ஒரு சவாரி வழங்க முடியும்",
+        "people": "மக்கள்",
+        "maxDetour": "மேக்ஸ் மாற்று",
+        "share": "பகிர்",
+        "tripComplete": "முழுமையான",
+        "driverDiscontinue": "நிறுத்தும்படியும்",
+        "passengerRefuse": "பயணம் ரத்து",
+        "AreYouSure": "நீ சொல்வது உறுதியா?",
+        "CancellTripWarning": "நீங்கள் பயணத்தை ரத்து செய்ததாக உங்கள் பயணிகள் தெரிவிக்கப்படுவார்கள்",
+        "TripAlreadyClosed": "இந்த பயணம் ஏற்கனவே மூடப்பட்டது.",
+        "preview": {
+            "Departs": "புறப்படுகிறது",
+            "Departed": "டிபார்ட்டெட்",
+            "Arrives": "வந்துசேரும்",
+            "Arrived": "வந்துசேர்ந்தார்"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "நீங்கள் என்ன வழங்க விரும்புகிறீர்கள்?",
+        "PassengertripCanceled": "பயணத்தை மறுக்கும்",
+        "Subscribe": "பதிவு",
+        "Subscribed": "குழுசேரப்பட்டது",
+        "Unsubscribe": "குழுவிலகலைப்",
+        "NeedRide": "ஒரு ரைடு தேவை",
+        "OfferRide": "ஒரு ரைடு வழங்கவும்",
+        "RideFrom": "ரைடு இருந்து",
+        "RideTo": "சவாரி செய்யுங்கள்",
+        "WhereToPick": "எங்கு அழைத்துச் செல்வது?",
+        "WhereToDrop": "உன்னை எங்கே விட்டுவிடுவது?",
+        "Recurring": "தொடர்",
+        "locationSubscribeNotice": "புதிய பயணங்கள் வெளியிடப்படும் போது உங்களுக்கு அறிவிக்கப்படும்.",
+        "locationUnsubscribeNotice": "புதிய பயணங்கள் வெளியிடப்படும் போது அறிவிக்கப்படுவதை நிறுத்தவும்."
+    },
+    "navigation": {
+        "loadingNavigation": "வழிசெலுத்தல் ஏற்றுகிறது ...",
+        "routePanelError": "பாதை குழு அமைக்க முடியாது",
+        "routeRecalculate": "வழியை மீண்டும் கணக்கிடுகிறது",
+        "passengerPickedUp": "பயணிகள் எடுத்தார்கள்",
+        "nextRoute": "அடுத்த வழி கணக்கிடுவது",
+        "routeError": {
+            "INVALID_REQUEST": "தவறான கோரிக்கை",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "கிடைக்கவில்லை",
+            "OVER_QUERY_LIMIT": "மேலும் QUERY LIMIT",
+            "REQUEST_DENIED": "கோரிக்கையை நிராகரித்தார்",
+            "UNKNOWN_ERROR": "அறியப்படாத பிழை",
+            "ZERO_RESULTS": "ZERO RESULTS"
+        },
+        "reCenter": "மையப்படுத்து",
+        "kilometr": "கி.மீ.",
+        "meter": "மீ",
+        "minutes": "நிமி.",
+        "hours": "மணி.",
+        "messages": {
+            "said": "கூறினார்,",
+            "pickuplocationChange": "{{userName}} இடமாற்று இடம் மாற்றப்பட்டது",
+            "canceledTrip": "{{userName}} பயணம் ரத்து செய்யப்பட்டது"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "பயணம் {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} உங்கள் குழு சவாரி {{state}} ஆகும்.",
+        "Travel\/trip\/arriving": "உங்கள் டிரைவர் உங்களை அழைத்துச் செல்கிறார்.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} எடுக்கப்பட்டது.",
+        "Travel\/trip\/started": "உங்கள் பயணம் தொடங்கியது",
+        "Travel\/trip\/completed": "உங்கள் பயணம் நிறைவுற்றது.",
+        "Travel\/trip\/discontinued": "இயக்கி உங்கள் பயணத்தை நிறுத்தவில்லை.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} நகர்ந்துள்ளது",
+        "Travel\/trip\/added": "நீங்கள் விரும்பிய திசையில் புதிய பயணம் சேர்க்கப்பட்டது."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "மக்கள் தனியாக அல்லது ஒன்றாகச் செல்லும் பயணத்தை குறிக்கிறது",
+            "displayType": "பயணம்"
+        }
+    }
+}

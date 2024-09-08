@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Si",
+        "No": "Non",
+        "to": "a",
+        "from": "de",
+        "departTime": "parte",
+        "arriveTime": "chegar",
+        "OfferRide": "Ofrecer un paseo",
+        "whatToOffer": "Que queres ofrecer?",
+        "tripTo": "Viaxe a",
+        "tripFrom": "Viaxe desde",
+        "startDriving": "Iniciar a condución",
+        "pickUpName": "Recollido {{name}}",
+        "pickedUp": "Eu estaba recollido",
+        "pickMeUp": "Recólleme",
+        "pickupLocation": "Localización de recolección",
+        "cancel": "Cancelar",
+        "center": "Centro",
+        "shouldDepart": "Debería partir",
+        "departs": "Partidas",
+        "departed": "Partidos",
+        "shouldArrive": "chegar",
+        "arrives": "Chega",
+        "arrived": "Chegou",
+        "minutes": "minutos",
+        "estimatedTime": "Tempo estimado",
+        "leaveAt": "Quero saír",
+        "offerAtMostPeople": "Podo ofrecer un paseo como moito",
+        "people": "Persoas",
+        "maxDetour": "Desvío máximo",
+        "share": "Compartir",
+        "tripComplete": "Completo",
+        "driverDiscontinue": "Interrompe",
+        "passengerRefuse": "Cancelar viaxe",
+        "AreYouSure": "Estás seguro?",
+        "CancellTripWarning": "Os teus pasaxeiros recibirán unha notificación de que cancelaches a viaxe",
+        "TripAlreadyClosed": "Esta viaxe xa foi pechada.",
+        "preview": {
+            "Departs": "Partidas",
+            "Departed": "Partidos",
+            "Arrives": "Chega",
+            "Arrived": "Chegou"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Que queres ofrecer?",
+        "PassengertripCanceled": "Rexeitar a viaxe",
+        "Subscribe": "Subscribirse",
+        "Subscribed": "Subscrito",
+        "Unsubscribe": "Cancelar a subscrición",
+        "NeedRide": "Necesita un paseo",
+        "OfferRide": "Ofrecer un paseo",
+        "RideFrom": "Paseo desde",
+        "RideTo": "Paseo a",
+        "WhereToPick": "Onde buscalo?",
+        "WhereToDrop": "¿Onde deixarte?",
+        "Recurring": "Recorrente",
+        "locationSubscribeNotice": "Notificaráselle cando se publicarán novas viaxes.",
+        "locationUnsubscribeNotice": "Deixe de ser notificado cando se publican novas viaxes."
+    },
+    "navigation": {
+        "loadingNavigation": "Cargando navegación ...",
+        "routePanelError": "Non se pode definir o panel de ruta",
+        "routeRecalculate": "Recalcular a ruta",
+        "passengerPickedUp": "O pasaxeiro recolleu",
+        "nextRoute": "Calcular a seguinte ruta",
+        "routeError": {
+            "INVALID_REQUEST": "SOLICIÓN INVALIDA",
+            "MAX_WAYPOINTS_EXCEEDED": "MÁXIMO CAMIÑO DE VÍAS",
+            "NOT_FOUND": "NON ATOPADO",
+            "OVER_QUERY_LIMIT": "LÍMITE DE CONSULTA",
+            "REQUEST_DENIED": "SOLICIÓN DENEGADA",
+            "UNKNOWN_ERROR": "ERROR DESCONOCIDO",
+            "ZERO_RESULTS": "CERO RESULTADOS"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "dito,",
+            "pickuplocationChange": "{{userName}} cambiou a localización de captación",
+            "canceledTrip": "{{userName}} cancelou a viaxe"
+        },
+        "speechFarManeuver": "en {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Viaxe {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} é {{state}} no teu paseo en grupo.",
+        "Travel\/trip\/arriving": "O teu condutor está achegándose para buscalo.",
+        "Travel\/trip\/pickedup": "Recolleu {{call 'avatar.displayName'}}.",
+        "Travel\/trip\/started": "Comezou a túa viaxe",
+        "Travel\/trip\/completed": "A súa viaxe completouse.",
+        "Travel\/trip\/discontinued": "O condutor suspendeu a súa viaxe.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} mudouse",
+        "Travel\/trip\/added": "Engadiuse unha nova viaxe á dirección que lle interesou."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Representa unha viaxe que as persoas emprenden, soas ou xuntas",
+            "displayType": "Viaxe"
+        }
+    }
+}

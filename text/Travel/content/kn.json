@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "ಹೌದು",
+        "No": "ಇಲ್ಲ",
+        "to": "ಗೆ",
+        "from": "ನಿಂದ",
+        "departTime": "ನಿರ್ಗಮಿಸು",
+        "arriveTime": "ಆಗಮಿಸಿ",
+        "OfferRide": "ಒಂದು ರೈಡ್ ಆಫರ್",
+        "whatToOffer": "ನೀವು ಏನು ನೀಡಲು ಬಯಸುತ್ತೀರಿ?",
+        "tripTo": "ಪ್ರವಾಸಕ್ಕೆ",
+        "tripFrom": "ಪ್ರವಾಸದಿಂದ",
+        "startDriving": "ಚಾಲಕ ಪ್ರಾರಂಭಿಸಿ",
+        "pickUpName": "ಎತ್ತರಿಸಿದ {{name}}",
+        "pickedUp": "ನಾನು ಆರಿಸಲ್ಪಟ್ಟಿದೆ",
+        "pickMeUp": "ಮಿ ಅಪ್ ಪಿಕ್",
+        "pickupLocation": "ಪಿಕಪ್ ಸ್ಥಳ",
+        "cancel": "ರದ್ದುಮಾಡಿ",
+        "center": "ಕೇಂದ್ರ",
+        "shouldDepart": "ನಿರ್ಗಮಿಸಬೇಕು",
+        "departs": "ನಿರ್ಗಮಿಸುತ್ತದೆ",
+        "departed": "ಅಗಲಿದ",
+        "shouldArrive": "ಬರುವ",
+        "arrives": "ಆಗಮಿಸಿ",
+        "arrived": "ಆಗಮಿಸಿದರು",
+        "minutes": "ನಿಮಿಷಗಳು",
+        "estimatedTime": "ಅಂದಾಜು ಸಮಯ",
+        "leaveAt": "ನಾನು ಹೊರಡಲು ಬಯಸುತ್ತೇನೆ",
+        "offerAtMostPeople": "ನಾನು ಹೆಚ್ಚು ಸವಾರಿ ಮಾಡಬಹುದು",
+        "people": "ಜನರು",
+        "maxDetour": "ಗರಿಷ್ಠ ಮಾರ್ಗನಿರ್ದೇಶಕ",
+        "share": "ಹಂಚಿಕೊಳ್ಳಿ",
+        "tripComplete": "ಪೂರ್ಣಗೊಳಿಸಿ",
+        "driverDiscontinue": "ನಿಲ್ಲಿಸಿರಿ",
+        "passengerRefuse": "ಪ್ರವಾಸವನ್ನು ರದ್ದುಮಾಡಿ",
+        "AreYouSure": "ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ?",
+        "CancellTripWarning": "ನೀವು ಪ್ರವಾಸವನ್ನು ರದ್ದುಗೊಳಿಸಿದ್ದೀರಿ ಎಂದು ನಿಮ್ಮ ಪ್ರಯಾಣಿಕರಿಗೆ ತಿಳಿಸಲಾಗುತ್ತದೆ",
+        "TripAlreadyClosed": "ಈ ಟ್ರಿಪ್ ಈಗಾಗಲೇ ಮುಚ್ಚಿದೆ.",
+        "preview": {
+            "Departs": "ನಿರ್ಗಮಿಸುತ್ತದೆ",
+            "Departed": "ಅಗಲಿದ",
+            "Arrives": "ಆಗಮಿಸಿ",
+            "Arrived": "ಆಗಮಿಸಿದರು"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "ನೀವು ಏನು ನೀಡಲು ಬಯಸುತ್ತೀರಿ?",
+        "PassengertripCanceled": "ಟ್ರಿಪ್ ನಿರಾಕರಿಸು",
+        "Subscribe": "ಚಂದಾದಾರರಾಗಿ",
+        "Subscribed": "ಚಂದಾದಾರರಾಗಿದ್ದಾರೆ",
+        "Unsubscribe": "ಅನ್ಸಬ್ಸ್ಕ್ರೈಬ್ ಮಾಡಿ",
+        "NeedRide": "ಒಂದು ರೈಡ್ ಅಗತ್ಯವಿದೆ",
+        "OfferRide": "ಒಂದು ರೈಡ್ ಆಫರ್",
+        "RideFrom": "ರೈಡ್",
+        "RideTo": "ರೈಡ್ ಮಾಡಲು",
+        "WhereToPick": "ನಿಮ್ಮನ್ನು ಎಲ್ಲಿ ಆರಿಸಿಕೊಳ್ಳಲು?",
+        "WhereToDrop": "ನಿಮ್ಮನ್ನು ಬಿಟ್ಟುಬಿಡಲು ಎಲ್ಲಿ?",
+        "Recurring": "ಪುನರಾವರ್ತನೆ",
+        "locationSubscribeNotice": "ಹೊಸ ಪ್ರವಾಸಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿದಾಗ ನಿಮಗೆ ಸೂಚಿಸಲಾಗುವುದು.",
+        "locationUnsubscribeNotice": "ಹೊಸ ಪ್ರವಾಸಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿದಾಗ ಸೂಚನೆಯನ್ನು ನಿಲ್ಲಿಸಿ."
+    },
+    "navigation": {
+        "loadingNavigation": "ನ್ಯಾವಿಗೇಷನ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ ...",
+        "routePanelError": "ಮಾರ್ಗ ಫಲಕವನ್ನು ಹೊಂದಿಸಲಾಗುವುದಿಲ್ಲ",
+        "routeRecalculate": "ಮಾರ್ಗವನ್ನು ಮರುಪರಿಶೀಲಿಸುತ್ತದೆ",
+        "passengerPickedUp": "ಪ್ರಯಾಣಿಕನು ಎತ್ತಿಕೊಂಡು",
+        "nextRoute": "ಮುಂದಿನ ಮಾರ್ಗವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತಿದೆ",
+        "routeError": {
+            "INVALID_REQUEST": "ಅಮಾನ್ಯ ವಿನಂತಿ",
+            "MAX_WAYPOINTS_EXCEEDED": "ಮ್ಯಾಕ್ಸ್ ವೇಪಾಯಿಂಟ್ಗಳು ಹೆಚ್ಚಿವೆ",
+            "NOT_FOUND": "ದೊರೆತಿಲ್ಲ",
+            "OVER_QUERY_LIMIT": "QUERY ಮಿತಿ ಮೀರಿದೆ",
+            "REQUEST_DENIED": "DENIED ವಿನಂತಿಸಿ",
+            "UNKNOWN_ERROR": "ಅಜ್ಞಾತ ದೋಷ",
+            "ZERO_RESULTS": "ZERO ಫಲಿತಾಂಶಗಳು"
+        },
+        "reCenter": "ಮರು-ಕೇಂದ್ರ",
+        "kilometr": "ಕಿಮೀ",
+        "meter": "ಮೀ",
+        "minutes": "ನಿಮಿಷ.",
+        "hours": "ಗಂಟೆ.",
+        "messages": {
+            "said": "ಹೇಳಿದರು,",
+            "pickuplocationChange": "{{userName}} ಪಿಕಪ್ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಿತು",
+            "canceledTrip": "{{userName}} ಪ್ರವಾಸವನ್ನು ರದ್ದುಮಾಡಿದೆ"
+        },
+        "speechFarManeuver": "{{distance}} ನಲ್ಲಿ, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "ಟ್ರಿಪ್ {{state}}",
+        "Travel\/trip\/user\/state": "ನಿಮ್ಮ ಗುಂಪು ಸವಾರಿಯಲ್ಲಿ {{call 'avatar.displayName'}} {{state}} ಆಗಿದೆ.",
+        "Travel\/trip\/arriving": "ನಿಮ್ಮ ಚಾಲಕನು ನಿಮ್ಮನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಸಮೀಪಿಸುತ್ತಾನೆ.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} ಅನ್ನು ಆರಿಸಲಾಯಿತು.",
+        "Travel\/trip\/started": "ನಿಮ್ಮ ಟ್ರಿಪ್ ಪ್ರಾರಂಭಿಸಿದೆ",
+        "Travel\/trip\/completed": "ನಿಮ್ಮ ಟ್ರಿಪ್ ಪೂರ್ಣಗೊಂಡಿದೆ.",
+        "Travel\/trip\/discontinued": "ಚಾಲಕ ನಿಮ್ಮ ಟ್ರಿಪ್ ಅನ್ನು ಸ್ಥಗಿತಗೊಳಿಸಿದ್ದಾರೆ.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ಬದಲಾಗಿದೆ",
+        "Travel\/trip\/added": "ನಿಮಗೆ ಆಸಕ್ತಿದಾಯಕ ನಿರ್ದೇಶನ ನೀಡಲು ಹೊಸ ಪ್ರವಾಸ ಸೇರಿಸಲಾಗಿದೆ."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "ಜನರು ಒಂಟಿಯಾಗಿ ಅಥವಾ ಒಟ್ಟಿಗೆ ತೆಗೆದುಕೊಳ್ಳುವ ಪ್ರವಾಸವನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ",
+            "displayType": "ಟ್ರಿಪ್"
+        }
+    }
+}

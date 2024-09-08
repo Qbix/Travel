@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "da",
+        "No": "Nu",
+        "to": "la",
+        "from": "din",
+        "departTime": "pleca",
+        "arriveTime": "ajunge",
+        "OfferRide": "Oferiți o călătorie",
+        "whatToOffer": "Ce vrei să oferi?",
+        "tripTo": "Excursie la",
+        "tripFrom": "Călătorie de la",
+        "startDriving": "Începeți conducerea",
+        "pickUpName": "Picked Up {{name}}",
+        "pickedUp": "Am fost ridicată",
+        "pickMeUp": "Ia-mă",
+        "pickupLocation": "Poziția de preluare",
+        "cancel": "Anulare",
+        "center": "Centru",
+        "shouldDepart": "Ar trebui să plece",
+        "departs": "Decolează",
+        "departed": "dispărut",
+        "shouldArrive": "a ajunge",
+        "arrives": "soseşte",
+        "arrived": "Ajuns",
+        "minutes": "minute",
+        "estimatedTime": "Timpul estimat",
+        "leaveAt": "Vreau să plec la",
+        "offerAtMostPeople": "Pot oferi o plimbare cel mult",
+        "people": "oameni",
+        "maxDetour": "Max ocol",
+        "share": "Acțiune",
+        "tripComplete": "Complet",
+        "driverDiscontinue": "Întrerupe",
+        "passengerRefuse": "Anulați călătoria",
+        "AreYouSure": "Esti sigur?",
+        "CancellTripWarning": "Pasagerii dvs. vor fi anunțați că ați anulat călătoria",
+        "TripAlreadyClosed": "Această călătorie a fost deja închisă.",
+        "preview": {
+            "Departs": "Decolează",
+            "Departed": "dispărut",
+            "Arrives": "soseşte",
+            "Arrived": "Ajuns"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Ce vrei să oferi?",
+        "PassengertripCanceled": "Refuza călătoriei",
+        "Subscribe": "Abonati-va",
+        "Subscribed": "subscrisă",
+        "Unsubscribe": "Dezabonare",
+        "NeedRide": "Aveți nevoie de o plimbare",
+        "OfferRide": "Oferiți o călătorie",
+        "RideFrom": "Ride de la",
+        "RideTo": "Ride To",
+        "WhereToPick": "De unde să te iau?",
+        "WhereToDrop": "Unde să te las?",
+        "Recurring": "recurent",
+        "locationSubscribeNotice": "Veți fi anunțat când vor fi postate noi călătorii.",
+        "locationUnsubscribeNotice": "Nu mai fi anunțată când sunt afișate noi călătorii."
+    },
+    "navigation": {
+        "loadingNavigation": "Încărcarea navigării ...",
+        "routePanelError": "Nu se poate seta panoul traseului",
+        "routeRecalculate": "Traseul recalculării",
+        "passengerPickedUp": "Pasagerul a fost luat",
+        "nextRoute": "Calculul următorului traseu",
+        "routeError": {
+            "INVALID_REQUEST": "CERERE INVALIDA",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "NU A FOST GASIT",
+            "OVER_QUERY_LIMIT": "LIMITAREA LIMITĂ A QUERY",
+            "REQUEST_DENIED": "CERERE RESPINSĂ",
+            "UNKNOWN_ERROR": "EROARE NECUNOSCUTĂ",
+            "ZERO_RESULTS": "ZERO REZULTATE"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "HR.",
+        "messages": {
+            "said": "a spus,",
+            "pickuplocationChange": "{{userName}} s-a schimbat locația de preluare",
+            "canceledTrip": "{{userName}} a anulat călătoria"
+        },
+        "speechFarManeuver": "în {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Excursie {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} este {{state}} în călătoria în grup.",
+        "Travel\/trip\/arriving": "Șoferul tău se apropie să te ia.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} a fost ridicată.",
+        "Travel\/trip\/started": "Călătoria dvs. a început",
+        "Travel\/trip\/completed": "Călătoria dvs. a fost finalizată.",
+        "Travel\/trip\/discontinued": "Șoferul ți-a întrerupt călătoria.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} sa mutat",
+        "Travel\/trip\/added": "Nouă excursie adăugată la direcția pe care ați interesat-o."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Reprezintă o călătorie pe care oamenii o iau singuri sau împreună",
+            "displayType": "Excursie"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Joo",
+        "No": "Ei",
+        "to": "että",
+        "from": "alkaen",
+        "departTime": "lähteä",
+        "arriveTime": "saapua",
+        "OfferRide": "Tarjoa ratsastus",
+        "whatToOffer": "Mitä haluat tarjota?",
+        "tripTo": "Matka jonnekkin",
+        "tripFrom": "Trip From",
+        "startDriving": "Aloita ajo",
+        "pickUpName": "Nouto {{name}}",
+        "pickedUp": "Olin poimittu",
+        "pickMeUp": "Pick Me Up",
+        "pickupLocation": "Noutopaikka",
+        "cancel": "Peruuttaa",
+        "center": "Keskusta",
+        "shouldDepart": "Pitäisi lähteä",
+        "departs": "lähtee",
+        "departed": "Lähtenyt",
+        "shouldArrive": "saapua",
+        "arrives": "saapuu",
+        "arrived": "saapui",
+        "minutes": "minuutit",
+        "estimatedTime": "Arvioitu aika",
+        "leaveAt": "Haluan lähteä",
+        "offerAtMostPeople": "Voin tarjota kyydin enintään",
+        "people": "Ihmiset",
+        "maxDetour": "Max kiertotie",
+        "share": "Jaa",
+        "tripComplete": "Saattaa loppuun",
+        "driverDiscontinue": "Lopettaa",
+        "passengerRefuse": "Peruuta matka",
+        "AreYouSure": "Oletko varma?",
+        "CancellTripWarning": "Matkustajille ilmoitetaan, että peruutit matkan",
+        "TripAlreadyClosed": "Tämä matka on jo suljettu.",
+        "preview": {
+            "Departs": "lähtee",
+            "Departed": "Lähtenyt",
+            "Arrives": "saapuu",
+            "Arrived": "saapui"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Mitä haluat tarjota?",
+        "PassengertripCanceled": "Kieltäydy matkaan",
+        "Subscribe": "merkitä",
+        "Subscribed": "Tilatut",
+        "Unsubscribe": "Lopeta tilaus",
+        "NeedRide": "Tarvitsetko ratsastaa",
+        "OfferRide": "Tarjoa ratsastus",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Mistä sinut noutaa?",
+        "WhereToDrop": "Mistä pudota sinut pois?",
+        "Recurring": "toistuva",
+        "locationSubscribeNotice": "Sinulle ilmoitetaan, kun uusia matkoja lähetetään.",
+        "locationUnsubscribeNotice": "Lopeta ilmoitus, kun uusia matkoja lähetetään."
+    },
+    "navigation": {
+        "loadingNavigation": "Navigaation lataaminen ...",
+        "routePanelError": "Reittipaneelia ei voi asettaa",
+        "routeRecalculate": "Reitin laskeminen uudelleen",
+        "passengerPickedUp": "Matkustaja nousi",
+        "nextRoute": "Seuraavan reitin laskeminen",
+        "routeError": {
+            "INVALID_REQUEST": "VIRHEELLINEN PYYNTÖ",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX-TAPAHTUMAT YLITETTY",
+            "NOT_FOUND": "EI LÖYDETTY",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "PYYNTÖ EVÄTTY",
+            "UNKNOWN_ERROR": "TUNTEMATON VIRHE",
+            "ZERO_RESULTS": "NOLLA TULOKSET"
+        },
+        "reCenter": "Keskitetä",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "h.",
+        "messages": {
+            "said": "sanoi,",
+            "pickuplocationChange": "{{userName}} muutti noutopaikan",
+            "canceledTrip": "{{userName}} peruutti matkan"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Matka {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} on {{state}} ryhmäsodassasi.",
+        "Travel\/trip\/arriving": "Kuljettajasi lähestyy sinua.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} otettiin vastaan.",
+        "Travel\/trip\/started": "Matkasi on alkanut",
+        "Travel\/trip\/completed": "Matkasi on valmis.",
+        "Travel\/trip\/discontinued": "Kuljettaja on lopettanut matkan.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} on siirtynyt",
+        "Travel\/trip\/added": "Uusi matka lisäsi mielenkiintosi suuntaan."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Edustaa matkaa, jonka ihmiset tekevät yksin tai yhdessä",
+            "displayType": "Matka"
+        }
+    }
+}

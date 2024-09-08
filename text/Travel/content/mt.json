@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Iva",
+        "No": "Le",
+        "to": "lil",
+        "from": "minn",
+        "departTime": "jitilqu",
+        "arriveTime": "jaslu",
+        "OfferRide": "Offerta Ride",
+        "whatToOffer": "Xi trid toffri?",
+        "tripTo": "Vjaġġ Biex",
+        "tripFrom": "Vjaġġ Minn",
+        "startDriving": "Ibda Sewqan",
+        "pickUpName": "Miġbura {{name}}",
+        "pickedUp": "I Ġie Miġbud",
+        "pickMeUp": "Iġborni",
+        "pickupLocation": "Post ta &#39;Pickup",
+        "cancel": "Ikkanċella",
+        "center": "Ċentru",
+        "shouldDepart": "Jekk jitilqu",
+        "departs": "Jagħti",
+        "departed": "Telaq",
+        "shouldArrive": "tasal",
+        "arrives": "Jasal",
+        "arrived": "Waslu",
+        "minutes": "minuti",
+        "estimatedTime": "Ħin stmat",
+        "leaveAt": "Irrid nitlaq minn",
+        "offerAtMostPeople": "Nista &#39;noffri rikba għall-iktar",
+        "people": "Nies",
+        "maxDetour": "Id-dawra massima",
+        "share": "Sehem",
+        "tripComplete": "Imla",
+        "driverDiscontinue": "Waqqaf",
+        "passengerRefuse": "Ikkanċella l-Vjaġġ",
+        "AreYouSure": "Żgur?",
+        "CancellTripWarning": "Il-passiġġieri tiegħek jiġu nnotifikati li tkun ikkanċellajt il-vjaġġ",
+        "TripAlreadyClosed": "Dan il-vjaġġ diġà għalaq.",
+        "preview": {
+            "Departs": "Jagħti",
+            "Departed": "Telaq",
+            "Arrives": "Jasal",
+            "Arrived": "Waslu"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Xi trid toffri?",
+        "PassengertripCanceled": "Irrifjuta Vjaġġ",
+        "Subscribe": "Abbona",
+        "Subscribed": "Sottoskritt",
+        "Unsubscribe": "Abbona",
+        "NeedRide": "Għandek bżonn Ride",
+        "OfferRide": "Offerta Ride",
+        "RideFrom": "Ride Minn",
+        "RideTo": "Ride To",
+        "WhereToPick": "Fejn tiġbor?",
+        "WhereToDrop": "Fejn tkeċċik?",
+        "Recurring": "Rikorrenti",
+        "locationSubscribeNotice": "Int tkun innotifikat meta jiġu stazzjonati vjaġġi ġodda.",
+        "locationUnsubscribeNotice": "Waqqafx li jiġi notifikat meta jiġu vjaġġati vjaġġi ġodda."
+    },
+    "navigation": {
+        "loadingNavigation": "Tagħbija tan-navigazzjoni ...",
+        "routePanelError": "Ma tistax tissettja panel tar-rotta",
+        "routeRecalculate": "Ikkalkula mill-ġdid ir-rotta",
+        "passengerPickedUp": "Passiġġier qabad",
+        "nextRoute": "Ikkalkula r-rotta li jmiss",
+        "routeError": {
+            "INVALID_REQUEST": "TALBA INVALIDA",
+            "MAX_WAYPOINTS_EXCEEDED": "TRADUZZJONIJIET MAX EĊĊESSATI",
+            "NOT_FOUND": "MA NSTABX",
+            "OVER_QUERY_LIMIT": "LIMITU AKTAR TAL-MISTOQSIJA",
+            "REQUEST_DENIED": "TALBA Miċħuda",
+            "UNKNOWN_ERROR": "Żball mhux magħruf",
+            "ZERO_RESULTS": "RIŻULTATI ŻERO"
+        },
+        "reCenter": "RE-ĊENTRU",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "qal,",
+            "pickuplocationChange": "{{userName}} biddel il-post tal-Pickup",
+            "canceledTrip": "{{userName}} ikkanċella l-vjaġġ"
+        },
+        "speechFarManeuver": "f &#39;{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Vjaġġ {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} huwa {{state}} fir-rikba tal-grupp tiegħek.",
+        "Travel\/trip\/arriving": "Is-sewwieq tiegħek qed joqrob biex jtik.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} inqabad.",
+        "Travel\/trip\/started": "Il-vjaġġ tiegħek beda",
+        "Travel\/trip\/completed": "Il-vjaġġ tiegħek tlesta.",
+        "Travel\/trip\/discontinued": "Is-sewwieq waqqaf il-vjaġġ tiegħek.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} mċaqlaq",
+        "Travel\/trip\/added": "Vjaġġ ġdid miżjud mad-direzzjoni li inti interessat."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Jirrappreżenta vjaġġ li n-nies jieħdu, waħedhom jew flimkien",
+            "displayType": "Vjaġġ"
+        }
+    }
+}

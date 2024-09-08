@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Oo",
+        "No": "Hindi",
+        "to": "sa",
+        "from": "mula sa",
+        "departTime": "umalis",
+        "arriveTime": "dumating",
+        "OfferRide": "Mag-alok ng Pagsakay",
+        "whatToOffer": "Ano ang gusto mong mag-alok?",
+        "tripTo": "Trip To",
+        "tripFrom": "Trip Mula",
+        "startDriving": "Simulan ang Pagmamaneho",
+        "pickUpName": "Picked Up {{name}}",
+        "pickedUp": "Ako ay Picked Up",
+        "pickMeUp": "Sunduin mo ako",
+        "pickupLocation": "Pickup Location",
+        "cancel": "Kanselahin",
+        "center": "Gitna",
+        "shouldDepart": "Dapat umalis",
+        "departs": "Umalis",
+        "departed": "Umalis",
+        "shouldArrive": "dumating",
+        "arrives": "Dumating",
+        "arrived": "Dumating",
+        "minutes": "minuto",
+        "estimatedTime": "Tinatayang oras",
+        "leaveAt": "Gusto kong umalis sa",
+        "offerAtMostPeople": "Maaari akong mag-alok ng isang pagsakay",
+        "people": "Mga tao",
+        "maxDetour": "Max lapas",
+        "share": "Ibahagi",
+        "tripComplete": "Kumpletuhin",
+        "driverDiscontinue": "Itigil ang",
+        "passengerRefuse": "Kanselahin ang Trip",
+        "AreYouSure": "Sigurado ka ba?",
+        "CancellTripWarning": "Maabisuhan ang iyong mga pasahero na nakansela mo ang biyahe",
+        "TripAlreadyClosed": "Sinara na ang paglalakbay na ito.",
+        "preview": {
+            "Departs": "Umalis",
+            "Departed": "Umalis",
+            "Arrives": "Dumating",
+            "Arrived": "Dumating"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Ano ang gusto mong mag-alok?",
+        "PassengertripCanceled": "Tanggihan ang Trip",
+        "Subscribe": "Mag-subscribe",
+        "Subscribed": "Nag-subscribe",
+        "Unsubscribe": "Mag-unsubscribe",
+        "NeedRide": "Kailangan ng Pagsakay",
+        "OfferRide": "Mag-alok ng Pagsakay",
+        "RideFrom": "Sumakay Mula",
+        "RideTo": "Sumakay sa",
+        "WhereToPick": "Saan ka kukunin?",
+        "WhereToDrop": "Saan ka mahulog?",
+        "Recurring": "Pag-uulit",
+        "locationSubscribeNotice": "Maabisuhan ka kapag nag-post ng mga bagong biyahe.",
+        "locationUnsubscribeNotice": "Itigil na maabisuhan kapag nag-post ng mga bagong biyahe."
+    },
+    "navigation": {
+        "loadingNavigation": "Naglo-load ng navigation ...",
+        "routePanelError": "Hindi maitakda ang panel ng ruta",
+        "routeRecalculate": "Recalculating ruta",
+        "passengerPickedUp": "Kinuha ang pasahero",
+        "nextRoute": "Kinakalkula ang susunod na ruta",
+        "routeError": {
+            "INVALID_REQUEST": "DI-WASTONG HILING",
+            "MAX_WAYPOINTS_EXCEEDED": "NAWALA ANG MAX WAYPOINTS",
+            "NOT_FOUND": "HINDI MAHANAP",
+            "OVER_QUERY_LIMIT": "HIGIT SA QUERY",
+            "REQUEST_DENIED": "TINANGGIHAN ANG KAHILINGAN",
+            "UNKNOWN_ERROR": "Hindi kilala ang ERROR",
+            "ZERO_RESULTS": "MGA RESULTA NG ZERO"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "Sinabi,",
+            "pickuplocationChange": "Binago ang {{userName}} na lokasyon ng pickup",
+            "canceledTrip": "Kinansela ng {{userName}} ang biyahe"
+        },
+        "speechFarManeuver": "sa {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Trip {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ay {{state}} sa iyong grupo na sumakay.",
+        "Travel\/trip\/arriving": "Ang iyong driver ay papalapit upang kunin ka.",
+        "Travel\/trip\/pickedup": "Kinuha ang {{call 'avatar.displayName'}}.",
+        "Travel\/trip\/started": "Nagsimula ang iyong paglalakbay",
+        "Travel\/trip\/completed": "Nakumpleto na ang iyong biyahe.",
+        "Travel\/trip\/discontinued": "Ang driver ay tumigil sa iyong biyahe.",
+        "Travel\/coordinates\/updated": "Lumipat ang {{call 'avatar.displayName'}}",
+        "Travel\/trip\/added": "Ang bagong biyahe ay idinagdag sa direksyon mo na interesado."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Kinakatawan ang isang paglalakbay na kinuha ng mga tao, nag-iisa o magkasama",
+            "displayType": "Paglalakbay"
+        }
+    }
+}

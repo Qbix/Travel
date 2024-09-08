@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ydw",
+        "No": "Na",
+        "to": "i",
+        "from": "o",
+        "departTime": "gadael",
+        "arriveTime": "cyrraedd",
+        "OfferRide": "Cynnig Taith",
+        "whatToOffer": "Beth ydych chi am ei gynnig?",
+        "tripTo": "Taith i",
+        "tripFrom": "Taith o",
+        "startDriving": "Dechreuwch Yrru",
+        "pickUpName": "Codwyd {{name}}",
+        "pickedUp": "Cefais fy Nodi",
+        "pickMeUp": "Dewiswch Fi",
+        "pickupLocation": "Lleoliad Pickup",
+        "cancel": "Diddymu",
+        "center": "Canolfan",
+        "shouldDepart": "Dylent adael",
+        "departs": "Yn gadael",
+        "departed": "Wedi gadael",
+        "shouldArrive": "i gyrraedd",
+        "arrives": "Cyrraedd",
+        "arrived": "Cyrraedd",
+        "minutes": "munudau",
+        "estimatedTime": "Amcangyfrif o&#39;r amser",
+        "leaveAt": "Rydw i eisiau gadael",
+        "offerAtMostPeople": "Gallaf gynnig taith i&#39;r eithaf",
+        "people": "Pobl",
+        "maxDetour": "Max dargyfeirio",
+        "share": "Rhannu",
+        "tripComplete": "Wedi&#39;i gwblhau",
+        "driverDiscontinue": "Terfynu",
+        "passengerRefuse": "Diddymu Taith",
+        "AreYouSure": "Wyt ti&#39;n siwr?",
+        "CancellTripWarning": "Hysbysir eich teithwyr eich bod wedi canslo&#39;r daith",
+        "TripAlreadyClosed": "Mae&#39;r daith hon eisoes wedi cau.",
+        "preview": {
+            "Departs": "Yn gadael",
+            "Departed": "Wedi gadael",
+            "Arrives": "Cyrraedd",
+            "Arrived": "Cyrraedd"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Beth ydych chi am ei gynnig?",
+        "PassengertripCanceled": "Taith Sbwriel",
+        "Subscribe": "Tanysgrifiwch",
+        "Subscribed": "Tanysgrifio",
+        "Unsubscribe": "Dad-danysgrifio",
+        "NeedRide": "Angen Taith",
+        "OfferRide": "Cynnig Taith",
+        "RideFrom": "Ride O",
+        "RideTo": "Ride I",
+        "WhereToPick": "Ble i gasglu chi?",
+        "WhereToDrop": "Ble i roi&#39;r gorau iddi?",
+        "Recurring": "Ailadroddus",
+        "locationSubscribeNotice": "Cewch eich hysbysu pan fydd teithiau newydd yn cael eu postio.",
+        "locationUnsubscribeNotice": "Rhoi&#39;r gorau i roi gwybod pan fydd teithiau newydd yn cael eu postio."
+    },
+    "navigation": {
+        "loadingNavigation": "Llwytho gwe-lywio ...",
+        "routePanelError": "Methu gosod panel llwybr",
+        "routeRecalculate": "Ail-gyfrifo&#39;r llwybr",
+        "passengerPickedUp": "Codwyd teithwyr",
+        "nextRoute": "Cyfrifo&#39;r llwybr nesaf",
+        "routeError": {
+            "INVALID_REQUEST": "CAIS INVALID",
+            "MAX_WAYPOINTS_EXCEEDED": "MAE WAYPOINTS MAX YN EITHRIO",
+            "NOT_FOUND": "NID OES",
+            "OVER_QUERY_LIMIT": "DROS GYFYNGIAD I ANSAWDD",
+            "REQUEST_DENIED": "CAIS WEDI&#39;U DIOGEL",
+            "UNKNOWN_ERROR": "GWALL ANHYSBYS",
+            "ZERO_RESULTS": "CANLYNIADAU ZERO"
+        },
+        "reCenter": "AIL-GANOLFAN",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "Dywedodd,",
+            "pickuplocationChange": "Newidiodd {{userName}} leoliad casglu",
+            "canceledTrip": "Diddymwyd y daith gan {{userName}}"
+        },
+        "speechFarManeuver": "yn {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Taith {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} yw {{state}} yn eich taith grŵp.",
+        "Travel\/trip\/arriving": "Mae eich gyrrwr yn nesáu at eich codi.",
+        "Travel\/trip\/pickedup": "Cafodd {{call 'avatar.displayName'}} ei godi.",
+        "Travel\/trip\/started": "Mae eich taith wedi dechrau",
+        "Travel\/trip\/completed": "Cwblhawyd eich taith.",
+        "Travel\/trip\/discontinued": "Mae&#39;r gyrrwr wedi rhoi&#39;r gorau i&#39;ch taith.",
+        "Travel\/coordinates\/updated": "Mae {{call 'avatar.displayName'}} wedi symud",
+        "Travel\/trip\/added": "Taith newydd wedi&#39;i hychwanegu at y cyfeiriad yr oedd gennych ddiddordeb ynddo."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Yn cynrychioli taith y mae pobl yn ei chymryd, ar eu pennau eu hunain neu gyda&#39;i gilydd",
+            "displayType": "Trip"
+        }
+    }
+}

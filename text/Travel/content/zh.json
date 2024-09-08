@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "是",
+        "No": "没有",
+        "to": "至",
+        "from": "从",
+        "departTime": "离开",
+        "arriveTime": "到达",
+        "OfferRide": "提供乘车服务",
+        "whatToOffer": "你想提供什么？",
+        "tripTo": "前往",
+        "tripFrom": "来自",
+        "startDriving": "开始驾驶",
+        "pickUpName": "挑选{{name}}",
+        "pickedUp": "我被捡起来了",
+        "pickMeUp": "接我",
+        "pickupLocation": "接人的地方",
+        "cancel": "取消",
+        "center": "中央",
+        "shouldDepart": "应该离开",
+        "departs": "出发",
+        "departed": "死者",
+        "shouldArrive": "到了",
+        "arrives": "抵达",
+        "arrived": "到达",
+        "minutes": "分钟",
+        "estimatedTime": "预计的时间",
+        "leaveAt": "我想离开",
+        "offerAtMostPeople": "我最多可以提供乘车服务",
+        "people": "人",
+        "maxDetour": "最大的绕道",
+        "share": "分享",
+        "tripComplete": "完成",
+        "driverDiscontinue": "中断",
+        "passengerRefuse": "取消旅行",
+        "AreYouSure": "你确定吗？",
+        "CancellTripWarning": "您的乘客将被通知您取消了旅行",
+        "TripAlreadyClosed": "这次旅行已经结束。",
+        "preview": {
+            "Departs": "出发",
+            "Departed": "死者",
+            "Arrives": "抵达",
+            "Arrived": "到达"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "你想提供什么？",
+        "PassengertripCanceled": "拒绝旅行",
+        "Subscribe": "订阅",
+        "Subscribed": "订阅",
+        "Unsubscribe": "退订",
+        "NeedRide": "需要搭便车",
+        "OfferRide": "提供乘车服务",
+        "RideFrom": "骑自行车",
+        "RideTo": "骑到",
+        "WhereToPick": "在哪里接你？",
+        "WhereToDrop": "哪里可以让你失望？",
+        "Recurring": "定期",
+        "locationSubscribeNotice": "发布新旅行时会通知您。",
+        "locationUnsubscribeNotice": "发布新旅行时不再收到通知。"
+    },
+    "navigation": {
+        "loadingNavigation": "加载导航......",
+        "routePanelError": "无法设置路由面板",
+        "routeRecalculate": "重新计算路线",
+        "passengerPickedUp": "乘客捡起来了",
+        "nextRoute": "计算下一条路线",
+        "routeError": {
+            "INVALID_REQUEST": "非法请求",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS超过了",
+            "NOT_FOUND": "未找到",
+            "OVER_QUERY_LIMIT": "超越极限",
+            "REQUEST_DENIED": "请求被拒绝",
+            "UNKNOWN_ERROR": "未知错误",
+            "ZERO_RESULTS": "零结果"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "千米",
+        "meter": "米",
+        "minutes": "分钟。",
+        "hours": "小时。",
+        "messages": {
+            "said": "说过，",
+            "pickuplocationChange": "{{userName}}改变了取件位置",
+            "canceledTrip": "{{userName}}取消了这次旅行"
+        },
+        "speechFarManeuver": "在{{distance}}，{{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "旅行{{state}}",
+        "Travel\/trip\/user\/state": "你的团队旅行中{{call 'avatar.displayName'}} {{state}}。",
+        "Travel\/trip\/arriving": "你的司机正准备接你。",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}}被接走了。",
+        "Travel\/trip\/started": "你的旅行已经开始了",
+        "Travel\/trip\/completed": "你的旅行已经完成。",
+        "Travel\/trip\/discontinued": "司机已停止您的旅行。",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}}已经移动了",
+        "Travel\/trip\/added": "新旅行增加了你感兴趣的方向。"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "代表人们单独或一起旅行",
+            "displayType": "旅"
+        }
+    }
+}

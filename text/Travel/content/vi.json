@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Vâng",
+        "No": "Không",
+        "to": "đến",
+        "from": "từ",
+        "departTime": "khởi hành",
+        "arriveTime": "đến",
+        "OfferRide": "Cung cấp một chuyến đi",
+        "whatToOffer": "Bạn muốn cung cấp những gì?",
+        "tripTo": "Chuyến đi đến",
+        "tripFrom": "Chuyến đi từ",
+        "startDriving": "Bắt đầu lái xe",
+        "pickUpName": "Đã chọn {{name}}",
+        "pickedUp": "Tôi đã được chọn",
+        "pickMeUp": "Đón tôi",
+        "pickupLocation": "Chọn địa điểm",
+        "cancel": "Hủy bỏ",
+        "center": "Trung tâm",
+        "shouldDepart": "Nên khởi hành",
+        "departs": "Khởi hành",
+        "departed": "Ra đi",
+        "shouldArrive": "đến",
+        "arrives": "Đến",
+        "arrived": "Đã đến",
+        "minutes": "phút",
+        "estimatedTime": "Thơi gian dự định",
+        "leaveAt": "Tôi muốn rời đi lúc",
+        "offerAtMostPeople": "Tôi có thể cung cấp một chuyến đi đến nhiều nhất",
+        "people": "Những người",
+        "maxDetour": "Đường vòng tối đa",
+        "share": "Chia sẻ",
+        "tripComplete": "Hoàn thành",
+        "driverDiscontinue": "Ngưng",
+        "passengerRefuse": "Hủy chuyến",
+        "AreYouSure": "Bạn có chắc không?",
+        "CancellTripWarning": "Hành khách của bạn sẽ được thông báo rằng bạn đã hủy chuyến đi",
+        "TripAlreadyClosed": "Chuyến đi này đã khép lại.",
+        "preview": {
+            "Departs": "Khởi hành",
+            "Departed": "Ra đi",
+            "Arrives": "Đến",
+            "Arrived": "Đã đến"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Bạn muốn cung cấp những gì?",
+        "PassengertripCanceled": "Chuyến đi từ chối",
+        "Subscribe": "Theo dõi",
+        "Subscribed": "Đã đăng ký",
+        "Unsubscribe": "Hủy đăng ký",
+        "NeedRide": "Cần một chuyến đi",
+        "OfferRide": "Cung cấp một chuyến đi",
+        "RideFrom": "Đi xe từ",
+        "RideTo": "Đi xe đên",
+        "WhereToPick": "Đón bạn ở đâu?",
+        "WhereToDrop": "Nơi để thả bạn ra?",
+        "Recurring": "Định kỳ",
+        "locationSubscribeNotice": "Bạn sẽ được thông báo khi chuyến đi mới được đăng.",
+        "locationUnsubscribeNotice": "Dừng được thông báo khi chuyến đi mới được đăng."
+    },
+    "navigation": {
+        "loadingNavigation": "Đang tải điều hướng ...",
+        "routePanelError": "Không thể đặt bảng điều khiển tuyến đường",
+        "routeRecalculate": "Tính toán lại tuyến đường",
+        "passengerPickedUp": "Hành khách đón",
+        "nextRoute": "Tính lộ trình tiếp theo",
+        "routeError": {
+            "INVALID_REQUEST": "YÊU CẦU KHÔNG HỢP LỆ",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS VƯỢT QUÁ",
+            "NOT_FOUND": "KHÔNG TÌM THẤY",
+            "OVER_QUERY_LIMIT": "HƠN GIỚI HẠN",
+            "REQUEST_DENIED": "YÊU CẦU BỊ TỪ CHỐI",
+            "UNKNOWN_ERROR": "LỖI KHÔNG RÕ",
+            "ZERO_RESULTS": "KẾT QUẢ ZERO"
+        },
+        "reCenter": "TRUNG TÂM",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "tối thiểu",
+        "hours": "giờ",
+        "messages": {
+            "said": "nói,",
+            "pickuplocationChange": "{{userName}} đã thay đổi địa điểm đón",
+            "canceledTrip": "{{userName}} đã hủy chuyến đi"
+        },
+        "speechFarManeuver": "trong {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Chuyến đi {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} là {{state}} trong chuyến đi nhóm của bạn.",
+        "Travel\/trip\/arriving": "Tài xế của bạn đang đến gần để đón bạn.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} đã được chọn.",
+        "Travel\/trip\/started": "Chuyến đi của bạn đã bắt đầu",
+        "Travel\/trip\/completed": "Chuyến đi của bạn đã hoàn thành",
+        "Travel\/trip\/discontinued": "Người lái xe đã dừng chuyến đi của bạn.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} đã di chuyển",
+        "Travel\/trip\/added": "Chuyến đi mới được thêm vào hướng bạn quan tâm."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Đại diện cho một chuyến đi mà mọi người đi, một mình hoặc cùng nhau",
+            "displayType": "Chuyến đi"
+        }
+    }
+}

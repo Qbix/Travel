@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Да",
+        "No": "Не",
+        "to": "до",
+        "from": "од",
+        "departTime": "заминам",
+        "arriveTime": "пристигне",
+        "OfferRide": "Нудат возење",
+        "whatToOffer": "Што сакаш да понудиш?",
+        "tripTo": "Патување до",
+        "tripFrom": "Патување од",
+        "startDriving": "Започни Возење",
+        "pickUpName": "Подигнат {{name}}",
+        "pickedUp": "Бев земен",
+        "pickMeUp": "Земи ме",
+        "pickupLocation": "Место за пикап",
+        "cancel": "Откажи",
+        "center": "Центар",
+        "shouldDepart": "Треба да заминат",
+        "departs": "Заминува",
+        "departed": "Замина",
+        "shouldArrive": "да пристигне",
+        "arrives": "Пристигнува",
+        "arrived": "Пристигна",
+        "minutes": "минути",
+        "estimatedTime": "Проценето време",
+        "leaveAt": "Сакам да заминам",
+        "offerAtMostPeople": "Најмногу можам да понудам возење",
+        "people": "Луѓе",
+        "maxDetour": "Макс заобиколување",
+        "share": "Сподели",
+        "tripComplete": "Заврши",
+        "driverDiscontinue": "Прекинете",
+        "passengerRefuse": "Откажи патување",
+        "AreYouSure": "Дали си сигурен?",
+        "CancellTripWarning": "Вашите патници ќе бидат известени дека го откажавте патувањето",
+        "TripAlreadyClosed": "Ова патување веќе е затворено.",
+        "preview": {
+            "Departs": "Заминува",
+            "Departed": "Замина",
+            "Arrives": "Пристигнува",
+            "Arrived": "Пристигна"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Што сакаш да понудиш?",
+        "PassengertripCanceled": "Одбијте патување",
+        "Subscribe": "Претплати се",
+        "Subscribed": "Претплатени",
+        "Unsubscribe": "Отпиши се",
+        "NeedRide": "Потребна е возење",
+        "OfferRide": "Нудат возење",
+        "RideFrom": "Ride From",
+        "RideTo": "Возете до",
+        "WhereToPick": "Каде да те земам?",
+        "WhereToDrop": "Каде да те отфрлам?",
+        "Recurring": "Повторувачки",
+        "locationSubscribeNotice": "Ќе бидете известени кога ќе бидат испратени нови патувања.",
+        "locationUnsubscribeNotice": "Престанете да бидете известени кога се испраќаат нови патувања."
+    },
+    "navigation": {
+        "loadingNavigation": "Вчитување навигација ...",
+        "routePanelError": "Не може да се постави панелот за патеки",
+        "routeRecalculate": "Повторно пресметување на рутата",
+        "passengerPickedUp": "Подигнат патник",
+        "nextRoute": "Пресметување на следната рута",
+        "routeError": {
+            "INVALID_REQUEST": "ИНВАЛИДНО БАРАЊЕ",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "НЕ Е НАЈДЕНО",
+            "OVER_QUERY_LIMIT": "ПРЕД ОГРАНИЧУВАЊЕ НА ОПРЕМА",
+            "REQUEST_DENIED": "Барањето е одбиено",
+            "UNKNOWN_ERROR": "НЕПОЗНАТА ГРЕШКА",
+            "ZERO_RESULTS": "Нули резултати"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "м",
+        "minutes": "мин.",
+        "hours": "ч.",
+        "messages": {
+            "said": "кажа,",
+            "pickuplocationChange": "{{userName}} ја смени локацијата на пикап",
+            "canceledTrip": "{{userName}} го откажа патувањето"
+        },
+        "speechFarManeuver": "во {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Патување {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} е {{state}} во вашата група возење.",
+        "Travel\/trip\/arriving": "Вашиот возач се приближува да те земам.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} беше подигнат.",
+        "Travel\/trip\/started": "Вашето патување започна",
+        "Travel\/trip\/completed": "Вашето патување е завршено.",
+        "Travel\/trip\/discontinued": "Возачот го прекина вашето патување.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} се пресели",
+        "Travel\/trip\/added": "Ново патување е додадено во насоката која ја интересира."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Претставува патување што луѓето го прават, сам или заедно",
+            "displayType": "Патување"
+        }
+    }
+}

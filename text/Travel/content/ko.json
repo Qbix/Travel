@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "예",
+        "No": "아니",
+        "to": "에",
+        "from": "...에서",
+        "departTime": "출발하다",
+        "arriveTime": "태어나다",
+        "OfferRide": "타고 타기",
+        "whatToOffer": "무엇을 제공하고 싶습니까?",
+        "tripTo": "여행지",
+        "tripFrom": "여행 출발지",
+        "startDriving": "운전 시작",
+        "pickUpName": "집어 들었어 {{name}}",
+        "pickedUp": "내가 데려왔다.",
+        "pickMeUp": "나를 데려가 라.",
+        "pickupLocation": "짐을 싣는 곳",
+        "cancel": "취소",
+        "center": "센터",
+        "shouldDepart": "출발해야한다.",
+        "departs": "출발",
+        "departed": "고인",
+        "shouldArrive": "도착하다",
+        "arrives": "도착",
+        "arrived": "도착 함",
+        "minutes": "의사록",
+        "estimatedTime": "예상 시간",
+        "leaveAt": "나는 떠나고 싶다.",
+        "offerAtMostPeople": "나는 최대로 타기를 제공 할 수있다.",
+        "people": "사람들",
+        "maxDetour": "최대 우회로",
+        "share": "몫",
+        "tripComplete": "완전한",
+        "driverDiscontinue": "폐하다",
+        "passengerRefuse": "여행 취소",
+        "AreYouSure": "확실해?",
+        "CancellTripWarning": "승객께서는 여행 취소 사실을 통보 받게됩니다.",
+        "TripAlreadyClosed": "이 여행은 이미 닫혔습니다.",
+        "preview": {
+            "Departs": "출발",
+            "Departed": "고인",
+            "Arrives": "도착",
+            "Arrived": "도착 함"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "무엇을 제공하고 싶습니까?",
+        "PassengertripCanceled": "여행 거절",
+        "Subscribe": "구독하기",
+        "Subscribed": "구독 됨",
+        "Unsubscribe": "수신 거부",
+        "NeedRide": "타기가 필요하다.",
+        "OfferRide": "타고 타기",
+        "RideFrom": "출발",
+        "RideTo": "타기",
+        "WhereToPick": "어디서 데려다 줄거야?",
+        "WhereToDrop": "어디에서 떨어 뜨릴거야?",
+        "Recurring": "되풀이",
+        "locationSubscribeNotice": "새로운 여행이 게시 될 때 통보를 받게됩니다.",
+        "locationUnsubscribeNotice": "새로운 여행이 게시되면 알림을받지 않습니다."
+    },
+    "navigation": {
+        "loadingNavigation": "내비게이션로드 중 ...",
+        "routePanelError": "경로 패널을 설정할 수 없습니다.",
+        "routeRecalculate": "경로 다시 계산",
+        "passengerPickedUp": "승객이 집어 들었다.",
+        "nextRoute": "다음 경로 계산 중",
+        "routeError": {
+            "INVALID_REQUEST": "잘못된 요청",
+            "MAX_WAYPOINTS_EXCEEDED": "최대 습관은 지나치다.",
+            "NOT_FOUND": "발견하지 못함",
+            "OVER_QUERY_LIMIT": "QUERY LIMIT 초과",
+            "REQUEST_DENIED": "거절 요청",
+            "UNKNOWN_ERROR": "알수없는 오류",
+            "ZERO_RESULTS": "0 결과"
+        },
+        "reCenter": "재 센터",
+        "kilometr": "km",
+        "meter": "엠",
+        "minutes": "분.",
+        "hours": "hr이다.",
+        "messages": {
+            "said": "고 말했다.",
+            "pickuplocationChange": "{{userName}} 픽업 위치가 변경되었습니다.",
+            "canceledTrip": "{{userName}} 여행을 취소했습니다."
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "여행 {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}}은 (는) 단체 승급에서 {{state}}입니다.",
+        "Travel\/trip\/arriving": "운전 기사가 데리러오고 있습니다.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}}이 (가) 체포되었습니다.",
+        "Travel\/trip\/started": "여행이 시작되었습니다.",
+        "Travel\/trip\/completed": "여행이 완료되었습니다.",
+        "Travel\/trip\/discontinued": "운전 기사가 여행을 중단했습니다.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}}이 (가) 이동했습니다.",
+        "Travel\/trip\/added": "관심있는 방향에 새로운 여행이 추가되었습니다."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "사람들이 혼자 또는 함께 여행을 나타냅니다",
+            "displayType": "여행"
+        }
+    }
+}

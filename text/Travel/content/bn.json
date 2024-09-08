@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "হাঁ",
+        "No": "না",
+        "to": "থেকে",
+        "from": "থেকে",
+        "departTime": "চরা",
+        "arriveTime": "পৌঁছা",
+        "OfferRide": "একটি রাউন্ড অফার",
+        "whatToOffer": "আপনি কি দিতে চান?",
+        "tripTo": "ট্রিপ",
+        "tripFrom": "থেকে ট্রিপ",
+        "startDriving": "ড্রাইভিং শুরু করুন",
+        "pickUpName": "উপরে {{name}}",
+        "pickedUp": "আমি লাথি মেরেছিলাম",
+        "pickMeUp": "আমাকে ওঠাও",
+        "pickupLocation": "অবস্থান নিতে",
+        "cancel": "বাতিল",
+        "center": "কেন্দ্র",
+        "shouldDepart": "প্রস্থান করা উচিত",
+        "departs": "ছাড়বে",
+        "departed": "অন্তর্হিত",
+        "shouldArrive": "পৌঁছা",
+        "arrives": "পৌঁছাবে",
+        "arrived": "আগত",
+        "minutes": "মিনিট",
+        "estimatedTime": "আনুমানিক সময়",
+        "leaveAt": "আমি এ যেতে চাই",
+        "offerAtMostPeople": "আমি সবচেয়ে একটি যাত্রায় অফার করতে পারেন",
+        "people": "সম্প্রদায়",
+        "maxDetour": "সর্বোচ্চ চোরাচালানকারী",
+        "share": "ভাগ",
+        "tripComplete": "সম্পূর্ণ",
+        "driverDiscontinue": "থামা",
+        "passengerRefuse": "ট্রিপ বাতিল করুন",
+        "AreYouSure": "তুমি কি নিশ্চিত?",
+        "CancellTripWarning": "আপনার যাত্রীদের আপনি ট্রিপ বাতিল যে বিজ্ঞাপিত করা হবে",
+        "TripAlreadyClosed": "এই ট্রিপ ইতিমধ্যে বন্ধ।",
+        "preview": {
+            "Departs": "ছাড়বে",
+            "Departed": "অন্তর্হিত",
+            "Arrives": "পৌঁছাবে",
+            "Arrived": "আগত"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "আপনি কি দিতে চান?",
+        "PassengertripCanceled": "ট্রিপ প্রত্যাখ্যান",
+        "Subscribe": "সাবস্ক্রাইব",
+        "Subscribed": "সাবস্ক্রাইব",
+        "Unsubscribe": "সদস্যতা ত্যাগ করুন",
+        "NeedRide": "একটা ভ্রমন দরকার",
+        "OfferRide": "একটি রাউন্ড অফার",
+        "RideFrom": "থেকে রাইড",
+        "RideTo": "যাও যাও",
+        "WhereToPick": "কোথায় আপনি নিতে?",
+        "WhereToDrop": "কোথায় আপনি বন্ধ ড্রপ?",
+        "Recurring": "আবৃত্ত",
+        "locationSubscribeNotice": "নতুন ভ্রমণ পোস্ট করা হয় যখন আপনি অবহিত করা হবে।",
+        "locationUnsubscribeNotice": "নতুন ভ্রমণ পোস্ট করা হয় যখন অবহিত করা বন্ধ করুন।"
+    },
+    "navigation": {
+        "loadingNavigation": "ন্যাভিগেশন লোড হচ্ছে ...",
+        "routePanelError": "রুট প্যানেল সেট করতে পারবেন না",
+        "routeRecalculate": "পুনরাবৃত্তি রুট",
+        "passengerPickedUp": "যাত্রী কুড়ান",
+        "nextRoute": "পরবর্তী রুট গণনা",
+        "routeError": {
+            "INVALID_REQUEST": "অনুরোধ অগ্রহণযোগ্য",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS বর্ধিত",
+            "NOT_FOUND": "খুঁজে পাচ্ছি না",
+            "OVER_QUERY_LIMIT": "QUERY সীমা অতিক্রম",
+            "REQUEST_DENIED": "অনুরোধ প্রত্যাখ্যাত",
+            "UNKNOWN_ERROR": "অজানা ত্রুটি",
+            "ZERO_RESULTS": "জিরো ফলাফল"
+        },
+        "reCenter": "আবার কেন্দ্রে আনুন",
+        "kilometr": "কিমি",
+        "meter": "মি",
+        "minutes": "মিনিট।",
+        "hours": "ঘন্টা।",
+        "messages": {
+            "said": "বললেন,",
+            "pickuplocationChange": "{{userName}} পিকআপ অবস্থান পরিবর্তন",
+            "canceledTrip": "{{userName}} ট্রিপ বাতিল"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}} তে"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "ট্রিপ {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} আপনার দলের যাত্রায় {{state}}।",
+        "Travel\/trip\/arriving": "আপনার ড্রাইভার আপনি নিতে আসছে।",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} বাছাই করা হয়েছিল।",
+        "Travel\/trip\/started": "আপনার ট্রিপ শুরু হয়েছে",
+        "Travel\/trip\/completed": "আপনার ট্রিপ সম্পন্ন করা হয়েছে।",
+        "Travel\/trip\/discontinued": "ড্রাইভার আপনার ট্রিপ বন্ধ করেছে।",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} সরানো হয়েছে",
+        "Travel\/trip\/added": "নতুন ট্রিপ আপনি আগ্রহী দিক যোগ করা।"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "একা বা একসাথে লোকেরা নিয়ে যাওয়া এমন একটি ট্রিপ প্রতিনিধিত্ব করে",
+            "displayType": "যাত্রা"
+        }
+    }
+}

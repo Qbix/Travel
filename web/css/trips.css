@@ -1,0 +1,328 @@
+.Travel_trips_tabs { margin-top: 10px; -webkit-transform: translateZ(0); }
+
+.Travel_trips_tabs {
+	white-space: nowrap;
+	text-align: center;
+}
+.Travel_trips_tab {
+	display: inline-block;
+	white-space: nowrap;
+	margin: 0;
+	padding: 3px 10px;
+	font-size: 14px;
+	border: 1px solid transparent;
+	border-bottom: solid 1px transparent;
+	cursor: pointer;
+}
+.Q_notMobile .Travel_trips_tab {
+	padding: 3px 5px;
+	font-size: 14px;
+}
+
+/**************** Trips list ************************/
+.Travel_trips_related {min-width: 300px;}
+.Travel_trips_related[data-tripType="Travel/to"] .Travel_trips_tab[data-relation="Travel/to"],
+.Travel_trips_related[data-tripType="Travel/from"] .Travel_trips_tab[data-relation="Travel/from"] {
+	background-color: white;
+	color: black;
+	border: 1px solid #777;
+	border-bottom: solid 1px white;
+}
+
+.Travel_trips_related .Travel_trips_list {
+	display: none;
+}
+.Travel_trips_related[data-tripType="Travel/to"] .Travel_trips_list[data-relation="Travel/to"],
+.Travel_trips_related[data-tripType="Travel/from"] .Travel_trips_list[data-relation="Travel/from"] {
+	display: block;
+}
+
+.Travel_trips_related .Travel_trips_content {
+	margin-top: -1px;
+	border-top: 1px solid #777;
+}
+.Travel_trips_related .Travel_trip_preview_tool {
+	cursor: pointer;
+	margin-top: 10px;
+}
+.Travel_trips_related .Travel_trip_related_tool .Travel_trip_related_list:empty::after {
+	content: "No Trips";
+	text-align: center;
+	display: block;
+	color: #888;
+	font-style: italic;
+	padding: 10px 0;
+}
+.Travel_trips_related .Travel_trip_related_tool .Places_location_tool {
+	margin-bottom: 10px;
+}
+.Travel_trips_related .Travel_trips_list h2 {
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+.Travel_trips_tool[data-going=""] .Travel_trips_going {
+	display: none;
+}
+.Travel_trips_tool[data-going]:not([data-going=""]) .Travel_trips_notGoing {
+	display: none;
+}
+.Travel_trips_tool[data-tripToExist]:not([data-tripToExist=""]) .Travel_trips_to::before,
+.Travel_trips_tool[data-tripFromExist]:not([data-tripFromExist=""]) .Travel_trips_from::before,
+.Travel_trips_tool[data-userId]:not([data-userId=""]) .Travel_trips_notGoing::before {
+	font-family: 'qplatform-communities' !important;
+	font-weight: normal;
+	font-size: 28px;
+	vertical-align: middle;
+	display: inline-block;
+	content: "\e907";
+	margin-right: 10px;
+}
+.Travel_trips_dialog .Q_dialog_content {
+	padding: 20px;
+	overflow: hidden;
+}
+.Travel_trips_buttons > div {
+	text-align: center;
+}
+
+#page .Travel_trips_tool .Travel_trips_buttons button {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
+	margin: 1px 0;
+	padding: 0.2em 0.4em;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.Travel_trips_subscribe {
+	display: none;
+}
+.Travel_trips_list[data-locationSelected] .Travel_trips_subscribe {
+	display: block;
+}
+.Travel_trips_subscribe .Q_button,
+.Travel_trips_subscribe .Q_button:hover,
+.Travel_trips_subscribe .Q_button:active,
+.Travel_trips_subscribe .Q_button:focus {
+	display: block;
+	margin: 10px auto;
+	background-color: #449944;
+	color: #fff;
+	width: 120px;
+}
+
+.Travel_trips_subscribe[data-subscribed="true"] .Travel_trips_button_subscribe {
+	display: none;
+}
+.Travel_trips_subscribe[data-subscribed]:not([data-subscribed="true"]) .Travel_trips_button_unsubscribe {
+	display: none;
+}
+.Travel_trips_subscribe .Travel_trips_subscribe_notice,
+.Travel_trips_subscribe .Travel_trips_unsubscribe_notice {
+	display: none;
+	width: 80%;
+	margin: 0 auto 10px;
+	text-align: center;
+	color: #888;
+	font-size: 14px;
+}
+.Travel_trips_subscribe[data-processed=subscribe] .Travel_trips_subscribe_notice {
+	display: block;
+}
+.Travel_trips_subscribe[data-processed=unsubscribe] .Travel_trips_unsubscribe_notice {
+	display: block;
+}
+/****************** Composer ***********************/
+.Travel_trips_composer label {
+	display: block;
+	padding: 0 5px;
+	cursor: pointer;
+	margin: 0 0 -1px 0;
+}
+
+/********************** TABS *************************/
+.Travel_trips_composer_tabs {
+	margin-top: 10px;
+	text-align: center;
+}
+.Travel_trips_composer_tabs label {
+	display: inline-block;
+	padding: 0 5px;
+	cursor: pointer;
+	margin: 0 0 -1px 0;
+	background-color: #fff;
+}
+.Travel_trips_composer_tabs > input {
+	display: none;
+	position: absolute;
+}
+.Travel_trips_composer_tabs > input:checked + label {
+	border: 1px solid black;
+	border-bottom-color: #fff;
+}
+.Travel_trips_composer_tabs section {
+	text-align: left;
+	/*
+		position and top BUT NOT display:none,
+		because for correct display of Places/location tools
+		sections must be visible
+	*/
+	position: absolute;
+	top: -1000px;
+	border-top: 1px solid black;
+}
+input[value=tripFrom]:checked ~ section[data-for=tripFrom],
+input[value=tripTo]:checked ~ section[data-for=tripTo] {
+	position: relative;
+	top: 0;
+}
+table.Travel_trips_loc {
+	min-width: 300px;
+	width: 100%;
+}
+/*****************************************************/
+/* Handler for "offer trip to", "offer trip from" checkboxes */
+/* 		First state - none direction selected, so the table hidden */
+/*		(need to use exactly "position" and "top", because if use "display:none" - tools Places/location rendered invalid)*/
+.Travel_trips_composer table.Travel_trips_loc {
+	position: absolute;
+	top: -1000px;
+}
+/* 		First state - none direction selected, so the rows related to trip directions - hidden */
+/*		(need to use exactly "position" and "top", because if use "display:none" - tools Places/location rendered invalid)*/
+.Travel_trips_composer table.Travel_trips_loc tr[data-for]{
+	position: absolute;
+	top: -1000px;
+}
+/* 		If even one trip direction selected - show the main table */
+.Travel_trips_composer[data-directionSelected] table.Travel_trips_loc {
+	position: static;
+}
+/* 		If trip direction "tripTo" selected - show rows related to this trip direction */
+.Travel_trips_composer[data-offerTripTo] table.Travel_trips_loc tr[data-for="tripTo"]{
+	position: static;
+}
+/* 		If trip direction "tripFrom" selected - show rows related to this trip direction */
+.Travel_trips_composer[data-offerTripFrom] table.Travel_trips_loc tr[data-for="tripFrom"]{
+	position: static;
+}
+/* 		If both trip directions selected - hide rows related to "tripTo" direction */
+.Travel_trips_composer[data-offerTripTo][data-offerTripFrom] table.Travel_trips_loc tr[data-for="tripFrom"]{
+	position: absolute;
+}
+/* 		If both trip directions selected - show the row "I want to leave at:..." under "tripTo" rows */
+.Travel_trips_composer[data-offerTripFrom] table.Travel_trips_loc tr[data-for="fromToo"]{
+	position: static;
+}
+.Travel_trips_composer .Travel_trips_offer input {
+	height: 40px;
+}
+.Travel_trips_composer .Travel_trips_offer input[name=detourMax] {
+	width: 40px;
+	margin-right: 5px;
+}
+.Travel_trips_composer .Travel_trips_offer select[name=detourType]{
+	text-transform: capitalize;
+}
+.Travel_trips_composer .Travel_trips_offer,
+.Travel_trips_composer .Travel_trips_share,
+.Travel_trips_composer .Travel_trips_share_button {
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+	opacity: 1;
+}
+.Travel_trips_composer .Travel_trips_share {
+	text-align: center;
+}
+.Travel_trips_composer .Travel_trips_share[data-disabled],
+.Travel_trips_composer .Travel_trips_share[data-processing] {
+	pointer-events: none;
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+.Travel_trips_composer select[name*=time],
+.Travel_trips_composer input[name*=time],
+.Travel_trips_composer .picker__input {
+	display: inline-block;
+	width: 120px;
+	padding: 0 3px;
+}
+.Q_dialog_content .Travel_trips_composer {
+	margin: 10px;
+	max-height: 70vh;
+}
+.Travel_trips_composer table.Travel_trips_loc[data-direction='from'] .Travel_trips_loc_fromtoo,
+.Travel_trips_composer table.Travel_trips_loc[data-fromTripExists='true'] .Travel_trips_loc_fromtoo {
+	display: none;
+}
+.Travel_trips_composer table.Travel_trips_loc th {
+	width: 90px;
+	padding: 5px;
+	text-transform: capitalize;
+	text-align: left;
+}
+.Travel_trips_composer table.Travel_trips_loc td {
+	padding: 5px 0;
+}
+.Q_mobile .Travel_trips_composer table.Travel_trips_loc td > * {
+	max-width: 330px;
+}
+.Travel_trips_composer table.Travel_trips_loc tr {
+	border-top: 1px solid #aaa;
+}
+.Travel_trips_composer .Travel_trips_loc_duration_tr.hidden {
+	display: none;
+}
+
+.Travel_trips_composer .Travel_trips_loc_address ul {
+	list-style: none;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li{
+	padding: 10px 0;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li:first-child {
+	border-bottom: 1px solid #111111;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li label{
+	color: silver;
+	cursor: pointer;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li label .Places_address_tool {
+	display: none;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li input[type=radio] {
+	float: left;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li input[type=radio]:checked ~ label{
+	color: inherit;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li input[type=radio]:checked ~ label .Places_address_tool {
+	display: inline-block;
+}
+.Travel_trips_composer .Travel_trips_loc_address ul li input[type=radio]:checked ~ label span {
+	display: none;
+}
+.Travel_trips_recurring i.settings {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background-image: url(../../Calendars/img/colorful/recurring.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.Travel_trips_composer .Travel_trips_recurring_tr {
+	display: none;
+}

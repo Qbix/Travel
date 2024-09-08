@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ja",
+        "No": "Nei",
+        "to": "til",
+        "from": "fra",
+        "departTime": "reise",
+        "arriveTime": "ankomme",
+        "OfferRide": "Tilbyr en tur",
+        "whatToOffer": "Hva vil du tilby?",
+        "tripTo": "Tur til",
+        "tripFrom": "Tur fra",
+        "startDriving": "Start kjøring",
+        "pickUpName": "Plukket opp {{name}}",
+        "pickedUp": "Jeg ble plukket opp",
+        "pickMeUp": "Hent meg",
+        "pickupLocation": "Hentested",
+        "cancel": "Avbryt",
+        "center": "Senter",
+        "shouldDepart": "Bør avreise",
+        "departs": "avgang",
+        "departed": "Departed",
+        "shouldArrive": "å ankomme",
+        "arrives": "ankommer",
+        "arrived": "Kom frem",
+        "minutes": "minutter",
+        "estimatedTime": "Anslått tid",
+        "leaveAt": "Jeg vil forlate på",
+        "offerAtMostPeople": "Jeg kan tilby en tur til det meste",
+        "people": "Mennesker",
+        "maxDetour": "Maks omvei",
+        "share": "Dele",
+        "tripComplete": "Fullstendig",
+        "driverDiscontinue": "avvikle",
+        "passengerRefuse": "Avbryt tur",
+        "AreYouSure": "Er du sikker?",
+        "CancellTripWarning": "Dine passasjerer vil bli varslet om at du avbrutt turen",
+        "TripAlreadyClosed": "Denne turen er allerede stengt.",
+        "preview": {
+            "Departs": "avgang",
+            "Departed": "Departed",
+            "Arrives": "ankommer",
+            "Arrived": "Kom frem"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Hva vil du tilby?",
+        "PassengertripCanceled": "Refuse Trip",
+        "Subscribe": "Abonnere",
+        "Subscribed": "abonnerer",
+        "Unsubscribe": "Avslutte abonnementet",
+        "NeedRide": "Trenger skyss",
+        "OfferRide": "Tilbyr en tur",
+        "RideFrom": "Kjør fra",
+        "RideTo": "Ride til",
+        "WhereToPick": "Hvor skal du hente deg?",
+        "WhereToDrop": "Hvor skal du slippe av?",
+        "Recurring": "gjentakende",
+        "locationSubscribeNotice": "Du vil bli varslet når nye turer blir lagt ut.",
+        "locationUnsubscribeNotice": "Stopp å bli varslet når nye turer blir lagt ut."
+    },
+    "navigation": {
+        "loadingNavigation": "Laster inn navigasjon ...",
+        "routePanelError": "Kan ikke angi rutepanel",
+        "routeRecalculate": "Beregningsrute",
+        "passengerPickedUp": "Passasjer plukket opp",
+        "nextRoute": "Beregner neste rute",
+        "routeError": {
+            "INVALID_REQUEST": "UAKTISK ANSØK",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS OVERGÅENDE",
+            "NOT_FOUND": "IKKE FUNNET",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "FORESPØRSEL AVVIST",
+            "UNKNOWN_ERROR": "UKJENT FEIL",
+            "ZERO_RESULTS": "NUL RESULTATER"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "time.",
+        "messages": {
+            "said": "sa,",
+            "pickuplocationChange": "{{userName}} endret hentested",
+            "canceledTrip": "{{userName}} avbrutt turen"
+        },
+        "speechFarManeuver": "på {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Tur {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} er {{state}} i grupperturen din.",
+        "Travel\/trip\/arriving": "Din sjåfør nærmer deg for å hente deg.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} ble hentet opp.",
+        "Travel\/trip\/started": "Turen din er startet",
+        "Travel\/trip\/completed": "Turen din er fullført.",
+        "Travel\/trip\/discontinued": "Føreren har avbrutt turen.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} er flyttet",
+        "Travel\/trip\/added": "Ny tur lagt til retning du interessert."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Representerer en tur som folk tar, alene eller sammen",
+            "displayType": "Tur"
+        }
+    }
+}

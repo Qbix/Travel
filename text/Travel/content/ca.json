@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Sí",
+        "No": "No",
+        "to": "a",
+        "from": "de",
+        "departTime": "sortir",
+        "arriveTime": "arribar",
+        "OfferRide": "Ofereix un passeig",
+        "whatToOffer": "Què voleu oferir?",
+        "tripTo": "Viatge a",
+        "tripFrom": "Viatge des de",
+        "startDriving": "Comença la conducció",
+        "pickUpName": "Recollit {{name}}",
+        "pickedUp": "Vaig ser recollit",
+        "pickMeUp": "Agafa&#39;m",
+        "pickupLocation": "Ubicació de la recollida",
+        "cancel": "Cancel · lar",
+        "center": "Centre",
+        "shouldDepart": "Hauria de sortir",
+        "departs": "Sortida",
+        "departed": "Sortit",
+        "shouldArrive": "arribar",
+        "arrives": "Arriba",
+        "arrived": "Arribat",
+        "minutes": "minuts",
+        "estimatedTime": "Temps estimat",
+        "leaveAt": "Vull marxar",
+        "offerAtMostPeople": "Puc oferir un viatge com a màxim",
+        "people": "Gent",
+        "maxDetour": "Desviament màxim",
+        "share": "Compartir",
+        "tripComplete": "Complet",
+        "driverDiscontinue": "Atureu-vos",
+        "passengerRefuse": "Cancel·la el viatge",
+        "AreYouSure": "Estàs segur?",
+        "CancellTripWarning": "Els vostres passatgers seran notificats que heu cancel·lat el viatge",
+        "TripAlreadyClosed": "Aquest viatge ja estava tancat.",
+        "preview": {
+            "Departs": "Sortida",
+            "Departed": "Sortit",
+            "Arrives": "Arriba",
+            "Arrived": "Arribat"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Què voleu oferir?",
+        "PassengertripCanceled": "Rebutjar el viatge",
+        "Subscribe": "Subscriure&#39;s",
+        "Subscribed": "Subscrit",
+        "Unsubscribe": "Cancel·la la subscripció",
+        "NeedRide": "Necessiteu un passeig",
+        "OfferRide": "Ofereix un passeig",
+        "RideFrom": "Passegeu des de",
+        "RideTo": "Ride To",
+        "WhereToPick": "On us recollirà?",
+        "WhereToDrop": "On us deixeu anar?",
+        "Recurring": "Recurrent",
+        "locationSubscribeNotice": "Se li notificarà quan es publiquin nous viatges.",
+        "locationUnsubscribeNotice": "Deixa de ser notificat quan es publiquin nous viatges."
+    },
+    "navigation": {
+        "loadingNavigation": "S&#39;està carregant la navegació ...",
+        "routePanelError": "No es pot establir el panell de ruta",
+        "routeRecalculate": "Recalcular la ruta",
+        "passengerPickedUp": "El passatger va recollir",
+        "nextRoute": "Càlcul de la següent ruta",
+        "routeError": {
+            "INVALID_REQUEST": "PETICIÓ INVÀLIDA",
+            "MAX_WAYPOINTS_EXCEEDED": "S&#39;han disminuït els màxims punts",
+            "NOT_FOUND": "NO TROBAT",
+            "OVER_QUERY_LIMIT": "LÍMIT DE QUALITATS",
+            "REQUEST_DENIED": "SOL·LICITI DENEGAT",
+            "UNKNOWN_ERROR": "ERROR DESCONEGUT",
+            "ZERO_RESULTS": "RESULTATS ZERO"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "dit,",
+            "pickuplocationChange": "{{userName}} ha canviat la ubicació de captació",
+            "canceledTrip": "{{userName}} ha cancel·lat el viatge"
+        },
+        "speechFarManeuver": "a {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Viatge {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} és {{state}} en el vostre viatge en grup.",
+        "Travel\/trip\/arriving": "El vostre conductor s&#39;apropa per recollir-lo.",
+        "Travel\/trip\/pickedup": "S&#39;ha recollit {{call 'avatar.displayName'}}.",
+        "Travel\/trip\/started": "El vostre viatge s’ha iniciat",
+        "Travel\/trip\/completed": "El vostre viatge s&#39;ha completat.",
+        "Travel\/trip\/discontinued": "El conductor ha suspès el vostre viatge.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} s&#39;ha mogut",
+        "Travel\/trip\/added": "S&#39;ha afegit un viatge nou a la direcció que us interessava."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Representa un viatge que la gent fa, sola o junts",
+            "displayType": "Viatge"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Bai",
+        "No": "Ez",
+        "to": "to",
+        "from": "batetik",
+        "departTime": "irteten",
+        "arriveTime": "iristen",
+        "OfferRide": "Eskaini Ibilaldia",
+        "whatToOffer": "Zer eskaini nahi duzu?",
+        "tripTo": "Trip To",
+        "tripFrom": "Bidaia",
+        "startDriving": "Hasi gidatzea",
+        "pickUpName": "Bildu {999}}",
+        "pickedUp": "Bildu nintzen",
+        "pickMeUp": "Pick Me Up",
+        "pickupLocation": "Bilketa lekua",
+        "cancel": "Utzi",
+        "center": "Zentroa",
+        "shouldDepart": "Irten beharko zenuke",
+        "departs": "Irteerak",
+        "departed": "Departed",
+        "shouldArrive": "heldu",
+        "arrives": "Iristen",
+        "arrived": "iritsi",
+        "minutes": "minutu",
+        "estimatedTime": "Aurreikusitako denbora",
+        "leaveAt": "Utzi nahi dut",
+        "offerAtMostPeople": "Gehienez paseo bat eskain dezaket",
+        "people": "Pertsonak",
+        "maxDetour": "Gehienezko desbideratzea",
+        "share": "Share",
+        "tripComplete": "osoa",
+        "driverDiscontinue": "eten",
+        "passengerRefuse": "Utzi Bidaia",
+        "AreYouSure": "Ziur zaude?",
+        "CancellTripWarning": "Zure bidaiariek bidaia bertan behera utzi duzula jakinaraziko zaie",
+        "TripAlreadyClosed": "Bidaia hau itxita zegoen.",
+        "preview": {
+            "Departs": "Irteerak",
+            "Departed": "Departed",
+            "Arrives": "Iristen",
+            "Arrived": "iritsi"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Zer eskaini nahi duzu?",
+        "PassengertripCanceled": "Ukatu bidaia",
+        "Subscribe": "Harpidetu",
+        "Subscribed": "harpidetutako",
+        "Unsubscribe": "Baja eman",
+        "NeedRide": "Ride bat behar duzu",
+        "OfferRide": "Eskaini Ibilaldia",
+        "RideFrom": "Ibili",
+        "RideTo": "To ride",
+        "WhereToPick": "Non jaso?",
+        "WhereToDrop": "Non utzi?",
+        "Recurring": "Noizbehinkako",
+        "locationSubscribeNotice": "Bidaia berriak argitaratuko zaizkizu.",
+        "locationUnsubscribeNotice": "Utzi jakinarazpena bidaia berriak argitaratzen direnean."
+    },
+    "navigation": {
+        "loadingNavigation": "Nabigazioa kargatzen ...",
+        "routePanelError": "Ezin da ibilbidearen panela ezarri",
+        "routeRecalculate": "Ibilbidea birkalkulatu",
+        "passengerPickedUp": "Bidaiariek jaso zuten",
+        "nextRoute": "Hurrengo ibilbidea kalkulatzen du",
+        "routeError": {
+            "INVALID_REQUEST": "ERREGIMEN ESKAERA",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS exced",
+            "NOT_FOUND": "EZ DA AURKITU",
+            "OVER_QUERY_LIMIT": "Galderen muga gainditzen du",
+            "REQUEST_DENIED": "ESKAERA IZENA",
+            "UNKNOWN_ERROR": "EZAGUTZA ERROREA",
+            "ZERO_RESULTS": "ZERO EMAITZAK"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "h.",
+        "messages": {
+            "said": "esan zuen,",
+            "pickuplocationChange": "{{userName}} bilketaren kokapena aldatu da",
+            "canceledTrip": "{{userName}} bidaia bertan behera utzi da"
+        },
+        "speechFarManeuver": "{{distance}} zerbitzuan, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Bidaia {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} {{state}} da zure taldeko ibilaldian.",
+        "Travel\/trip\/arriving": "Zure gidariari hurbiltzeko hurbiltzen ari da.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} jaso da.",
+        "Travel\/trip\/started": "Zure bidaia hasi da",
+        "Travel\/trip\/completed": "Zure bidaia amaitu da.",
+        "Travel\/trip\/discontinued": "Gidariak zure bidaia eten du.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} mugitu da",
+        "Travel\/trip\/added": "Bidaia berria nahi duzun norabidean gehitu da."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Jendeak bakarrik edo elkarrekin egiten duen bidaia adierazten du",
+            "displayType": "Bidaia"
+        }
+    }
+}

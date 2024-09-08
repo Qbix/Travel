@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Evet",
+        "No": "Yok hayır",
+        "to": "için",
+        "from": "itibaren",
+        "departTime": "ayrılmak",
+        "arriveTime": "varmak",
+        "OfferRide": "Ride teklif et",
+        "whatToOffer": "Ne teklif etmek istersin",
+        "tripTo": "Gezi",
+        "tripFrom": "Gönderen Yer",
+        "startDriving": "Sürüşe Başla",
+        "pickUpName": "Alındı {{name}}",
+        "pickedUp": "Aldım",
+        "pickMeUp": "Beni al",
+        "pickupLocation": "Alış Yeri",
+        "cancel": "İptal etmek",
+        "center": "merkez",
+        "shouldDepart": "Ayrılmalı",
+        "departs": "Kalkış yeri",
+        "departed": "ölmüş",
+        "shouldArrive": "varmak",
+        "arrives": "Geldiğinde",
+        "arrived": "geldi",
+        "minutes": "dakika",
+        "estimatedTime": "Tahmini süresi",
+        "leaveAt": "Ayrılmak istiyorum",
+        "offerAtMostPeople": "En fazla bir sürüş teklif edebilirim",
+        "people": "İnsanlar",
+        "maxDetour": "Maksimum sapma",
+        "share": "Pay",
+        "tripComplete": "Tamamlayınız",
+        "driverDiscontinue": "durdurmak",
+        "passengerRefuse": "Yolculuğu İptal Et",
+        "AreYouSure": "Emin misiniz?",
+        "CancellTripWarning": "Yolcularınıza, yolculuğu iptal ettiğiniz bildirilir.",
+        "TripAlreadyClosed": "Bu yolculuk zaten kapandı.",
+        "preview": {
+            "Departs": "Kalkış yeri",
+            "Departed": "ölmüş",
+            "Arrives": "Geldiğinde",
+            "Arrived": "geldi"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Ne teklif etmek istersin",
+        "PassengertripCanceled": "Seyahati Reddet",
+        "Subscribe": "Abone ol",
+        "Subscribed": "Abone",
+        "Unsubscribe": "aboneliğini",
+        "NeedRide": "Ride ihtiyacınız var",
+        "OfferRide": "Ride teklif et",
+        "RideFrom": "Yolculuk",
+        "RideTo": "Ride To",
+        "WhereToPick": "Seni nereden alacağım?",
+        "WhereToDrop": "Seni nereye bırakacağım?",
+        "Recurring": "yinelenen",
+        "locationSubscribeNotice": "Yeni yolculuklar gönderildiğinde size haber verilecektir.",
+        "locationUnsubscribeNotice": "Yeni yolculuklar yayınlandığında bilgilendirilmekten vazgeç."
+    },
+    "navigation": {
+        "loadingNavigation": "Navigasyon yükleniyor ...",
+        "routePanelError": "Güzergah paneli ayarlanamıyor",
+        "routeRecalculate": "Yeniden hesaplama rota",
+        "passengerPickedUp": "Yolcu aldı",
+        "nextRoute": "Bir sonraki rotayı hesaplamak",
+        "routeError": {
+            "INVALID_REQUEST": "GEÇERSİZ İSTEK",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX YOL NOKTASI AŞTI",
+            "NOT_FOUND": "BULUNAMADI",
+            "OVER_QUERY_LIMIT": "QUERY SINIRI ÜZERİNE",
+            "REQUEST_DENIED": "TALEP REDDEDİLDİ",
+            "UNKNOWN_ERROR": "BİLİNMEYEN HATA",
+            "ZERO_RESULTS": "SIFIR SONUÇLAR"
+        },
+        "reCenter": "YENİDEN MERKEZİ",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "Min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "dedim,",
+            "pickuplocationChange": "{{userName}} alma yeri değiştirildi",
+            "canceledTrip": "{{userName}} geziyi iptal etti"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Trip {{state}}",
+        "Travel\/trip\/user\/state": "Grup gezinizde {{call 'avatar.displayName'}} {{state}} &#39;dir.",
+        "Travel\/trip\/arriving": "Şoförün seni almaya geliyor.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} aldı.",
+        "Travel\/trip\/started": "Seyahatiniz başladı",
+        "Travel\/trip\/completed": "Yolculuğunuz tamamlandı.",
+        "Travel\/trip\/discontinued": "Sürücü yolculuğuna son verdi.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} taşındı",
+        "Travel\/trip\/added": "İlgilendiğiniz yöne yeni bir gezi eklendi."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "İnsanların yalnız veya birlikte yaşadığı bir yolculuğu temsil eder",
+            "displayType": "gezi"
+        }
+    }
+}

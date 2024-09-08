@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "כן",
+        "No": "לא",
+        "to": "ל",
+        "from": "מ",
+        "departTime": "לצאת",
+        "arriveTime": "להגיע",
+        "OfferRide": "הצעה לרכוב",
+        "whatToOffer": "מה אתה רוצה להציע?",
+        "tripTo": "טיול ל",
+        "tripFrom": "טיול מ",
+        "startDriving": "התחל לנהוג",
+        "pickUpName": "הרים {{name}}",
+        "pickedUp": "אספתי",
+        "pickMeUp": "תאסוף אותי",
+        "pickupLocation": "בחר מיקום",
+        "cancel": "בטל",
+        "center": "מרכז",
+        "shouldDepart": "צריך לעזוב",
+        "departs": "יוצאים",
+        "departed": "נסע",
+        "shouldArrive": "להגיע",
+        "arrives": "מגיע",
+        "arrived": "הגיע",
+        "minutes": "דקות",
+        "estimatedTime": "זמן משוער",
+        "leaveAt": "אני רוצה לעזוב",
+        "offerAtMostPeople": "אני יכול להציע נסיעה לכל היותר",
+        "people": "אנשים",
+        "maxDetour": "מקס עיקוף",
+        "share": "שתף",
+        "tripComplete": "השלם",
+        "driverDiscontinue": "הפסק",
+        "passengerRefuse": "בטל טיול",
+        "AreYouSure": "האם אתה בטוח?",
+        "CancellTripWarning": "הנוסעים שלך יקבלו הודעה על ביטול הנסיעה",
+        "TripAlreadyClosed": "הנסיעה כבר נסגרה.",
+        "preview": {
+            "Departs": "יוצאים",
+            "Departed": "נסע",
+            "Arrives": "מגיע",
+            "Arrived": "הגיע"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "מה אתה רוצה להציע?",
+        "PassengertripCanceled": "סירוב טיול",
+        "Subscribe": "הירשם",
+        "Subscribed": "מנוי",
+        "Unsubscribe": "בטל רישום",
+        "NeedRide": "צריך טרמפ",
+        "OfferRide": "הצעה לרכוב",
+        "RideFrom": "נסיעה מ",
+        "RideTo": "נסיעה אל",
+        "WhereToPick": "היכן לאסוף אותך?",
+        "WhereToDrop": "לאן להוריד אותך?",
+        "Recurring": "חוזרים",
+        "locationSubscribeNotice": "תקבל הודעה כאשר מתפרסמים טיולים חדשים.",
+        "locationUnsubscribeNotice": "הפסק לקבל הודעות כאשר מתפרסמות נסיעות חדשות."
+    },
+    "navigation": {
+        "loadingNavigation": "טוען ניווט ...",
+        "routePanelError": "לא ניתן להגדיר לוח מסלול",
+        "routeRecalculate": "חישוב מחדש של המסלול",
+        "passengerPickedUp": "נוסע הרים",
+        "nextRoute": "חישוב המסלול הבא",
+        "routeError": {
+            "INVALID_REQUEST": "בקשה שגויה",
+            "MAX_WAYPOINTS_EXCEEDED": "מקס WAYPOINTS חריגה",
+            "NOT_FOUND": "לא נמצא",
+            "OVER_QUERY_LIMIT": "מעל גבול Query",
+            "REQUEST_DENIED": "בקשה נדחתה",
+            "UNKNOWN_ERROR": "שגיאה לא ידועה",
+            "ZERO_RESULTS": "תוצאות אפס"
+        },
+        "reCenter": "Re-CENTER",
+        "kilometr": "ק&quot;מ",
+        "meter": "M",
+        "minutes": "דקות.",
+        "hours": "hr.",
+        "messages": {
+            "said": "אמר,",
+            "pickuplocationChange": "{{userName}} שינה את מיקום האיסוף",
+            "canceledTrip": "{{userName}} ביטל את הנסיעה"
+        },
+        "speechFarManeuver": "ב- {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "טיול {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} הוא {{state}} בנסיעה קבוצתית.",
+        "Travel\/trip\/arriving": "הנהג שלך מתקרב לאסוף אותך.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} נאסף.",
+        "Travel\/trip\/started": "הנסיעה שלך החלה",
+        "Travel\/trip\/completed": "הנסיעה שלך הושלמה.",
+        "Travel\/trip\/discontinued": "הנהג הפסיק את הנסיעה.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} הועבר",
+        "Travel\/trip\/added": "טיול חדש נוסף לכיוון שאתה מעוניין."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "מייצג טיול שאנשים עושים, לבד או יחד",
+            "displayType": "טיול"
+        }
+    }
+}

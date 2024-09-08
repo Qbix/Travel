@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "جی ہاں",
+        "No": "نہیں",
+        "to": "کرنے کے لئے",
+        "from": "سے",
+        "departTime": "روانہ",
+        "arriveTime": "آو",
+        "OfferRide": "سواری پیش کرتے ہیں",
+        "whatToOffer": "آپ کیا پیش کرنا چاہتے ہیں؟",
+        "tripTo": "کے سفر",
+        "tripFrom": "سے دورہ",
+        "startDriving": "ڈرائیونگ شروع کریں",
+        "pickUpName": "اٹھایا {{name}}",
+        "pickedUp": "میں اٹھایا گیا تھا",
+        "pickMeUp": "مجھے اٹھاو",
+        "pickupLocation": "اٹھاو مقام",
+        "cancel": "منسوخ کریں",
+        "center": "مرکز",
+        "shouldDepart": "جانا چاہئے",
+        "departs": "گزرتا ہے",
+        "departed": "روانگی",
+        "shouldArrive": "پہنچنا",
+        "arrives": "آتا ہے",
+        "arrived": "پہنچ گیا",
+        "minutes": "منٹ",
+        "estimatedTime": "متوقع وقت",
+        "leaveAt": "میں چھوڑنا چاہتا ہوں",
+        "offerAtMostPeople": "میں زیادہ سے زیادہ سواری پیش کر سکتا ہوں",
+        "people": "لوگ",
+        "maxDetour": "زیادہ سے زیادہ خرابی",
+        "share": "بانٹیں",
+        "tripComplete": "مکمل",
+        "driverDiscontinue": "معطل",
+        "passengerRefuse": "دورہ منسوخ کریں",
+        "AreYouSure": "کیا تمہیں یقین ہے؟",
+        "CancellTripWarning": "آپ کے مسافروں کو مطلع کیا جائے گا کہ آپ نے سفر منسوخ کر دیا ہے",
+        "TripAlreadyClosed": "یہ سفر پہلے سے ہی بند ہے.",
+        "preview": {
+            "Departs": "گزرتا ہے",
+            "Departed": "روانگی",
+            "Arrives": "آتا ہے",
+            "Arrived": "پہنچ گیا"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "آپ کیا پیش کرنا چاہتے ہیں؟",
+        "PassengertripCanceled": "دورہ سے انکار",
+        "Subscribe": "سبسکرائب",
+        "Subscribed": "سبسکرائب",
+        "Unsubscribe": "سبسکرائب کریں",
+        "NeedRide": "سواری کی ضرورت ہے",
+        "OfferRide": "سواری پیش کرتے ہیں",
+        "RideFrom": "سے سواری",
+        "RideTo": "سواری",
+        "WhereToPick": "آپ کو کہاں لے جانا ہے؟",
+        "WhereToDrop": "تم کہاں چھوڑ دو",
+        "Recurring": "بار بار",
+        "locationSubscribeNotice": "نئی سفریں شائع ہونے پر آپ کو مطلع کیا جائے گا.",
+        "locationUnsubscribeNotice": "نئی سفریں شائع ہونے پر مطلع کیا جا رہا ہے."
+    },
+    "navigation": {
+        "loadingNavigation": "نیویگیشن لوڈ کرنا ...",
+        "routePanelError": "راستہ پینل مقرر نہیں کرسکتا",
+        "routeRecalculate": "راستے کی دوبارہ ترتیب",
+        "passengerPickedUp": "مسافر اٹھایا",
+        "nextRoute": "اگلے راستے کی گنتی",
+        "routeError": {
+            "INVALID_REQUEST": "INVALID کا مطالعہ",
+            "MAX_WAYPOINTS_EXCEEDED": "زیادہ سے زیادہ طے شدہ اقدامات",
+            "NOT_FOUND": "نہیں ملا",
+            "OVER_QUERY_LIMIT": "صرف QUERY LIMIT",
+            "REQUEST_DENIED": "دریافت کی گئی",
+            "UNKNOWN_ERROR": "نامعلوم خامی",
+            "ZERO_RESULTS": "زیرو نتائج"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "کلومیٹر",
+        "meter": "م",
+        "minutes": "منٹ.",
+        "hours": "گھنٹہ",
+        "messages": {
+            "said": "کہا،",
+            "pickuplocationChange": "{{userName}} پنیپ مقام بدل گیا",
+            "canceledTrip": "{{userName}} سفر منسوخ کر دیا"
+        },
+        "speechFarManeuver": "{{distance}}، {{maneuver}} میں"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "سفر {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ہے {{state}} آپ کے گروپ کی سواری میں.",
+        "Travel\/trip\/arriving": "آپ کا ڈرائیور آپ کو لینے کے لۓ قریب ہے.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} اٹھایا گیا تھا.",
+        "Travel\/trip\/started": "آپ کا سفر شروع ہوگیا ہے",
+        "Travel\/trip\/completed": "آپ کا سفر مکمل ہو گیا ہے.",
+        "Travel\/trip\/discontinued": "ڈرائیور نے آپ کا سفر بند کر دیا ہے.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} منتقل ہوگیا ہے",
+        "Travel\/trip\/added": "آپ نے اپنی دلچسپی کی سمت میں نیا سفر شامل کیا."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "اکیلا یا ایک ساتھ مل کر ، ایک سفر کی نمائندگی کرتا ہے۔",
+            "displayType": "ٹرپ۔"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ndiyo",
+        "No": "Hapana",
+        "to": "kwa",
+        "from": "kutoka",
+        "departTime": "shika",
+        "arriveTime": "fika",
+        "OfferRide": "Toa Ride",
+        "whatToOffer": "Unataka kutoa nini?",
+        "tripTo": "Safari Kwa",
+        "tripFrom": "Safari Kutoka",
+        "startDriving": "Anza Kuendesha gari",
+        "pickUpName": "Ilichaguliwa {{name}}",
+        "pickedUp": "Mimi nilikuwa nimechukuliwa",
+        "pickMeUp": "Nichukue",
+        "pickupLocation": "Eneo la Pickup",
+        "cancel": "Futa",
+        "center": "Kituo",
+        "shouldDepart": "Lazima kuondoka",
+        "departs": "Inatoka",
+        "departed": "Imeondoka",
+        "shouldArrive": "kufika",
+        "arrives": "Inakuja",
+        "arrived": "Imewasili",
+        "minutes": "dakika",
+        "estimatedTime": "Muda uliopangwa",
+        "leaveAt": "Nataka kuondoka",
+        "offerAtMostPeople": "Naweza kutoa safari kwa zaidi",
+        "people": "Watu",
+        "maxDetour": "Upeo wa Max",
+        "share": "Shiriki",
+        "tripComplete": "Jaza",
+        "driverDiscontinue": "Ondoka",
+        "passengerRefuse": "Futa Safari",
+        "AreYouSure": "Una uhakika?",
+        "CancellTripWarning": "Wateja wako wataambiwa kuwa umefuta safari",
+        "TripAlreadyClosed": "Safari hii tayari imefungwa.",
+        "preview": {
+            "Departs": "Inatoka",
+            "Departed": "Imeondoka",
+            "Arrives": "Inakuja",
+            "Arrived": "Imewasili"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Unataka kutoa nini?",
+        "PassengertripCanceled": "Safari Safari",
+        "Subscribe": "Jisajili",
+        "Subscribed": "Imejiandikisha",
+        "Unsubscribe": "Jitambulisha",
+        "NeedRide": "Unahitaji Ride",
+        "OfferRide": "Toa Ride",
+        "RideFrom": "Panda Kutoka",
+        "RideTo": "Wapanda",
+        "WhereToPick": "Wapi kukuchukua?",
+        "WhereToDrop": "Wapi kukuacha?",
+        "Recurring": "Inaendelea",
+        "locationSubscribeNotice": "Utatambuliwa wakati safari mpya zitawekwa.",
+        "locationUnsubscribeNotice": "Acha kuarifiwa wakati safari mpya zimewekwa."
+    },
+    "navigation": {
+        "loadingNavigation": "Inapakia urambazaji ...",
+        "routePanelError": "Haiwezi kuweka jopo la njia",
+        "routeRecalculate": "Inasafisha njia",
+        "passengerPickedUp": "Abiria ilichukua",
+        "nextRoute": "Kuhesabu njia inayofuata",
+        "routeError": {
+            "INVALID_REQUEST": "INVALID KUTAKA",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS KATIBUWA",
+            "NOT_FOUND": "HAIPATIKANI",
+            "OVER_QUERY_LIMIT": "OVER QUERY",
+            "REQUEST_DENIED": "KUNA KUTAKWA",
+            "UNKNOWN_ERROR": "Haijulikani ERROR",
+            "ZERO_RESULTS": "ZERO RESULTS"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "sema,",
+            "pickuplocationChange": "{{userName}} imebadilishwa eneo la picha",
+            "canceledTrip": "{{userName}} kufutwa safari"
+        },
+        "speechFarManeuver": "katika {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Safari {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ni {{state}} katika safari yako ya kundi.",
+        "Travel\/trip\/arriving": "Dereva wako anakaribia kukuchukua.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} ilichukuliwa.",
+        "Travel\/trip\/started": "Safari yako imeanza",
+        "Travel\/trip\/completed": "Safari yako imekamilika.",
+        "Travel\/trip\/discontinued": "Dereva ameacha safari yako.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} imehamia",
+        "Travel\/trip\/added": "Safari mpya imeongezwa kwa mwelekeo unaovutiwa."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Inarudisha safari ambayo watu huchukua, peke yao au pamoja",
+            "displayType": "Safari"
+        }
+    }
+}

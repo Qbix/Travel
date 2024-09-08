@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ja",
+        "No": "Nein",
+        "to": "zu",
+        "from": "von",
+        "departTime": "abfliegen",
+        "arriveTime": "ankommen",
+        "OfferRide": "Biete eine Fahrt an",
+        "whatToOffer": "Was möchtest du anbieten?",
+        "tripTo": "Ausflug nach",
+        "tripFrom": "Reise von",
+        "startDriving": "Fahren Sie los",
+        "pickUpName": "Abgeholt {{name}}",
+        "pickedUp": "Ich wurde abgeholt",
+        "pickMeUp": "Hol mich ab",
+        "pickupLocation": "Treffpunkt",
+        "cancel": "Stornieren",
+        "center": "Center",
+        "shouldDepart": "Sollte abreisen",
+        "departs": "Fährt ab",
+        "departed": "abgereist",
+        "shouldArrive": "ankommen",
+        "arrives": "Kommt an",
+        "arrived": "Ist eingetroffen",
+        "minutes": "Protokoll",
+        "estimatedTime": "Geschätzte Zeit",
+        "leaveAt": "Ich möchte um",
+        "offerAtMostPeople": "Ich kann höchstens eine Fahrt anbieten",
+        "people": "Menschen",
+        "maxDetour": "Max Umweg",
+        "share": "Aktie",
+        "tripComplete": "Komplett",
+        "driverDiscontinue": "Abbruch",
+        "passengerRefuse": "Reise abbrechen",
+        "AreYouSure": "Bist du sicher?",
+        "CancellTripWarning": "Ihre Passagiere werden darüber informiert, dass Sie die Reise storniert haben",
+        "TripAlreadyClosed": "Diese Reise ist bereits geschlossen.",
+        "preview": {
+            "Departs": "Fährt ab",
+            "Departed": "abgereist",
+            "Arrives": "Kommt an",
+            "Arrived": "Ist eingetroffen"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Was möchtest du anbieten?",
+        "PassengertripCanceled": "Reise ablehnen",
+        "Subscribe": "Abonnieren",
+        "Subscribed": "Gezeichnet",
+        "Unsubscribe": "Abmelden",
+        "NeedRide": "Benötigen Sie eine Fahrt",
+        "OfferRide": "Biete eine Fahrt an",
+        "RideFrom": "Fahrt von",
+        "RideTo": "Fahren zu",
+        "WhereToPick": "Wo kann ich dich abholen?",
+        "WhereToDrop": "Wohin soll ich dich bringen?",
+        "Recurring": "Wiederkehrend",
+        "locationSubscribeNotice": "Sie werden benachrichtigt, wenn neue Reisen gebucht werden.",
+        "locationUnsubscribeNotice": "Stoppen Sie die Benachrichtigung, wenn neue Reisen gebucht werden."
+    },
+    "navigation": {
+        "loadingNavigation": "Navigation wird geladen ...",
+        "routePanelError": "Routenfeld kann nicht festgelegt werden",
+        "routeRecalculate": "Route neu berechnen",
+        "passengerPickedUp": "Passagier abgeholt",
+        "nextRoute": "Nächste Route berechnen",
+        "routeError": {
+            "INVALID_REQUEST": "UNGÜLTIGE ANFRAGE",
+            "MAX_WAYPOINTS_EXCEEDED": "Max Wegpunkte überschritten",
+            "NOT_FOUND": "NICHT GEFUNDEN",
+            "OVER_QUERY_LIMIT": "ÜBER QUERY LIMIT",
+            "REQUEST_DENIED": "ANFRAGE ABGELEHNT",
+            "UNKNOWN_ERROR": "UNBEKANNTER FEHLER",
+            "ZERO_RESULTS": "NULL ERGEBNISSE"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "Mindest.",
+        "hours": "Std.",
+        "messages": {
+            "said": "sagte,",
+            "pickuplocationChange": "{{userName}} Abholort geändert",
+            "canceledTrip": "{{userName}} hat die Reise abgebrochen"
+        },
+        "speechFarManeuver": "in {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Reise {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ist {{state}} in Ihrer Gruppenfahrt.",
+        "Travel\/trip\/arriving": "Ihr Fahrer nähert sich, um Sie abzuholen.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} wurde abgeholt.",
+        "Travel\/trip\/started": "Ihre Reise hat begonnen",
+        "Travel\/trip\/completed": "Ihre Reise wurde abgeschlossen.",
+        "Travel\/trip\/discontinued": "Der Fahrer hat Ihre Reise abgebrochen.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ist umgezogen",
+        "Travel\/trip\/added": "Neue Reise zu Ihrer gewünschten Richtung hinzugefügt."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Stellt eine Reise dar, die Menschen alleine oder zusammen unternehmen",
+            "displayType": "Ausflug"
+        }
+    }
+}

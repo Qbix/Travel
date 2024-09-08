@@ -1,0 +1,451 @@
+/*3D Imitation for map*/
+.Q_tool.Travel_navigation_tool{
+    overflow: hidden;
+    position: relative;
+}
+.Q_tool.Travel_navigation_tool[data-fullScreen=on]{
+    position: fixed;
+    z-index: 1000000000;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.Q_tool.Travel_navigation_tool .Q_tool.Travel_map_tool{
+    height: 400%;
+    width: 400%;
+    top: -130%;
+    left: -150%;
+}
+.Q_tool.Travel_navigation_tool[data-action=fullRoute] .Q_tool.Travel_map_tool{
+    top: -150%!important;
+}
+.Q_tool.Travel_navigation_tool[data-loading=true] .Q_tool.Travel_map_tool{
+    display: none;
+}
+
+.Q_tool.Travel_navigation_tool .Travel_navigation_loading[data-action=off]{
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_loading{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_loading_content{
+    position: absolute;
+    top: 38%;
+    height: 19%;
+    width: 100%;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_loading_throbber{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_loading_text{
+    font-size: 8vw;
+    color: #464646;
+    font-weight: bold;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10%;
+}
+
+/*Recenter button*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_re-center{
+    z-index: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_re-center_UI{
+    background-color: #fff;
+    border: 1px solid #1081e0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_re-center_text{
+    color: #1081e0;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_re-center_text img{
+    width:15px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+/*Menu*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px 45px 20px 75px;
+    color: white;
+    width: 100%;
+    height: 90px;
+    transition: height 0.5s ease;
+    background-color: #109d58;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_from{
+    display: block;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_from_div{
+    margin: 0px;
+    height: 30px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_to{
+    display: block;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_to_div{
+    margin: 0px;
+    height: 20px;
+    width: 85%;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_path{
+    display: none;
+    background-color: #109d58;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    padding: 10px 0px 40px 0px;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+}
+.Q_tool.Travel_navigation_tool[data-status=topMenuOpened] .Travel_navigation_menu_path{
+    display: block;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_path select {
+    width: 100%;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_path .adp-substep,
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_path .adp-summary,
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_path .adp-legal{
+    color: white!important;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_open{
+    position: absolute;
+    top: 64px;
+    height: 26px;
+    width: 100%;
+    left: 0vw;
+    background-image: url(../img/arrow_open.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_arrow{
+    background-image: url(../img/turns/straight.png);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 35px;
+    height: 33px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_menu_arrow_text{
+    top: 35px;
+    left: -5px;
+    position: relative;
+    white-space: nowrap;
+}
+.Q_tool.Travel_navigation_tool[data-anim=topMenuOpen] .Travel_navigation_menu{
+    display: block;
+    height: 100%;
+    z-index: 4;
+}
+.Q_tool.Travel_navigation_tool[data-status=topMenuOpened] .Travel_navigation_menu_open{
+    display: block;
+    background-position: center top;
+}
+.Q_tool.Travel_navigation_tool[data-status=topMenuClosed] .Travel_navigation_menu_open{
+    display: block;
+    background-position: center bottom;
+}
+
+/*Compass button*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_compass{
+    z-index: 0;
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    border-radius: 100%;
+    transition: box-shadow 1s;
+    box-shadow: 0px 0px 6px 0px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_compass[data-state=disabled]{
+    box-shadow: 0px 0px 2px 0px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_compass img{
+    width: 45px;
+    transition: transform 1s ease;
+    border-radius: 50px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_compass[data-state=disabled] img{
+    transition: none!important;
+    transform: none!important;
+}
+.Q_tool.Travel_navigation_tool[data-anim=search] .Travel_navigation_compass{
+    transition: top 0.5s ease;
+    top: 145px!important;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_compass[data-move=up]{
+    transition: top 0.5s ease;
+    top: 130px!important;
+}
+.Q_tool.Travel_navigation_tool[data-action=fullRoute] .Travel_navigation_compass{
+    animation: fullRoutePulse 2s infinite;
+}
+.Q_tool.Travel_navigation_tool[data-action=fullRoute] .Travel_navigation_compass img{
+    box-shadow: 0px 0px 2px 0px;
+}
+@keyframes fullRoutePulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(50,50,50, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(50,50,50, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(50,50,50, 0);
+    }
+}
+
+/*Search button*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_search{
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    z-index: 2;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search img{
+    width: 55px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.Q_tool.Travel_navigation_tool[data-anim=search] .Travel_navigation_search{
+    display: none;
+}
+
+/*Search menu*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp{
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    top: 90px;
+    width: 100%;
+    transition: height 0.5s ease;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp input{
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border:none;
+    box-shadow: none;
+    outline: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp img{
+    width: 35px;
+    position: absolute;
+    top: 5px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp_close{
+    left: 10px;
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp_speech{
+    right: 10px;
+    border-radius: 50px;
+    transition: opacity 0.5s ease;
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_search_inp_speech[data-status=notWorking]{
+    background-color: red;
+}
+.Q_tool.Travel_navigation_tool[data-anim=search] .Travel_navigation_search_inp{
+    height: 45px;
+}
+.Q_tool.Travel_navigation_tool[data-status=searchOpened] .Travel_navigation_search_inp{
+    padding: 5px 50px;
+}
+.Q_tool.Travel_navigation_tool[data-status=searchOpened] .Travel_navigation_search_inp input{
+    display: block;
+}
+.Q_tool.Travel_navigation_tool[data-status=searchOpened] .Travel_navigation_search_inp img{
+    display: inline-block;
+}
+
+/*Avatar*/
+.Q_tool.Travel_navigation_tool[data-centeredAvatars=false] .Q_tool.Travel_map_tool .Users_avatar_tool,
+.Q_tool.Travel_navigation_tool[data-centeredAvatars=false] .Q_tool.Travel_map_tool .Users_avatar_tool>img{
+    border-radius: 50px;
+    margin: 0px;
+}
+.Q_tool.Travel_navigation_tool[data-centeredAvatars=false] .Q_tool.Travel_map_tool .Users_avatar_tool{
+    background-color: #ea4335!important;
+    border: none!important;
+}
+.Q_tool.Travel_navigation_tool .Q_tool.Travel_map_tool .gm-style-pbt{
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Q_tool.Travel_map_tool .Users_avatar_tool[data-status=driver]{
+    transform-origin: 50% 150%;
+}
+.Q_tool.Travel_navigation_tool .Q_tool.Travel_map_tool .Users_avatar_tool[data-status=passenger]{
+    transform: translate(0px, -44px);
+}
+
+/*Full-screen button*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_fullScreen{
+    z-index: 0;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+    background-image: url(../../Q/img/grow.png);
+    background-position: center left;
+	background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_fullScreen[data-fullScreen=on]{
+    background-image: url(../../Q/img/shrink.png);
+    box-shadow: none;
+    background-position: center right;
+}
+*[fullscreentoggled=true] {
+    display: none
+}
+*[pageFullScreenToggled=true]{
+    position: fixed!important;
+    top: 0px!important;
+}
+
+/*Bottom menu*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu{
+    display: none;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu table{
+    width: 100%;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu table td{
+    border-bottom: 2px solid #e8e8e8;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu[data-fullScreen=true]{
+    display: block;
+    background-color: #f7f7f7;
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    transition: height 0.5s;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu[data-fullScreen=true][data-state=closed]{
+    height: 90px;
+    z-index: 3;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_toggler{
+    width: 55px;
+    background-color: #c6c6c6;
+    height: 6px;
+    border-radius: 50px;
+    margin: 5px auto;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_arrival,
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_remaining,
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_avatar,
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_fullScreen{
+    text-align: center;
+    font-size: 16px;
+    height: 80px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_avatar div {
+    width: 100%;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_avatar .Users_avatar_icon{
+    width: 35px;
+    height: 35px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_avatar .Users_avatar_name{
+    width: 100%;
+    margin-top: -9px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_arrival_time,
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_remaining_dist{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 13px;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_fullScreen .Travel_navigation_fullScreen[data-fullScreen=on]{
+    position: static;
+    width: 35px;
+    display: block;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu_fullScreen .Travel_navigation_fullScreen[data-fullScreen=on] div{
+    background-position: center right;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_bottom_menu .Users_avatar_tool[data-state]::after{
+    top: 15px;
+    right: 8px;
+}
+
+/*Cursor*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_user_cursor{
+    position: absolute;
+    top: -13px;
+    left: 6px;
+    transform-origin: 50% 160%;
+    width: 30px;
+    z-index: -1;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_user_cursor[data-status=passenger]{
+    transform: rotateZ(180deg);
+}
+
+/*Shadows*/
+.Q_tool.Travel_navigation_tool .Travel_navigation_passenger_shadow{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: rgb(20, 20, 20);
+    left: 20px;
+    top: 60px;
+    box-shadow: black 0px 0px 15px 8px;
+    border-radius: 100px;
+    z-index: -2;
+}
+.Q_tool.Travel_navigation_tool .Travel_navigation_driver_shadow{
+    box-shadow: #000000b8 0px 8px 10px -2px;
+    border-radius: 50px;
+}
+
+/*Global attributes*/

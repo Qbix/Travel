@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ja",
+        "No": "Geen",
+        "to": "om",
+        "from": "van",
+        "departTime": "vertrek",
+        "arriveTime": "kom",
+        "OfferRide": "Bied &#39;n rit",
+        "whatToOffer": "Wat wil jy aanbied?",
+        "tripTo": "Reis na",
+        "tripFrom": "Reis Van",
+        "startDriving": "Begin ry",
+        "pickUpName": "Opgetel {{name}}",
+        "pickedUp": "Ek is opgetel",
+        "pickMeUp": "Tel my op",
+        "pickupLocation": "Ophaalplek",
+        "cancel": "kanselleer",
+        "center": "Sentrum",
+        "shouldDepart": "Moet vertrek",
+        "departs": "vertrek",
+        "departed": "vertrek",
+        "shouldArrive": "om te arriveer",
+        "arrives": "arriveer",
+        "arrived": "aangekom",
+        "minutes": "minute",
+        "estimatedTime": "Geskatte tyd",
+        "leaveAt": "Ek wil by",
+        "offerAtMostPeople": "Ek kan hoogstens &#39;n rit aanbied",
+        "people": "mense",
+        "maxDetour": "Maksimale ompad",
+        "share": "Deel",
+        "tripComplete": "volledige",
+        "driverDiscontinue": "staak",
+        "passengerRefuse": "Kanselleer reis",
+        "AreYouSure": "Is jy seker?",
+        "CancellTripWarning": "U passasiers sal in kennis gestel word dat u die reis gekanselleer het",
+        "TripAlreadyClosed": "Hierdie reis is reeds gesluit.",
+        "preview": {
+            "Departs": "vertrek",
+            "Departed": "vertrek",
+            "Arrives": "arriveer",
+            "Arrived": "aangekom"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Wat wil jy aanbied?",
+        "PassengertripCanceled": "Vullis reis",
+        "Subscribe": "Betaal",
+        "Subscribed": "ingeskryf",
+        "Unsubscribe": "bedank",
+        "NeedRide": "Behoefte aan &#39;n rit",
+        "OfferRide": "Bied &#39;n rit",
+        "RideFrom": "Ry Van",
+        "RideTo": "Ry na",
+        "WhereToPick": "Waar kom jy op?",
+        "WhereToDrop": "Waar gaan jy af?",
+        "Recurring": "herhalende",
+        "locationSubscribeNotice": "U sal in kennis gestel word wanneer nuwe reise gepos word.",
+        "locationUnsubscribeNotice": "Hou op om in kennis gestel te word wanneer nuwe reise gepos word."
+    },
+    "navigation": {
+        "loadingNavigation": "Laai navigasie ...",
+        "routePanelError": "Kan roetepaneel nie stel nie",
+        "routeRecalculate": "Herberekening van roete",
+        "passengerPickedUp": "Passasier opgetel",
+        "nextRoute": "Bereken volgende roete",
+        "routeError": {
+            "INVALID_REQUEST": "ONGELDIGE VERSOEK",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS OORGEDRA",
+            "NOT_FOUND": "NIE GEVIND NIE",
+            "OVER_QUERY_LIMIT": "OOR QUERY LIMIT",
+            "REQUEST_DENIED": "VERSOEK ONTVANG",
+            "UNKNOWN_ERROR": "ONBEKENDE FOUT",
+            "ZERO_RESULTS": "Nul resultate"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "gesê:",
+            "pickuplocationChange": "{{userName}} verander pick-up plek",
+            "canceledTrip": "{{userName}} het die reis gekanselleer"
+        },
+        "speechFarManeuver": "in {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Reis {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} is {{state}} in jou groeprit.",
+        "Travel\/trip\/arriving": "Jou bestuurder kom nader om jou op te tel.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} is opgetel.",
+        "Travel\/trip\/started": "Jou reis het begin",
+        "Travel\/trip\/completed": "Jou reis is voltooi.",
+        "Travel\/trip\/discontinued": "Die bestuurder het jou reis gestaak.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} het verskuif",
+        "Travel\/trip\/added": "Nuwe reis bygevoeg na die rigting wat jy belangstel."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Verteenwoordig &#39;n reis wat mense alleen of saam onderneem",
+            "displayType": "Trip"
+        }
+    }
+}

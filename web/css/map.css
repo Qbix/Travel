@@ -1,0 +1,31 @@
+.Q_tool.Travel_map_tool .Q_tool.Users_avatar_tool {
+	font-size: 10px;
+	padding: 1px;
+	background: #fff;
+	border: 1px solid silver;
+}
+.Q_tool.Travel_map_tool .Q_tool.Users_avatar_tool .Users_avatar_name {
+	display: block;
+}
+.Q_tool.Travel_map_tool .Q_tool.Users_avatar_tool.Travel_map_car {
+	background: transparent;
+	border: none;
+}
+.Q_tool.Travel_map_tool .Q_tool.Users_avatar_tool .Users_avatar_name {
+	display: none;
+}
+.Q_tool.Travel_map_tool button[name=zoomCenter] {
+	position: absolute;
+	bottom: 30px;
+	padding: 5px 10px;
+	left: 10px;
+	background: #fff;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.Q_tool.Travel_map_tool button[name=zoomCenter].flashText {
+	background-color: red;
+	color: white;
+}

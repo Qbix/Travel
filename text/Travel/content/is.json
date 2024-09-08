@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Já",
+        "No": "Nr",
+        "to": "til",
+        "from": "frá",
+        "departTime": "fara",
+        "arriveTime": "koma",
+        "OfferRide": "Bjóða upp á ríða",
+        "whatToOffer": "Hvað viltu bjóða?",
+        "tripTo": "Ferð til",
+        "tripFrom": "Ferð frá",
+        "startDriving": "Byrja akstur",
+        "pickUpName": "Hellt upp {{name}}",
+        "pickedUp": "Ég var valin upp",
+        "pickMeUp": "Sækja mig",
+        "pickupLocation": "Pickup Location",
+        "cancel": "Hætta við",
+        "center": "Miðstöð",
+        "shouldDepart": "Ætti að fara",
+        "departs": "Brottfarir",
+        "departed": "Farið frá",
+        "shouldArrive": "að koma",
+        "arrives": "Kemur",
+        "arrived": "Kominn",
+        "minutes": "mínútur",
+        "estimatedTime": "Áætlaður tími",
+        "leaveAt": "Ég vil fara á",
+        "offerAtMostPeople": "Ég get boðið upp á ferð",
+        "people": "Fólk",
+        "maxDetour": "Max umferð",
+        "share": "Deila",
+        "tripComplete": "Heill",
+        "driverDiscontinue": "Haltu áfram",
+        "passengerRefuse": "Hætta við ferðalagi",
+        "AreYouSure": "Ertu viss?",
+        "CancellTripWarning": "Farþegar þínir verða tilkynntir um að þú hættir ferðinni",
+        "TripAlreadyClosed": "Þessi ferð var þegar lokuð.",
+        "preview": {
+            "Departs": "Brottfarir",
+            "Departed": "Farið frá",
+            "Arrives": "Kemur",
+            "Arrived": "Kominn"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Hvað viltu bjóða?",
+        "PassengertripCanceled": "Neita ferð",
+        "Subscribe": "Gerast áskrifandi",
+        "Subscribed": "Áskrifandi",
+        "Unsubscribe": "Afskráðu þig",
+        "NeedRide": "Þarftu að hjóla",
+        "OfferRide": "Bjóða upp á ríða",
+        "RideFrom": "Ríða frá",
+        "RideTo": "Ride To",
+        "WhereToPick": "Hvar á að taka þig upp?",
+        "WhereToDrop": "Hvar á að sleppa þér?",
+        "Recurring": "Endurtekin",
+        "locationSubscribeNotice": "Þú verður tilkynnt þegar nýjar ferðir eru sendar.",
+        "locationUnsubscribeNotice": "Hættu að vera tilkynnt þegar nýjar ferðir eru sendar."
+    },
+    "navigation": {
+        "loadingNavigation": "Hleður flakk ...",
+        "routePanelError": "Ekki er hægt að stilla leiðarborð",
+        "routeRecalculate": "Endurreikningsleið",
+        "passengerPickedUp": "Farþegi tók upp",
+        "nextRoute": "Reikna næstu leið",
+        "routeError": {
+            "INVALID_REQUEST": "ÓGILD BEIÐNI",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "EKKI FUNDIÐ",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "Beðið neitað",
+            "UNKNOWN_ERROR": "ÓÞEKKT VILLA",
+            "ZERO_RESULTS": "NÚNA niðurstöður"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "mín.",
+        "hours": "hr.",
+        "messages": {
+            "said": "sagði,",
+            "pickuplocationChange": "{{userName}} breytt pallbíll",
+            "canceledTrip": "{{userName}} hætt við ferðina"
+        },
+        "speechFarManeuver": "í {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Ferðin {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} er {{state}} í hópferðinni þinni.",
+        "Travel\/trip\/arriving": "Ökumaðurinn þinn nálgast að taka þig upp.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} var valinn.",
+        "Travel\/trip\/started": "Ferðin hefur byrjað",
+        "Travel\/trip\/completed": "Ferðin hefur verið lokið.",
+        "Travel\/trip\/discontinued": "Ökumaðurinn hefur hætt ferð þinni.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} hefur flutt",
+        "Travel\/trip\/added": "Ný ferð bætt við stefnu sem þú hefur áhuga á."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Táknar ferð sem fólk fer í, eitt og sér eða saman",
+            "displayType": "Ferð"
+        }
+    }
+}

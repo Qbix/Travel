@@ -1,0 +1,39 @@
+.Travel_trip_preview_tool {
+	position: relative;
+	cursor: pointer;
+	margin: 0 13px;
+	height: 130px;
+}
+.Travel_trip_preview_tool .Travel_trip_preview_title {
+	overflow: hidden;
+	padding: 5px 5px 10px 5px;
+	border-radius: 5px;
+	background-image: url(../img/bg/stripes.png);
+	color: white;
+	font-size: 12px;
+	margin-top: 30px;
+}
+.Travel_trip_preview_tool .Travel_trip_preview_status {
+	float: right;
+}
+.Travel_trip_preview_tool .Travel_trip_preview_titleContent {
+	float: left;
+	width: 50%;
+}
+.Travel_trip_preview_tool .Travel_trip_preview_title span {
+	display: block;
+}
+
+.Travel_trip_preview_tool .Travel_trip_preview_title .Travel_trip_preview_time {
+	float: right;
+	text-align: right;
+}
+.Travel_trip_preview_tool .Streams_participants_tool {
+	position: relative;
+	top: -10px;
+}
+.Travel_trip_preview_tool .Streams_participants_tool .Users_avatar_tool img {
+	width: 33px;
+	height: 33px;
+}
+

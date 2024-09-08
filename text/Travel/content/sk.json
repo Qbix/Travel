@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Áno",
+        "No": "žiadny",
+        "to": "na",
+        "from": "z",
+        "departTime": "odísť",
+        "arriveTime": "prísť",
+        "OfferRide": "Ponúkame jazdu",
+        "whatToOffer": "Čo chceš ponúknuť?",
+        "tripTo": "Výlet do",
+        "tripFrom": "Výlet z",
+        "startDriving": "Spustite jazdu",
+        "pickUpName": "Vyzdvihnuté {{name}}",
+        "pickedUp": "Bol som vyzdvihnutý",
+        "pickMeUp": "Vyzdvihni ma",
+        "pickupLocation": "Pickup Poloha",
+        "cancel": "Zrušiť",
+        "center": "centrum",
+        "shouldDepart": "Mali by odísť",
+        "departs": "odchádza",
+        "departed": "zosnulý",
+        "shouldArrive": "prísť",
+        "arrives": "prichádza",
+        "arrived": "prišiel",
+        "minutes": "minúty",
+        "estimatedTime": "Predpokladaný čas",
+        "leaveAt": "Chcem odísť",
+        "offerAtMostPeople": "Môžem ponúknuť jazdu najviac",
+        "people": "ľudia",
+        "maxDetour": "Max objazd",
+        "share": "zdieľam",
+        "tripComplete": "kompletné",
+        "driverDiscontinue": "prerušiť",
+        "passengerRefuse": "Zrušiť cestu",
+        "AreYouSure": "Si si istý?",
+        "CancellTripWarning": "Vaši cestujúci budú upozornení, že ste zrušili cestu",
+        "TripAlreadyClosed": "Táto cesta už bola uzavretá.",
+        "preview": {
+            "Departs": "odchádza",
+            "Departed": "zosnulý",
+            "Arrives": "prichádza",
+            "Arrived": "prišiel"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Čo chceš ponúknuť?",
+        "PassengertripCanceled": "Odmietnutie cesty",
+        "Subscribe": "predplatiť",
+        "Subscribed": "upísaný",
+        "Unsubscribe": "odhlásiť",
+        "NeedRide": "Potrebujete jazdu",
+        "OfferRide": "Ponúkame jazdu",
+        "RideFrom": "Jazda od",
+        "RideTo": "Ride To",
+        "WhereToPick": "Kde vás vyzdvihnúť?",
+        "WhereToDrop": "Kde vás odhodiť?",
+        "Recurring": "opakujúce sa",
+        "locationSubscribeNotice": "Budete upozornení na nové cesty.",
+        "locationUnsubscribeNotice": "Keď budú odoslané nové cesty, prestaňte byť upozorňovaný."
+    },
+    "navigation": {
+        "loadingNavigation": "Načítava sa navigácia ...",
+        "routePanelError": "Nemožno nastaviť panel trasy",
+        "routeRecalculate": "Prepočítanie trasy",
+        "passengerPickedUp": "Cestujúci zdvihol",
+        "nextRoute": "Výpočet nasledujúcej trasy",
+        "routeError": {
+            "INVALID_REQUEST": "NEPLATNÁ POŽIADAVKA",
+            "MAX_WAYPOINTS_EXCEEDED": "MAXIMÁLNE PREVÁDZKY VYJADRENÉ",
+            "NOT_FOUND": "NENÁJDENÉ",
+            "OVER_QUERY_LIMIT": "OBMEDZUJÚCI LIMIT",
+            "REQUEST_DENIED": "Žiadosť bola zamietnutá",
+            "UNKNOWN_ERROR": "NEZNÁMA CHYBA",
+            "ZERO_RESULTS": "NULOVÉ VÝSLEDKY"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "povedal:",
+            "pickuplocationChange": "{{userName}} zmenilo miesto vyzdvihnutia",
+            "canceledTrip": "{{userName}} cestu zrušili"
+        },
+        "speechFarManeuver": "v {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Výlet {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} je {{state}} vo vašej skupinovej jazde.",
+        "Travel\/trip\/arriving": "Váš vodič sa blíži, aby vás vyzdvihol.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} bolo vyzdvihnuté.",
+        "Travel\/trip\/started": "Vaša cesta začala",
+        "Travel\/trip\/completed": "Vaša cesta bola dokončená.",
+        "Travel\/trip\/discontinued": "Vodič vašu jazdu prerušil.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} sa presťahovalo",
+        "Travel\/trip\/added": "Nová cesta bola pridaná k smeru, ktorý vás zaujíma."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Predstavuje cestu, ktorú ľudia podniknú samostatne alebo spolu",
+            "displayType": "výlet"
+        }
+    }
+}

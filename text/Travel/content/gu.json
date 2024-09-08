@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "હા",
+        "No": "ના",
+        "to": "થી",
+        "from": "માંથી",
+        "departTime": "પ્રસ્થાન",
+        "arriveTime": "આવવું",
+        "OfferRide": "રાઇડ ઓફર કરો",
+        "whatToOffer": "તમે શું આપવા માંગો છો?",
+        "tripTo": "મુસાફરી",
+        "tripFrom": "થી ટ્રીપ",
+        "startDriving": "ડ્રાઇવિંગ શરૂ કરો",
+        "pickUpName": "અપ લગાવેલ {{name}}",
+        "pickedUp": "હું ઉપર ચૂંટાયો હતો",
+        "pickMeUp": "મને લેતા જજો",
+        "pickupLocation": "દુકાન સ્થાન",
+        "cancel": "રદ કરો",
+        "center": "કેન્દ્ર",
+        "shouldDepart": "જવું જોઈએ",
+        "departs": "પ્રસ્થાન કરે છે",
+        "departed": "પ્રસ્થાન",
+        "shouldArrive": "પહોચવું",
+        "arrives": "આવે છે",
+        "arrived": "પહોંચ્યા",
+        "minutes": "મિનિટ",
+        "estimatedTime": "અંદાજિત સમય",
+        "leaveAt": "હું અહીં જવા માંગુ છુ",
+        "offerAtMostPeople": "હું સૌથી વધુ મુસાફરી કરી શકું છું",
+        "people": "લોકો",
+        "maxDetour": "મેક્સ ચક્કર",
+        "share": "શેર કરો",
+        "tripComplete": "પૂર્ણ",
+        "driverDiscontinue": "બંધ કરો",
+        "passengerRefuse": "ટ્રીપ રદ કરો",
+        "AreYouSure": "શું તમે ખાતરી કરો છો?",
+        "CancellTripWarning": "તમારા મુસાફરોને સૂચિત કરવામાં આવશે કે તમે સફર રદ કરી છે",
+        "TripAlreadyClosed": "આ સફર પહેલેથી જ બંધ છે.",
+        "preview": {
+            "Departs": "પ્રસ્થાન કરે છે",
+            "Departed": "પ્રસ્થાન",
+            "Arrives": "આવે છે",
+            "Arrived": "પહોંચ્યા"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "તમે શું આપવા માંગો છો?",
+        "PassengertripCanceled": "ટ્રિપનો ઇનકાર કરો",
+        "Subscribe": "ઉમેદવારી નોંધાવો",
+        "Subscribed": "સબ્સ્ક્રાઇબ કર્યું",
+        "Unsubscribe": "અનસબ્સ્ક્રાઇબ કરો",
+        "NeedRide": "રાઇડ જરૂર છે",
+        "OfferRide": "રાઇડ ઓફર કરો",
+        "RideFrom": "માંથી રાઇડ",
+        "RideTo": "રાઇડ ટુ",
+        "WhereToPick": "તમને ક્યાં લઇ જવું?",
+        "WhereToDrop": "તમે ક્યાં મૂકશો?",
+        "Recurring": "રિકરિંગ",
+        "locationSubscribeNotice": "નવી સફર પોસ્ટ થાય ત્યારે તમને સૂચિત કરવામાં આવશે.",
+        "locationUnsubscribeNotice": "નવા પ્રવાસો પોસ્ટ કરવામાં આવે ત્યારે સૂચિત થવાનું બંધ કરો."
+    },
+    "navigation": {
+        "loadingNavigation": "સંશોધક લોડ કરી રહ્યું છે ...",
+        "routePanelError": "રૂટ પેનલ સેટ કરી શકતા નથી",
+        "routeRecalculate": "રિકૉલ્યુલેટીંગ રુટ",
+        "passengerPickedUp": "પેસેન્જર લેવામાં",
+        "nextRoute": "આગલા માર્ગની ગણતરી",
+        "routeError": {
+            "INVALID_REQUEST": "અમાન્ય વિનંતી",
+            "MAX_WAYPOINTS_EXCEEDED": "મહત્તમ વેપ્યુઇન્સ સમાપ્ત",
+            "NOT_FOUND": "ન મળ્યો",
+            "OVER_QUERY_LIMIT": "QUERY મર્યાદાઓ પર",
+            "REQUEST_DENIED": "વિનંતી વિનંતી",
+            "UNKNOWN_ERROR": "અજાણ્યું ભૂલ",
+            "ZERO_RESULTS": "ઝીરો પરિણામો"
+        },
+        "reCenter": "આર-સેન્ટર",
+        "kilometr": "કિ.મી.",
+        "meter": "મી",
+        "minutes": "મિનિટ",
+        "hours": "કલાક",
+        "messages": {
+            "said": "કહ્યું,",
+            "pickuplocationChange": "{{userName}} એ પિકઅપ સ્થાન બદલ્યું",
+            "canceledTrip": "{{userName}} એ ટ્રીપ રદ કર્યો"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}} માં"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "સહેલ {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} તમારા જૂથની મુસાફરીમાં {{state}} છે.",
+        "Travel\/trip\/arriving": "તમારું ડ્રાઇવર તમને પસંદ કરવા માટે આવે છે.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} લેવામાં આવી હતી.",
+        "Travel\/trip\/started": "તમારી સફર શરૂ થઈ છે",
+        "Travel\/trip\/completed": "તમારી સફર પૂર્ણ થઈ ગઈ છે.",
+        "Travel\/trip\/discontinued": "ડ્રાઈવરએ તમારી સફર બંધ કરી દીધી છે.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ખસેડ્યું છે",
+        "Travel\/trip\/added": "તમારી રુચિની દિશામાં નવી સહેલ ઉમેરવામાં આવી."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "લોકો એકલા અથવા સાથે મળીને પ્રવાસની રજૂઆત કરે છે",
+            "displayType": "સફર"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Bəli",
+        "No": "Yox",
+        "to": "üçün",
+        "from": "dan",
+        "departTime": "yola çıxın",
+        "arriveTime": "gəlmək",
+        "OfferRide": "Ride təklif",
+        "whatToOffer": "Nə təklif etmək istəyirsən?",
+        "tripTo": "Səfər etmək",
+        "tripFrom": "Səfərdən",
+        "startDriving": "Sürücülük etməyə başlayın",
+        "pickUpName": "{{name}} seçildi",
+        "pickedUp": "Məni seçdi",
+        "pickMeUp": "Məni götür",
+        "pickupLocation": "Pikap Yer",
+        "cancel": "Ləğv et",
+        "center": "Mərkəz",
+        "shouldDepart": "Yola getməli",
+        "departs": "Çıxar",
+        "departed": "Çıxdı",
+        "shouldArrive": "çatmaq",
+        "arrives": "Geldi",
+        "arrived": "Geldi",
+        "minutes": "dəqiqə",
+        "estimatedTime": "Tahmini vaxt",
+        "leaveAt": "Buraxmaq istəyirəm",
+        "offerAtMostPeople": "Ən çox gəzinti təklif edə bilərəm",
+        "people": "Xalq",
+        "maxDetour": "Maks",
+        "share": "Paylaş",
+        "tripComplete": "Tamamlayın",
+        "driverDiscontinue": "Durun",
+        "passengerRefuse": "Gəzinti ləğv edin",
+        "AreYouSure": "Sən əminsən?",
+        "CancellTripWarning": "Yolçulara səfərin ləğv olunduğu bildirilir",
+        "TripAlreadyClosed": "Bu səfər artıq bağlanıb.",
+        "preview": {
+            "Departs": "Çıxar",
+            "Departed": "Çıxdı",
+            "Arrives": "Geldi",
+            "Arrived": "Geldi"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Nə təklif etmək istəyirsən?",
+        "PassengertripCanceled": "Səyahətdən imtina edin",
+        "Subscribe": "Abunə olun",
+        "Subscribed": "Abunə olundu",
+        "Unsubscribe": "Abunəliyik",
+        "NeedRide": "Ride lazımdır",
+        "OfferRide": "Ride təklif",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Harada olursunuz?",
+        "WhereToDrop": "Sizi tərk etmək üçün harada?",
+        "Recurring": "Təkrarlanan",
+        "locationSubscribeNotice": "Yeni səfərlər yerləşdirildikdə sizə məlumat veriləcəkdir.",
+        "locationUnsubscribeNotice": "Yeni səfərlər yerləşdirildikdə xəbərdar olun."
+    },
+    "navigation": {
+        "loadingNavigation": "Naviqasiya yüklənir ...",
+        "routePanelError": "Marşrut panelini təyin edə bilmir",
+        "routeRecalculate": "Marşrutun yenidən hesablanması",
+        "passengerPickedUp": "Sərnişin götürdü",
+        "nextRoute": "Növbəti marşrut hesablanması",
+        "routeError": {
+            "INVALID_REQUEST": "İDDİA TƏLƏBİ",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX YOLLARI İSTƏYİR",
+            "NOT_FOUND": "TAPILMADI",
+            "OVER_QUERY_LIMIT": "QUERY SINIRDIR",
+            "REQUEST_DENIED": "TƏLƏB DENİED",
+            "UNKNOWN_ERROR": "BİLMİŞ HATA",
+            "ZERO_RESULTS": "ZERO NƏTİCƏLƏRİ"
+        },
+        "reCenter": "RE-MƏRKƏZİ",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "dedi:",
+            "pickuplocationChange": "{{userName}} alma yeri dəyişdi",
+            "canceledTrip": "{{userName}} səfəri ləğv etdi"
+        },
+        "speechFarManeuver": "{{distance}} -da, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Səfər {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} qrup yolunuzda {{state}} &#39;dir.",
+        "Travel\/trip\/arriving": "Sürücünüz sizi seçmək üçün yaxınlaşır.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} götürülmüşdür.",
+        "Travel\/trip\/started": "Sizin səfəriniz başlamışdır",
+        "Travel\/trip\/completed": "Səfəriniz tamamlandı.",
+        "Travel\/trip\/discontinued": "Sürücü gəzintinizi dayandırdı.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} taşındı",
+        "Travel\/trip\/added": "Yeni səfər, maraqlandıran istiqamətə əlavə olundu."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "İnsanların təkbaşına və ya birlikdə apardıqları səfəri əks etdirir",
+            "displayType": "Gəzinti"
+        }
+    }
+}

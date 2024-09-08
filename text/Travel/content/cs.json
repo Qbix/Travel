@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ano",
+        "No": "Ne",
+        "to": "na",
+        "from": "z",
+        "departTime": "odejít",
+        "arriveTime": "přijet",
+        "OfferRide": "Nabídněte jízdu",
+        "whatToOffer": "Co chcete nabídnout?",
+        "tripTo": "Výlet do",
+        "tripFrom": "Výlet z",
+        "startDriving": "Začněte řídit",
+        "pickUpName": "Vyzvednutí {{name}}",
+        "pickedUp": "Byl jsem vyzvednut",
+        "pickMeUp": "Vyzvedni mě",
+        "pickupLocation": "Místo vyzvednutí",
+        "cancel": "zrušení",
+        "center": "Centrum",
+        "shouldDepart": "Měl by odejít",
+        "departs": "Odchází",
+        "departed": "Odletěl",
+        "shouldArrive": "přijet",
+        "arrives": "Přijde",
+        "arrived": "Přijeli",
+        "minutes": "minut",
+        "estimatedTime": "Předpokládaný čas",
+        "leaveAt": "Chci odejít",
+        "offerAtMostPeople": "Můžu nabídnout jízdu maximálně",
+        "people": "Lidé",
+        "maxDetour": "Max objížďka",
+        "share": "Podíl",
+        "tripComplete": "Kompletní",
+        "driverDiscontinue": "Přestat",
+        "passengerRefuse": "Zrušení cesty",
+        "AreYouSure": "Jsi si jistá?",
+        "CancellTripWarning": "Vaši cestující budou upozorněni, že jste zrušili cestu",
+        "TripAlreadyClosed": "Tato cesta již byla uzavřena.",
+        "preview": {
+            "Departs": "Odchází",
+            "Departed": "Odletěl",
+            "Arrives": "Přijde",
+            "Arrived": "Přijeli"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Co chcete nabídnout?",
+        "PassengertripCanceled": "Odmítnout výlet",
+        "Subscribe": "předplatit",
+        "Subscribed": "Přihlásit se",
+        "Unsubscribe": "Odhlásit odběr",
+        "NeedRide": "Potřebuji svézt",
+        "OfferRide": "Nabídněte jízdu",
+        "RideFrom": "Jízda od",
+        "RideTo": "Ride To",
+        "WhereToPick": "Kde vás vyzvednout?",
+        "WhereToDrop": "Kde tě odložit?",
+        "Recurring": "Opakující se",
+        "locationSubscribeNotice": "Budete upozorněni na nové cesty.",
+        "locationUnsubscribeNotice": "Přestat být upozorňován na nové cesty."
+    },
+    "navigation": {
+        "loadingNavigation": "Načítání navigace ...",
+        "routePanelError": "Nelze nastavit panel trasy",
+        "routeRecalculate": "Přepočítání trasy",
+        "passengerPickedUp": "Zvedl se cestující",
+        "nextRoute": "Výpočet další trasy",
+        "routeError": {
+            "INVALID_REQUEST": "NEPLATNÁ ŽÁDOST",
+            "MAX_WAYPOINTS_EXCEEDED": "MAXIMÁLNÍ POSTUPY PŘEKROČENÉ",
+            "NOT_FOUND": "NENALEZENO",
+            "OVER_QUERY_LIMIT": "PŘED QUERY LIMIT",
+            "REQUEST_DENIED": "ŽÁDOST ZAMÍTNUTA",
+            "UNKNOWN_ERROR": "NEZNÁMÁ CHYBA",
+            "ZERO_RESULTS": "NULOVÉ VÝSLEDKY"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hod.",
+        "messages": {
+            "said": "řekl,",
+            "pickuplocationChange": "{{userName}} změnilo místo vyzvednutí",
+            "canceledTrip": "{{userName}} tuto cestu zrušil"
+        },
+        "speechFarManeuver": "v {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Výlet {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} je {{state}} ve vaší skupinové jízdě.",
+        "Travel\/trip\/arriving": "Váš řidič se blíží k vyzvednutí.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} bylo vyzvednuto.",
+        "Travel\/trip\/started": "Vaše cesta začala",
+        "Travel\/trip\/completed": "Vaše cesta byla dokončena.",
+        "Travel\/trip\/discontinued": "Řidič přestal cestovat.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} bylo přesunuto",
+        "Travel\/trip\/added": "Nový směr přidán do směru, který vás zajímá."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Představuje cestu, kterou lidé podniknou, samostatně nebo společně",
+            "displayType": "Výlet"
+        }
+    }
+}

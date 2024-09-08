@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "نعم فعلا",
+        "No": "لا",
+        "to": "إلى",
+        "from": "من عند",
+        "departTime": "تغادر",
+        "arriveTime": "يصل",
+        "OfferRide": "تقديم ركوب",
+        "whatToOffer": "ماذا تريد أن تقدم؟",
+        "tripTo": "رحلة إلى",
+        "tripFrom": "رحلة من",
+        "startDriving": "ابدأ القيادة",
+        "pickUpName": "تم الالتقاط {{name}}",
+        "pickedUp": "لقد التقطت",
+        "pickMeUp": "يقلني",
+        "pickupLocation": "اختر موقعا",
+        "cancel": "إلغاء",
+        "center": "مركز",
+        "shouldDepart": "يجب أن يغادر",
+        "departs": "يغادر",
+        "departed": "الراحل",
+        "shouldArrive": "لكي تصل",
+        "arrives": "يصل",
+        "arrived": "وصل",
+        "minutes": "الدقائق",
+        "estimatedTime": "الوقت المقدر",
+        "leaveAt": "أريد أن أغادر في",
+        "offerAtMostPeople": "يمكنني تقديم رحلة على الأكثر",
+        "people": "اشخاص",
+        "maxDetour": "ماكس التفاف",
+        "share": "شارك",
+        "tripComplete": "اكتمال",
+        "driverDiscontinue": "توقف",
+        "passengerRefuse": "الغاء الرحلة",
+        "AreYouSure": "هل أنت واثق؟",
+        "CancellTripWarning": "سيتم إبلاغ الركاب بأنك ألغيت الرحلة",
+        "TripAlreadyClosed": "هذه الرحلة مغلقة بالفعل.",
+        "preview": {
+            "Departs": "يغادر",
+            "Departed": "الراحل",
+            "Arrives": "يصل",
+            "Arrived": "وصل"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "ماذا تريد أن تقدم؟",
+        "PassengertripCanceled": "رفض الرحلة",
+        "Subscribe": "الاشتراك",
+        "Subscribed": "المشترك",
+        "Unsubscribe": "إلغاء الاشتراك",
+        "NeedRide": "أحتاج إلى توصيلة",
+        "OfferRide": "تقديم ركوب",
+        "RideFrom": "ركوب من",
+        "RideTo": "ركوب إلى",
+        "WhereToPick": "أين يقلك؟",
+        "WhereToDrop": "أين تسقط أنت؟",
+        "Recurring": "تناوبي",
+        "locationSubscribeNotice": "سيتم إخطارك عند نشر رحلات جديدة.",
+        "locationUnsubscribeNotice": "توقف عن الإخطار عند نشر رحلات جديدة."
+    },
+    "navigation": {
+        "loadingNavigation": "جارٍ تحميل التنقل ...",
+        "routePanelError": "لا يمكن ضبط لوحة الطريق",
+        "routeRecalculate": "إعادة حساب الطريق",
+        "passengerPickedUp": "التقط الركاب",
+        "nextRoute": "حساب المسار التالي",
+        "routeError": {
+            "INVALID_REQUEST": "طلب غير صالح",
+            "MAX_WAYPOINTS_EXCEEDED": "تجاوزت نقاط الحد الأقصى",
+            "NOT_FOUND": "غير معثور عليه",
+            "OVER_QUERY_LIMIT": "فوق حد الاستعلام",
+            "REQUEST_DENIED": "طلب مرفوض",
+            "UNKNOWN_ERROR": "خطأ غير معروف",
+            "ZERO_RESULTS": "نتائج الصفر"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "كم",
+        "meter": "م",
+        "minutes": "دقيقة.",
+        "hours": "ساعة.",
+        "messages": {
+            "said": "قال،",
+            "pickuplocationChange": "{{userName}} تم تغيير موقع الالتقاط",
+            "canceledTrip": "{{userName}} ألغى الرحلة"
+        },
+        "speechFarManeuver": "في {{distance}} ، {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "الرحلة {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} هو {{state}} في مجموعتك.",
+        "Travel\/trip\/arriving": "يقترب سائقك من اصطحابك.",
+        "Travel\/trip\/pickedup": "تم التقاط {{call 'avatar.displayName'}}.",
+        "Travel\/trip\/started": "بدأت رحلتك",
+        "Travel\/trip\/completed": "لقد اكتملت رحلتك.",
+        "Travel\/trip\/discontinued": "توقف السائق عن رحلتك.",
+        "Travel\/coordinates\/updated": "تم نقل {{call 'avatar.displayName'}}",
+        "Travel\/trip\/added": "تمت إضافة رحلة جديدة إلى الاتجاه الذي تهتم به."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "يمثل رحلة يقوم بها الناس ، بمفردهم أو معًا",
+            "displayType": "رحلة قصيرة"
+        }
+    }
+}

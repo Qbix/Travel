@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "بله",
+        "No": "نه",
+        "to": "به",
+        "from": "از جانب",
+        "departTime": "ترک",
+        "arriveTime": "رسیدن",
+        "OfferRide": "یک سواری ارائه کنید",
+        "whatToOffer": "چه چیزی را می خواهید پیشنهاد دهید؟",
+        "tripTo": "سفر به",
+        "tripFrom": "سفر از",
+        "startDriving": "شروع رانندگی",
+        "pickUpName": "برداشتن {{name}}",
+        "pickedUp": "من بلند شدم",
+        "pickMeUp": "من را انتخاب کن",
+        "pickupLocation": "مکان وکیل",
+        "cancel": "لغو",
+        "center": "مرکز",
+        "shouldDepart": "باید ترک",
+        "departs": "ترک می کند",
+        "departed": "ترک کرد",
+        "shouldArrive": "رسیدن",
+        "arrives": "وارد می شود",
+        "arrived": "ورودی",
+        "minutes": "دقایق",
+        "estimatedTime": "زمان تخمین زده شده",
+        "leaveAt": "من می خواهم بروم",
+        "offerAtMostPeople": "من می توانم بیشتر سوار کنم",
+        "people": "مردم",
+        "maxDetour": "حداکثر انقطاع",
+        "share": "اشتراک گذاری",
+        "tripComplete": "تکمیل",
+        "driverDiscontinue": "متوقف کردن",
+        "passengerRefuse": "لغو سفر",
+        "AreYouSure": "شما مطمئن هستید؟",
+        "CancellTripWarning": "مسافران شما مطلع خواهند شد که شما سفر را لغو کرده اید",
+        "TripAlreadyClosed": "این سفر قبلا بسته شده است.",
+        "preview": {
+            "Departs": "ترک می کند",
+            "Departed": "ترک کرد",
+            "Arrives": "وارد می شود",
+            "Arrived": "ورودی"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "چه چیزی را می خواهید پیشنهاد دهید؟",
+        "PassengertripCanceled": "رد سفر",
+        "Subscribe": "اشتراک در",
+        "Subscribed": "مشترک شده",
+        "Unsubscribe": "لغو اشتراک",
+        "NeedRide": "نیاز به سوار شدن",
+        "OfferRide": "یک سواری ارائه کنید",
+        "RideFrom": "سوار از",
+        "RideTo": "سوار بر",
+        "WhereToPick": "کجا شما را انتخاب کنید؟",
+        "WhereToDrop": "از کجا رها کنی؟",
+        "Recurring": "معکوس",
+        "locationSubscribeNotice": "هنگامی که سفرهای جدید ارسال می شود، شما مطلع خواهید شد.",
+        "locationUnsubscribeNotice": "متوقف شدن اطلاع زمانی که سفرهای جدید ارسال شده است."
+    },
+    "navigation": {
+        "loadingNavigation": "بارگیری ناوبری ...",
+        "routePanelError": "پانل مسیر را نمی توان تنظیم کرد",
+        "routeRecalculate": "مسیریابی مجدد",
+        "passengerPickedUp": "مسافر برداشت",
+        "nextRoute": "محاسبه مسیر بعدی",
+        "routeError": {
+            "INVALID_REQUEST": "درخواست نامعتبر",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "پیدا نشد",
+            "OVER_QUERY_LIMIT": "بیش از QUERY LIMIT",
+            "REQUEST_DENIED": "درخواست دونده",
+            "UNKNOWN_ERROR": "خطای ناشناخته",
+            "ZERO_RESULTS": "نتایج نزولی"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "کیلومتر",
+        "meter": "متر",
+        "minutes": "دقیقه",
+        "hours": "ساعت",
+        "messages": {
+            "said": "گفت:",
+            "pickuplocationChange": "{{userName}} تغییر مکان وانت را تغییر داد",
+            "canceledTrip": "{{userName}} سفر را لغو کرد"
+        },
+        "speechFarManeuver": "در {{distance}}، {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "سفر {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} {{state}} در گروه شما سوار است.",
+        "Travel\/trip\/arriving": "راننده شما در حال نزدیک شدن به انتخاب شما است.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} برداشت شد",
+        "Travel\/trip\/started": "سفر شما آغاز شده است",
+        "Travel\/trip\/completed": "سفر شما تکمیل شده است",
+        "Travel\/trip\/discontinued": "راننده سفر شما را قطع کرده است.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} نقل مکان کرد",
+        "Travel\/trip\/added": "سفر جدید به مسیر مورد نظر شما اضافه شد."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "مسافرتی را که مردم انجام می دهند ، به تنهایی یا با هم نشان می دهد",
+            "displayType": "سفر"
+        }
+    }
+}

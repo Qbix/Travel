@@ -1,0 +1,2 @@
+ALTER TABLE {{prefix}}trip
+CHANGE route directions TEXT NULL;

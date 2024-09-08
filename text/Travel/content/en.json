@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Yes",
+        "No": "No",
+        "to": "to",
+        "from": "from",
+        "departTime": "depart",
+        "arriveTime": "arrive",
+        "OfferRide": "Offer a Ride",
+        "whatToOffer": "What do you want to offer?",
+        "tripTo": "Trip To",
+        "tripFrom": "Trip From",
+        "startDriving": "Start Driving",
+        "pickUpName": "Picked Up {{name}}",
+        "pickedUp": "I Was Picked Up",
+        "pickMeUp": "Pick Me Up",
+        "pickupLocation": "Pickup Location",
+        "cancel": "Cancel",
+        "center": "Center",
+        "shouldDepart": "Should depart",
+        "departs": "Departs",
+        "departed": "Departed",
+        "shouldArrive": "to arrive",
+        "arrives": "Arrives",
+        "arrived": "Arrived",
+        "minutes": "minutes",
+        "estimatedTime": "Estimated time",
+        "leaveAt": "I want to leave at",
+        "offerAtMostPeople": "I can offer a ride to at most",
+        "people": "People",
+        "maxDetour": "Max detour",
+        "share": "Share",
+        "tripComplete": "Complete",
+        "driverDiscontinue": "Discontinue",
+        "passengerRefuse": "Cancel Trip",
+        "AreYouSure": "Are you sure?",
+        "CancellTripWarning": "Your passengers will be notified that you canceled the trip",
+        "TripAlreadyClosed": "This trip already closed.",
+        "preview": {
+            "Departs": "Departs",
+            "Departed": "Departed",
+            "Arrives": "Arrives",
+            "Arrived": "Arrived"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "What do you want to offer?",
+        "PassengertripCanceled": "Refuse Trip",
+        "Subscribe": "Subscribe",
+        "Subscribed": "Subscribed",
+        "Unsubscribe": "Unsubscribe",
+        "NeedRide": "Need a Ride",
+        "OfferRide": "Offer a Ride",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Where to pick you up?",
+        "WhereToDrop": "Where to drop you off?",
+        "Recurring": "Recurring",
+        "locationSubscribeNotice": "You will be notified when new trips are posted.",
+        "locationUnsubscribeNotice": "Stop being notified when new trips are posted."
+    },
+    "navigation": {
+        "loadingNavigation": "Loading navigation...",
+        "routePanelError": "Can not set route panel",
+        "routeRecalculate": "Recalculating route",
+        "passengerPickedUp": "Passenger picked up",
+        "nextRoute": "Calculating next route",
+        "routeError": {
+            "INVALID_REQUEST": "INVALID REQUEST",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "NOT FOUND",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "REQUEST DENIED",
+            "UNKNOWN_ERROR": "UNKNOWN ERROR",
+            "ZERO_RESULTS": "ZERO RESULTS"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "said,",
+            "pickuplocationChange": "{{userName}} changed pickup location",
+            "canceledTrip": "{{userName}} canceled the trip"
+        },
+        "speechFarManeuver": "in {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Trip {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} is {{state}} in your group ride.",
+        "Travel\/trip\/arriving": "Your driver is approaching to pick you up.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} was picked up.",
+        "Travel\/trip\/started": "Your trip has started",
+        "Travel\/trip\/completed": "Your trip has been completed.",
+        "Travel\/trip\/discontinued": "The driver has discontinued your trip.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} has moved",
+        "Travel\/trip\/added": "New trip added to direction you interested."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Represents a trip that people take, alone or together",
+            "displayType": "Trip"
+        }
+    }
+}

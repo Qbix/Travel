@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ja",
+        "No": "Nej",
+        "to": "till",
+        "from": "från",
+        "departTime": "avvika",
+        "arriveTime": "anlända",
+        "OfferRide": "Erbjuder en åktur",
+        "whatToOffer": "Vad vill du erbjuda?",
+        "tripTo": "Resa till",
+        "tripFrom": "Resa från",
+        "startDriving": "Starta körning",
+        "pickUpName": "Plockade upp {{name}}",
+        "pickedUp": "Jag blev plockad upp",
+        "pickMeUp": "Hämta mig",
+        "pickupLocation": "Pickup Plats",
+        "cancel": "Annullera",
+        "center": "Centrum",
+        "shouldDepart": "Ska avvika",
+        "departs": "avgår",
+        "departed": "Departed",
+        "shouldArrive": "att anlända",
+        "arrives": "Ankommer",
+        "arrived": "anlände",
+        "minutes": "minuter",
+        "estimatedTime": "Beräknad tid",
+        "leaveAt": "Jag vill lämna på",
+        "offerAtMostPeople": "Jag kan erbjuda maximal åktur",
+        "people": "människor",
+        "maxDetour": "Max omväg",
+        "share": "Dela med sig",
+        "tripComplete": "Komplett",
+        "driverDiscontinue": "Avbryta",
+        "passengerRefuse": "Avbryt resa",
+        "AreYouSure": "Är du säker?",
+        "CancellTripWarning": "Dina passagerare kommer att meddelas att du avbokade resan",
+        "TripAlreadyClosed": "Den här resan har redan stängts.",
+        "preview": {
+            "Departs": "avgår",
+            "Departed": "Departed",
+            "Arrives": "Ankommer",
+            "Arrived": "anlände"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Vad vill du erbjuda?",
+        "PassengertripCanceled": "Refuse Trip",
+        "Subscribe": "Prenumerera",
+        "Subscribed": "prenumererar",
+        "Unsubscribe": "Säga upp",
+        "NeedRide": "Behöver skjuts",
+        "OfferRide": "Erbjuder en åktur",
+        "RideFrom": "Åk från",
+        "RideTo": "Åka till",
+        "WhereToPick": "Var ska du hämta dig?",
+        "WhereToDrop": "Var ska du släppa av dig?",
+        "Recurring": "Återkommande kommande~~POS=HEADCOMP",
+        "locationSubscribeNotice": "Du kommer bli underrättad när nya resor skickas.",
+        "locationUnsubscribeNotice": "Sluta bli underrättad när nya resor skickas."
+    },
+    "navigation": {
+        "loadingNavigation": "Laddar navigering ...",
+        "routePanelError": "Kan inte ställa in rutpanelen",
+        "routeRecalculate": "Räkningsväg",
+        "passengerPickedUp": "Passagerare plockade upp",
+        "nextRoute": "Beräkning av nästa rutt",
+        "routeError": {
+            "INVALID_REQUEST": "OGILTIG FÖRFRÅGAN",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS EXCEEDED",
+            "NOT_FOUND": "HITTADES INTE",
+            "OVER_QUERY_LIMIT": "ÖVER QUERY LIMIT",
+            "REQUEST_DENIED": "FÖRFRÅGAN NEKAD",
+            "UNKNOWN_ERROR": "OKÄNT FEL",
+            "ZERO_RESULTS": "NOLL RESULTAT"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "h.",
+        "messages": {
+            "said": "sa,",
+            "pickuplocationChange": "{{userName}} ändrad pickup-plats",
+            "canceledTrip": "{{userName}} avbröt resan"
+        },
+        "speechFarManeuver": "i {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Resa {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} är {{state}} i din gruppresa.",
+        "Travel\/trip\/arriving": "Din chaufför närmar dig för att hämta dig.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} togs upp.",
+        "Travel\/trip\/started": "Din resa har börjat",
+        "Travel\/trip\/completed": "Din resa har slutförts.",
+        "Travel\/trip\/discontinued": "Föraren har avbrutit din resa.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} har flyttats",
+        "Travel\/trip\/added": "Ny resa läggs till riktning du intresserad."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Representerar en resa som människor tar ensam eller tillsammans",
+            "displayType": "Resa"
+        }
+    }
+}

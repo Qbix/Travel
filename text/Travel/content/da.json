@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Ja",
+        "No": "Ingen",
+        "to": "til",
+        "from": "fra",
+        "departTime": "afgår",
+        "arriveTime": "ankomme",
+        "OfferRide": "Tilbyd en tur",
+        "whatToOffer": "Hvad vil du tilbyde?",
+        "tripTo": "Tur til",
+        "tripFrom": "Tur fra",
+        "startDriving": "Start kørsel",
+        "pickUpName": "Plukket op {{name}}",
+        "pickedUp": "Jeg blev plukket op",
+        "pickMeUp": "Hent mig",
+        "pickupLocation": "Opsamlingssted",
+        "cancel": "Afbestille",
+        "center": "Centrum",
+        "shouldDepart": "Skal afgå",
+        "departs": "Afgang",
+        "departed": "Afgået",
+        "shouldArrive": "at ankomme",
+        "arrives": "Ankommer",
+        "arrived": "Ankom",
+        "minutes": "minutter",
+        "estimatedTime": "Forventet tid",
+        "leaveAt": "Jeg vil forlade på",
+        "offerAtMostPeople": "Jeg kan højst tilbyde en tur",
+        "people": "Mennesker",
+        "maxDetour": "Maks omvej",
+        "share": "Del",
+        "tripComplete": "Komplet",
+        "driverDiscontinue": "Afbryde",
+        "passengerRefuse": "Annuller tur",
+        "AreYouSure": "Er du sikker?",
+        "CancellTripWarning": "Dine passagerer vil blive underrettet om at annullere rejsen",
+        "TripAlreadyClosed": "Denne tur er allerede lukket.",
+        "preview": {
+            "Departs": "Afgang",
+            "Departed": "Afgået",
+            "Arrives": "Ankommer",
+            "Arrived": "Ankom"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Hvad vil du tilbyde?",
+        "PassengertripCanceled": "Refuse Trip",
+        "Subscribe": "Tilmeld",
+        "Subscribed": "Abonneret",
+        "Unsubscribe": "Opsige abonnement",
+        "NeedRide": "Har brug for et lift",
+        "OfferRide": "Tilbyd en tur",
+        "RideFrom": "Ride fra",
+        "RideTo": "Ride til",
+        "WhereToPick": "Hvor skal du hente dig?",
+        "WhereToDrop": "Hvor skal du slippe af?",
+        "Recurring": "Tilbagevendende",
+        "locationSubscribeNotice": "Du vil blive underrettet, når nye ture bliver sendt.",
+        "locationUnsubscribeNotice": "Stop med at blive underrettet, når nye ture bliver sendt."
+    },
+    "navigation": {
+        "loadingNavigation": "Indlæser navigation ...",
+        "routePanelError": "Kan ikke indstille rutepanel",
+        "routeRecalculate": "Beregning af rute",
+        "passengerPickedUp": "Passager hentet",
+        "nextRoute": "Beregning af næste rute",
+        "routeError": {
+            "INVALID_REQUEST": "UGYLDIG FORESPØRGSEL",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS Overskredet",
+            "NOT_FOUND": "IKKE FUNDET",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "ANSØG DENIED",
+            "UNKNOWN_ERROR": "UKENDT FEJL",
+            "ZERO_RESULTS": "NUL RESULTATER"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "time.",
+        "messages": {
+            "said": "sagde,",
+            "pickuplocationChange": "{{userName}} ændret afhentningssted",
+            "canceledTrip": "{{userName}} aflyste rejsen"
+        },
+        "speechFarManeuver": "i {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Tur {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} er {{state}} i din gruppetur.",
+        "Travel\/trip\/arriving": "Din chauffør nærmer dig for at hente dig.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} blev hentet op.",
+        "Travel\/trip\/started": "Din tur er startet",
+        "Travel\/trip\/completed": "Din rejse er gennemført.",
+        "Travel\/trip\/discontinued": "Føreren har afbrudt din rejse.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} er flyttet",
+        "Travel\/trip\/added": "Ny tur tilføjet til retning du interesseret."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Repræsenterer en tur, som folk tager alene eller sammen",
+            "displayType": "Rejse"
+        }
+    }
+}

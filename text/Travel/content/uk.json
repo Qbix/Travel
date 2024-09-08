@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Так",
+        "No": "Ні",
+        "to": "до",
+        "from": "від",
+        "departTime": "відправитися",
+        "arriveTime": "прибувають",
+        "OfferRide": "Пропонуємо поїздку",
+        "whatToOffer": "Що ви хочете запропонувати?",
+        "tripTo": "Подорож до",
+        "tripFrom": "Trip From",
+        "startDriving": "Початок водіння",
+        "pickUpName": "Вибрано {{name}}",
+        "pickedUp": "Мене забрали",
+        "pickMeUp": "Забери мене",
+        "pickupLocation": "Розташування Pickup",
+        "cancel": "Скасувати",
+        "center": "Центр",
+        "shouldDepart": "Повинні відходити",
+        "departs": "Відправляється",
+        "departed": "Відійшли",
+        "shouldArrive": "прибувати",
+        "arrives": "Прибуває",
+        "arrived": "Прибули",
+        "minutes": "хвилин",
+        "estimatedTime": "Розрахунковий час",
+        "leaveAt": "Я хочу піти",
+        "offerAtMostPeople": "Я можу запропонувати їзду до максимуму",
+        "people": "Люди",
+        "maxDetour": "Максимальний об&#39;їзд",
+        "share": "Частка",
+        "tripComplete": "Повне",
+        "driverDiscontinue": "Припинити",
+        "passengerRefuse": "Скасувати поїздку",
+        "AreYouSure": "Ти впевнений?",
+        "CancellTripWarning": "Ваші пасажири будуть повідомлені, що ви скасували поїздку",
+        "TripAlreadyClosed": "Ця поїздка вже закрита.",
+        "preview": {
+            "Departs": "Відправляється",
+            "Departed": "Відійшли",
+            "Arrives": "Прибуває",
+            "Arrived": "Прибули"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Що ви хочете запропонувати?",
+        "PassengertripCanceled": "Відмова від поїздки",
+        "Subscribe": "Підписатися",
+        "Subscribed": "Передплачено",
+        "Unsubscribe": "Скасувати підписку",
+        "NeedRide": "Потрібна їзда",
+        "OfferRide": "Пропонуємо поїздку",
+        "RideFrom": "Ride From",
+        "RideTo": "Ride To",
+        "WhereToPick": "Де взяти вас?",
+        "WhereToDrop": "Звідки ви відмовитися?",
+        "Recurring": "Повторення",
+        "locationSubscribeNotice": "Ви отримаєте сповіщення про публікацію нових поїздок.",
+        "locationUnsubscribeNotice": "Припинити отримувати повідомлення про нові відправлення."
+    },
+    "navigation": {
+        "loadingNavigation": "Завантаження навігації ...",
+        "routePanelError": "Неможливо встановити панель маршруту",
+        "routeRecalculate": "Перерахунок маршруту",
+        "passengerPickedUp": "Пасажир підібрав",
+        "nextRoute": "Розрахунок наступного маршруту",
+        "routeError": {
+            "INVALID_REQUEST": "НЕВІРНИЙ ЗАПИТ",
+            "MAX_WAYPOINTS_EXCEEDED": "МАКС WAYPOINTS перевершується",
+            "NOT_FOUND": "НЕ ЗНАЙДЕНО",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "Запит відмовлено",
+            "UNKNOWN_ERROR": "НЕВІДОМА ПОМИЛКА",
+            "ZERO_RESULTS": "РЕЗУЛЬТАТИ НУЛІ"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "км",
+        "meter": "m",
+        "minutes": "хв.",
+        "hours": "ч.",
+        "messages": {
+            "said": "сказав:",
+            "pickuplocationChange": "{{userName}} змінив розташування пікапу",
+            "canceledTrip": "{{userName}} скасував поїздку"
+        },
+        "speechFarManeuver": "у {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Подорож {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} - це {{state}} у вашій групі.",
+        "Travel\/trip\/arriving": "Ваш водій підходить до вас.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} було піднято.",
+        "Travel\/trip\/started": "Ваша поїздка почалася",
+        "Travel\/trip\/completed": "Вашу поїздку завершено.",
+        "Travel\/trip\/discontinued": "Водій припинив свою поїздку.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} перемістився",
+        "Travel\/trip\/added": "Нова поїздка додана до напряму, який вас цікавить."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Представляє поїздку, яку люди здійснюють окремо або разом",
+            "displayType": "Подорож"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "да",
+        "No": "Не",
+        "to": "до",
+        "from": "од",
+        "departTime": "отпутовати",
+        "arriveTime": "стићи",
+        "OfferRide": "Оффер а Риде",
+        "whatToOffer": "Шта желите да понудите?",
+        "tripTo": "Путовање у",
+        "tripFrom": "Трип Фром",
+        "startDriving": "Старт Дривинг",
+        "pickUpName": "Изабрано {{name}}",
+        "pickedUp": "Био сам покупљен",
+        "pickMeUp": "Покупи ме",
+        "pickupLocation": "Покупи локације",
+        "cancel": "Поништити, отказати",
+        "center": "Центар",
+        "shouldDepart": "Треба отићи",
+        "departs": "Одлази",
+        "departed": "Одлазио",
+        "shouldArrive": "стићи",
+        "arrives": "Долази",
+        "arrived": "Стигао",
+        "minutes": "минута",
+        "estimatedTime": "Процењено време",
+        "leaveAt": "Желим да одем",
+        "offerAtMostPeople": "Могу понудити вожњу до највише",
+        "people": "Људи",
+        "maxDetour": "Мак обилазак",
+        "share": "Објави",
+        "tripComplete": "комплетан",
+        "driverDiscontinue": "Дисцонтинуе",
+        "passengerRefuse": "Цанцел Трип",
+        "AreYouSure": "Да ли сте сигурни?",
+        "CancellTripWarning": "Ваши путници ће бити обавијештени да сте отказали путовање",
+        "TripAlreadyClosed": "Овај пут је већ затворен.",
+        "preview": {
+            "Departs": "Одлази",
+            "Departed": "Одлазио",
+            "Arrives": "Долази",
+            "Arrived": "Стигао"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Шта желите да понудите?",
+        "PassengertripCanceled": "Рефусе Трип",
+        "Subscribe": "претплатити се",
+        "Subscribed": "Претплаћено",
+        "Unsubscribe": "Унсубсцрибе",
+        "NeedRide": "Треба ми превоз",
+        "OfferRide": "Оффер а Риде",
+        "RideFrom": "Риде Фром",
+        "RideTo": "Риде То",
+        "WhereToPick": "Где да вас покупим?",
+        "WhereToDrop": "Где да те оставим?",
+        "Recurring": "Понављајуће",
+        "locationSubscribeNotice": "Бићете обавијештени о новим путовањима.",
+        "locationUnsubscribeNotice": "Престани да будеш обавештен о новим путовањима."
+    },
+    "navigation": {
+        "loadingNavigation": "Учитавање навигације ...",
+        "routePanelError": "Није могуће поставити панел руте",
+        "routeRecalculate": "Поновно израчунавање руте",
+        "passengerPickedUp": "Пассенгер пицкед уп",
+        "nextRoute": "Израчунавање наредне руте",
+        "routeError": {
+            "INVALID_REQUEST": "НЕВАЖЕЋИ УПИТ",
+            "MAX_WAYPOINTS_EXCEEDED": "МАКС ВАИПОИНТС ЕКСЦЕЕДЕД",
+            "NOT_FOUND": "НИЈЕ ПРОНАЂЕН",
+            "OVER_QUERY_LIMIT": "ОВЕР ЛИМИТ",
+            "REQUEST_DENIED": "ЗАХТЕВ ОДБИЈЕН",
+            "UNKNOWN_ERROR": "НЕПОЗНАТА ГРЕШКА",
+            "ZERO_RESULTS": "ЗЕРО РЕСУЛТС"
+        },
+        "reCenter": "РЕ-ЦЕНТЕР",
+        "kilometr": "км",
+        "meter": "м",
+        "minutes": "мин.",
+        "hours": "хр.",
+        "messages": {
+            "said": "рекао,",
+            "pickuplocationChange": "{{userName}} је променио локацију за преузимање",
+            "canceledTrip": "{{userName}} је отказао пут"
+        },
+        "speechFarManeuver": "у {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Трип {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} је {{state}} у твојој групној вожњи.",
+        "Travel\/trip\/arriving": "Ваш возач се приближава да вас покупи.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} је покупљен.",
+        "Travel\/trip\/started": "Ваше путовање је почело",
+        "Travel\/trip\/completed": "Ваше путовање је завршено.",
+        "Travel\/trip\/discontinued": "Возач је прекинуо пут.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} се померио",
+        "Travel\/trip\/added": "Ново путовање је додато у правцу који сте заинтересовани."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Представља путовање које људи воде, сами или заједно",
+            "displayType": "Путовање"
+        }
+    }
+}

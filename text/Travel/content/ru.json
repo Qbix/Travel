@@ -1,0 +1,107 @@
+{
+    "navigation": {
+        "loadingNavigation": "Загрузка навигации...",
+        "routeRecalculate": "Маршрут перестроен",
+        "routeError": {
+            "INVALID_REQUEST": "НЕВЕРНЫЙ ЗАПРОС",
+            "MAX_WAYPOINTS_EXCEEDED": "МАКСИМАЛЬНЫЕ ПУТЕВЫЕ ТОЧКИ ПРЕВЫШЕНЫ",
+            "NOT_FOUND": "НЕ НАЙДЕНО",
+            "OVER_QUERY_LIMIT": "ОГРАНИЧЕНИЕ ЗАПРОСА",
+            "REQUEST_DENIED": "ЗАПРОС ОТКЛОНЕН",
+            "UNKNOWN_ERROR": "НЕИЗВЕСТНАЯ ОШИБКА",
+            "ZERO_RESULTS": "НУЛЕВОЙ РЕЗУЛЬТАТ"
+        },
+        "reCenter": "ЦЕНТР",
+        "kilometr": "км",
+        "meter": "м",
+        "minutes": "мин.",
+        "hours": "ч.",
+        "messages": {
+            "said": "сказал,",
+            "pickuplocationChange": "{{userName}} изменил локацию",
+            "canceledTrip": "{{userName}} отменил поездку"
+        },
+        "farManeuver": "через {{distance}}, {{maneuver}}",
+        "routePanelError": "Не могу установить панель маршрута",
+        "passengerPickedUp": "Пассажир подобрал",
+        "nextRoute": "Расчет следующего маршрута",
+        "speechFarManeuver": "в {{distance}}, {{maneuver}}"
+    },
+    "trip": {
+        "Yes": "да",
+        "No": "нет",
+        "to": "в",
+        "from": "от",
+        "departTime": "отходить",
+        "arriveTime": "прибыть",
+        "OfferRide": "Предложить поездку",
+        "whatToOffer": "Что вы хотите предложить?",
+        "tripTo": "Поездка в",
+        "tripFrom": "Поездка из",
+        "startDriving": "Начать движение",
+        "pickUpName": "Поднятый {{name}}",
+        "pickedUp": "Меня подняли",
+        "pickMeUp": "Подними меня",
+        "pickupLocation": "Выбрать место",
+        "cancel": "отменить",
+        "center": "Центр",
+        "shouldDepart": "Должен уйти",
+        "departs": "Вылетает",
+        "departed": "Отступники",
+        "shouldArrive": "прибывать",
+        "arrives": "прибыл",
+        "arrived": "Прибыли",
+        "minutes": "минут",
+        "estimatedTime": "Расчетное время",
+        "leaveAt": "Я хочу уйти в",
+        "offerAtMostPeople": "Я могу предложить поездку максимум",
+        "people": "люди",
+        "maxDetour": "Макс объезд",
+        "share": "Поделиться",
+        "tripComplete": "полный",
+        "driverDiscontinue": "прекращать",
+        "passengerRefuse": "Отменить поездку",
+        "AreYouSure": "Уверены ли вы?",
+        "CancellTripWarning": "Ваши пассажиры будут уведомлены, что вы отменили поездку",
+        "TripAlreadyClosed": "Эта поездка уже закрыта.",
+        "preview": {
+            "Departs": "Вылетает",
+            "Departed": "Отступники",
+            "Arrives": "прибыл",
+            "Arrived": "Прибыли"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Что вы хотите предложить?",
+        "PassengertripCanceled": "Отказаться от поездки",
+        "Subscribe": "Подписывайся",
+        "Subscribed": "подписной",
+        "Unsubscribe": "Отказаться от подписки",
+        "NeedRide": "Нужна поездка",
+        "OfferRide": "Предложить поездку",
+        "RideFrom": "Поездка от",
+        "RideTo": "Поездка к",
+        "WhereToPick": "Где тебя забрать?",
+        "WhereToDrop": "Куда вас высадить?",
+        "Recurring": "Периодическая",
+        "locationSubscribeNotice": "Вы будете уведомлены, когда новые поездки будут опубликованы.",
+        "locationUnsubscribeNotice": "Прекратите получать уведомления, когда новые поездки опубликованы."
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Поездка {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} - это {{state}} в групповой поездке.",
+        "Travel\/trip\/arriving": "Ваш водитель приближается, чтобы забрать вас.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} был поднят.",
+        "Travel\/trip\/started": "Ваша поездка началась",
+        "Travel\/trip\/completed": "Ваша поездка была завершена.",
+        "Travel\/trip\/discontinued": "Водитель прекратил вашу поездку.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} переехал",
+        "Travel\/trip\/added": "Новая поездка добавлена в интересующее вас направление."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Представляет поездку, которую люди совершают в одиночку или вместе",
+            "displayType": "Поездка"
+        }
+    }
+}

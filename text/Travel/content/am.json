@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "አዎ",
+        "No": "አይ",
+        "to": "ወደ",
+        "from": "ከ",
+        "departTime": "መነሳት",
+        "arriveTime": "መድረስ",
+        "OfferRide": "ግልቢያ አቅርብ",
+        "whatToOffer": "ምን ማቅረብ ይፈልጋሉ?",
+        "tripTo": "ጉዞ ወደ",
+        "tripFrom": "ጉዞ ከ",
+        "startDriving": "መንዳት ጀምር",
+        "pickUpName": "{{name}} አነሳ",
+        "pickedUp": "ተወሰድኩኝ።",
+        "pickMeUp": "ውሰደኝ",
+        "pickupLocation": "የመውሰጃ ቦታ",
+        "cancel": "ሰርዝ",
+        "center": "መሃል",
+        "shouldDepart": "መሄድ አለበት።",
+        "departs": "ይነሳል",
+        "departed": "ተጓዘ",
+        "shouldArrive": "ለመድረስ",
+        "arrives": "ይደርሳል",
+        "arrived": "ደርሷል",
+        "minutes": "ደቂቃዎች",
+        "estimatedTime": "የተገመተው ጊዜ",
+        "leaveAt": "በ ላይ መተው እፈልጋለሁ",
+        "offerAtMostPeople": "ቢበዛ ግልቢያ ማቅረብ እችላለሁ",
+        "people": "ሰዎች",
+        "maxDetour": "ከፍተኛው ተዘዋዋሪ",
+        "share": "አጋራ",
+        "tripComplete": "ተጠናቀቀ",
+        "driverDiscontinue": "አቋርጥ",
+        "passengerRefuse": "ጉዞ ሰርዝ",
+        "AreYouSure": "ኧረ",
+        "CancellTripWarning": "ጉዞውን እንደሰረዙ ተሳፋሪዎችዎ ማሳወቂያ ይደርሳቸዋል።",
+        "TripAlreadyClosed": "ይህ ጉዞ አስቀድሞ ተዘግቷል።",
+        "preview": {
+            "Departs": "ይነሳል",
+            "Departed": "ተጓዘ",
+            "Arrives": "ይደርሳል",
+            "Arrived": "ደርሷል"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "ምን ማቅረብ ይፈልጋሉ?",
+        "PassengertripCanceled": "ጉዞን እምቢ ማለት",
+        "Subscribe": "ሰብስክራይብ ያድርጉ",
+        "Subscribed": "ተመዝግቧል",
+        "Unsubscribe": "ከደንበኝነት ምዝገባ ይውጡ",
+        "NeedRide": "ግልቢያ ያስፈልጋቸዋል",
+        "OfferRide": "ግልቢያ አቅርብ",
+        "RideFrom": "ከ ያሽከርክሩ",
+        "RideTo": "ማሽከርከር ወደ",
+        "WhereToPick": "የት ልወስድህ?",
+        "WhereToDrop": "የት ላወርድህ?",
+        "Recurring": "ተደጋጋሚ",
+        "locationSubscribeNotice": "አዲስ ጉዞዎች ሲለጠፉ ማሳወቂያ ይደርስዎታል።",
+        "locationUnsubscribeNotice": "አዲስ ጉዞዎች ሲለጠፉ ማሳወቅ አቁም"
+    },
+    "navigation": {
+        "loadingNavigation": "አሰሳን በመጫን ላይ...",
+        "routePanelError": "የመንገድ ፓነል ማዘጋጀት አልተቻለም",
+        "routeRecalculate": "እንደገና ማስላት መንገድ",
+        "passengerPickedUp": "መንገደኛ አነሳ",
+        "nextRoute": "የሚቀጥለውን መንገድ በማስላት ላይ",
+        "routeError": {
+            "INVALID_REQUEST": "ልክ ያልሆነ ጥያቄ",
+            "MAX_WAYPOINTS_EXCEEDED": "ማክስ WAYPOINTS ታልፏል",
+            "NOT_FOUND": "አልተገኘም",
+            "OVER_QUERY_LIMIT": "ከጥያቄ ገደብ በላይ",
+            "REQUEST_DENIED": "ጥያቄ ተከልክሏል።",
+            "UNKNOWN_ERROR": "ያልታወቀ ስህተት",
+            "ZERO_RESULTS": "ዜሮ ውጤቶች"
+        },
+        "reCenter": "ዳግም መሃል",
+        "kilometr": "ኪ.ሜ",
+        "meter": "ኤም",
+        "minutes": "ደቂቃ",
+        "hours": "ሰዓ.",
+        "messages": {
+            "said": "ብሎ ተናገረ።",
+            "pickuplocationChange": "{{userName}} የሚወሰድበት ቦታ ተለውጧል",
+            "canceledTrip": "{{userName}} ጉዞውን ሰርዟል።"
+        },
+        "speechFarManeuver": "በ {{distance}} {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "ጉዞ {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} በቡድን ጉዞዎ ውስጥ {{state}} ነው።",
+        "Travel\/trip\/arriving": "ሹፌርህ ሊወስድህ እየቀረበ ነው።",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} ተወስዷል።",
+        "Travel\/trip\/started": "ጉዞህ ተጀምሯል።",
+        "Travel\/trip\/completed": "ጉዞዎ ተጠናቅቋል።",
+        "Travel\/trip\/discontinued": "ሹፌሩ ጉዞዎን አቋርጧል።",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ተንቀሳቅሷል",
+        "Travel\/trip\/added": "አዲስ ጉዞ ወደ ፍላጎትዎ አቅጣጫ ታክሏል።"
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "ሰዎች ብቻቸውን ወይም አብረው የሚያደርጉትን ጉዞ ይወክላል",
+            "displayType": "ጉዞ"
+        }
+    }
+}

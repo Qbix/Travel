@@ -1,0 +1,249 @@
+/* need to valid rendering of map tool */
+.Q_tool.Travel_trip_tool {
+	height: 100%;
+}
+.Travel_trip_tool .Streams_participants_tool {
+	padding-top: 1px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.Travel_trip_tool .Streams_participants_tool .Streams_participants_container {
+	margin-right: 0;
+}
+.Travel_trip_tool .Travel_trip_actions,
+.Travel_trip_tool .Travel_trip_times {
+	padding: 0 5px;
+}
+.Travel_trip_tool .Travel_trip_times {
+	margin-bottom: 10px;
+}
+.Travel_trip_tool .Travel_trip_times [data-display] {
+	display: none;
+}
+.Travel_trip_tool[data-tripState="new"] .Travel_trip_times [data-display=onNew] {
+	display: inline;
+}
+.Travel_trip_tool[data-tripState="started"] .Travel_trip_times [data-display=onStart] {
+	display: inline;
+}
+.Travel_trip_tool .Travel_trip_times > div {
+	padding: 2px 5px;
+	font-size: .65em;
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+.Travel_trip_tool .Travel_trip_times .Q_tool.Q_timestamp_tool {
+	display: inline;
+	color: #595959;
+}
+.Travel_trip_tool .Travel_trip_times .Travel_trip_time_start {
+	white-space: nowrap;
+	border: 1px solid #407018;
+	background-color: #87cb47;
+}
+.Travel_trip_tool .Travel_trip_times .Travel_trip_time_end {
+	white-space: nowrap;
+	border: 1px solid #b4382d;
+	background-color: #f7685c;
+}
+
+.Travel_trip_tool .Travel_map_tool {
+	height: 100%;
+}
+
+.Travel_trip_tool .Q_tool.Travel_navigation_tool button[name=pickedUp]{
+	display: none;
+}
+.Travel_trip_tool .Q_tool.Travel_navigation_tool[data-fullscreen=on] button[name=pickedUp]{
+	display: block;
+	position: absolute;
+	top: 90px;
+	width: 80%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.Travel_trip_tool .Q_tool.Travel_navigation_tool[data-fullscreen=on] button.flashText[name=pickedUp]{
+	color: #f5e431;
+}
+.Travel_trip_tool .Q_tool.Travel_navigation_tool .Travel_navigation_fullScreen{
+	z-index: 5;
+	right: 15px;
+	top: 20px;
+	height: 35px;
+	width: 35px;
+}
+.Travel_trip_tool .Q_tool.Travel_navigation_tool[data-fullscreen=on] .Travel_navigation_re-center {
+	bottom: 100px;
+}
+
+.Travel_trip_tool .Travel_trip_actions {
+	text-align: center;
+}
+.Travel_trip_tool .Travel_trip_actions button {
+	margin: 5px auto;
+	padding: 5px 10px;
+	font-size: 14px;
+	display: none;
+}
+.Travel_trip_tool .Calendars_recurring_setting {
+	display: inline-block;
+	margin-left: 5px;
+}
+.Travel_trip_tool[data-trackPassengers="true"][data-tripState="new"][data-participantState="canceled"] button[name=pickupLocation],
+.Travel_trip_tool[data-trackPassengers="false"][data-tripState="new"][data-participantState="canceled"] button[name=pickupLocation]{
+	display: none;
+}
+.Travel_trip_tool[data-tripState="new"] button[name=startDriving],
+/* show pickupLocation button only before trip started if trackPassengers=true */
+.Travel_trip_tool[data-trackPassengers="true"][data-tripState="new"]:not([data-participantState="observing"]) button[name=pickupLocation],
+/* show pickupLocation button independently of trip state if trackPassengers=false */
+.Travel_trip_tool[data-trackPassengers="false"]:not([data-participantState="riding"]):not([data-participantState="canceled"]):not([data-participantState="expelled"]):not([data-participantState="observing"]) button[name=pickupLocation] {
+	display: inline-block;
+}
+.Travel_trip_tool[data-participantState="observing"] button[name=pickMeUp],
+.Travel_trip_tool[data-participantState="canceled"] button[name=pickMeUp] {
+	display: inline-block;
+}
+.Travel_trip_tool[data-participantState]:not([data-participantState="canceled"]):not([data-participantState="expelled"]):not([data-participantState="observing"]) button[name=tripRefuse] {
+	display: inline-block;
+}
+.Travel_trip_tool[data-tripState]:not([data-participantState="observing"]) button[name=tripCancel] {
+	display: inline-block;
+}
+.Travel_trip_tool .Travel_trip_going,
+.Travel_trip_tool .Travel_trip_info {
+	position: relative;
+	text-align: center;
+	border-bottom: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 5px 0;
+}
+.Travel_trip_tool .Travel_trip_info table {
+	margin: auto;
+	font-size: 12px;
+}
+.Travel_trip_tool .Travel_trip_going .Q_selected {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#227722', endColorstr='#449944'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#227722), to(#449944)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #227722,  #449944); /* for firefox 3.6+ */
+}
+.Travel_trip_tool[data-going=yes][data-state=started][data-userState=waiting] button[name=pickedUp]{
+	display: inline-block;
+}
+.Travel_trip_tool .Streams_participants_tool {
+	height: 60px;
+}
+.Travel_trip_tool .Users_avatar_tool {
+	position: relative;
+}
+.Travel_trip_tool .Users_avatar_tool[data-state]::after {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	content: "\00a0";
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+.Travel_trip_tool .Users_avatar_tool[data-state=driver]::after {
+	background-image: url("../img/icon_driver.png");
+}
+.Travel_trip_tool .Users_avatar_tool[data-state=waiting]::after {
+	background-image: url("../img/icon_waiting.png");
+}
+.Travel_trip_tool .Users_avatar_tool[data-state=riding]::after {
+	background-image: url("../img/icon_riding.png");
+}
+
+.Travel_trip_going_box {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.Travel_trip_going_box span {
+	display: inline-block;
+	padding: 5px 7px;
+	cursor: pointer;
+	border-left: dotted 1px #aaa;
+	background: #999; color: white;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbb', endColorstr='#999'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#999)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #bbb,  #999); /* for firefox 3.6+ */
+}
+.Travel_trip_going_box span.Travel_trip_yes {
+	padding: 5px 10px;
+}
+.Travel_trip_going_box span:first-child {
+	border-left: none;
+	border-radius: 5px 0 0 5px;
+}
+.Travel_trip_going_box span:last-child {
+	border-left: none;
+	border-radius: 0 5px 5px 0;
+}
+
+.Travel_trip_tool .Travel_trip_preloader_mask
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff url(../../Q/img/throbbers/long_bar.gif) no-repeat center;
+	text-align: center;
+	opacity: 0.8;
+}
+
+/* Preload images */
+.Travel_trip_tool::after{
+	position:absolute;
+	width:0;
+	height:0;
+	overflow:hidden;
+	z-index:-1;
+	content: url(../../Q/img/throbbers/long_bar.gif) url("../img/icon_driver.png") url("../img/icon_waiting.png") url("../img/icon_riding.png");
+}
+
+.Travel_trip_pickUpName {
+	display: none;
+}
+
+.Travel_aspect_trips,
+.Q_button.Travel_aspect_trips,
+.Travel_trips_needoffer .Q_dialog_content {
+	background-image: url(../img/bg/stripes.png);
+	color: white;
+}
+.Travel_trips_needoffer .Q_dialog_content {
+	padding: 10px 20px;
+	overflow: hidden;
+}
+.Q_button.Travel_aspect_trips:active,
+.Q_button.Travel_aspect_trips:focus {
+	background: #626262;
+	color: white;
+}
+.Q_clickable_container.Q_pressed span.Travel_aspect_trips {
+	background: #555;
+	background: rgba(80, 80, 80, 0.8);
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	text-decoration: none;
+}
+
+.Q_tool.Travel_trips_tool {
+	overflow: hidden;
+}
+
+.Q_columns_column.Q_column_trip .Q_column_slot {
+	padding: 0;
+}
+
+.Users_avatar_tool.Travel_map_car img {
+	border: 0;
+	box-shadow: none;
+}

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Jā",
+        "No": "Nē",
+        "to": "uz",
+        "from": "no",
+        "departTime": "atiet",
+        "arriveTime": "ierodas",
+        "OfferRide": "Piedāvā braucienu",
+        "whatToOffer": "Ko jūs vēlaties piedāvāt?",
+        "tripTo": "Ceļojums uz",
+        "tripFrom": "Ceļojums no",
+        "startDriving": "Sāciet braukšanu",
+        "pickUpName": "Paņemts {{name}}",
+        "pickedUp": "Es biju paņemts",
+        "pickMeUp": "Paķer mani",
+        "pickupLocation": "Pickup atrašanās vieta",
+        "cancel": "Atcelt",
+        "center": "Centrs",
+        "shouldDepart": "Atstāt",
+        "departs": "Iziet",
+        "departed": "Aizgājis",
+        "shouldArrive": "ierasties",
+        "arrives": "Ierodas",
+        "arrived": "Ieradās",
+        "minutes": "minūtes",
+        "estimatedTime": "Paredzamais laiks",
+        "leaveAt": "Es gribu atstāt",
+        "offerAtMostPeople": "Es varu piedāvāt braucienu ne vairāk",
+        "people": "Cilvēki",
+        "maxDetour": "Maksimālais apvedceļš",
+        "share": "Kopīgot",
+        "tripComplete": "Pabeigts",
+        "driverDiscontinue": "Pārtraukt",
+        "passengerRefuse": "Atcelt ceļojumu",
+        "AreYouSure": "Vai tu esi pārliecināts?",
+        "CancellTripWarning": "Jūsu pasažieriem tiks paziņots, ka esat atcēlis braucienu",
+        "TripAlreadyClosed": "Šis ceļojums jau ir slēgts.",
+        "preview": {
+            "Departs": "Iziet",
+            "Departed": "Aizgājis",
+            "Arrives": "Ierodas",
+            "Arrived": "Ieradās"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Ko jūs vēlaties piedāvāt?",
+        "PassengertripCanceled": "Atteikt ceļojumu",
+        "Subscribe": "Abonēt",
+        "Subscribed": "Abonēts",
+        "Unsubscribe": "Atcelt abonēšanu",
+        "NeedRide": "Nepieciešams brauciens",
+        "OfferRide": "Piedāvā braucienu",
+        "RideFrom": "Brauciet no",
+        "RideTo": "Brauciet uz",
+        "WhereToPick": "Kur jūs uzņemt?",
+        "WhereToDrop": "Kur jūs nokrist?",
+        "Recurring": "Atkārtojas",
+        "locationSubscribeNotice": "Jums tiks paziņots, kad tiks publicēti jauni braucieni.",
+        "locationUnsubscribeNotice": "Pārtrauciet paziņošanu, kad tiek publicēti jauni braucieni."
+    },
+    "navigation": {
+        "loadingNavigation": "Notiek navigācijas ielāde ...",
+        "routePanelError": "Nevar iestatīt maršruta paneli",
+        "routeRecalculate": "Maršruta pārrēķināšana",
+        "passengerPickedUp": "Pasažieris pacēla",
+        "nextRoute": "Nākamā maršruta aprēķināšana",
+        "routeError": {
+            "INVALID_REQUEST": "NEDERĪGS PIEPRASĪJUMS",
+            "MAX_WAYPOINTS_EXCEEDED": "Maks",
+            "NOT_FOUND": "NAV ATRASTS",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "PIEPRASĪJUMS",
+            "UNKNOWN_ERROR": "NEZINĀMA KĻŪDA",
+            "ZERO_RESULTS": "NULL REZULTĀTI"
+        },
+        "reCenter": "RE-CENTRS",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "hr.",
+        "messages": {
+            "said": "teica:",
+            "pickuplocationChange": "{{userName}} mainīja pikapu atrašanās vietu",
+            "canceledTrip": "{{userName}} atcēla braucienu"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Ceļojums {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} ir {{state}} jūsu grupas braucienā.",
+        "Travel\/trip\/arriving": "Jūsu vadītājs tuvojas, lai jūs uzņemt.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} tika paņemts.",
+        "Travel\/trip\/started": "Jūsu ceļojums ir sākts",
+        "Travel\/trip\/completed": "Jūsu ceļojums ir pabeigts.",
+        "Travel\/trip\/discontinued": "Vadītājs ir pārtraucis ceļojumu.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} ir pārvietojies",
+        "Travel\/trip\/added": "Jauns ceļojums papildināja jūs interesējošo virzienu."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Pārstāv ceļojumu, ko cilvēki veic atsevišķi vai kopā",
+            "displayType": "Brauciens"
+        }
+    }
+}

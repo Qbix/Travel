@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "ды",
+        "No": "няма",
+        "to": "у",
+        "from": "ад",
+        "departTime": "адыходзіць",
+        "arriveTime": "прыбываць",
+        "OfferRide": "прапанова Паездкі",
+        "whatToOffer": "Што вы хочаце прапанаваць?",
+        "tripTo": "паездка ў",
+        "tripFrom": "паездка з",
+        "startDriving": "Пачатак ваджэння",
+        "pickUpName": "Паднята {{name}}",
+        "pickedUp": "Я быў падабраны",
+        "pickMeUp": "Pick Me Up",
+        "pickupLocation": "самовывоз Размяшчэнне",
+        "cancel": "адмяніць",
+        "center": "цэнтр",
+        "shouldDepart": "Калі адысці",
+        "departs": "вылятае",
+        "departed": "адступнікі",
+        "shouldArrive": "прыязджаць",
+        "arrives": "прыбыў",
+        "arrived": "які прыбыў",
+        "minutes": "хвілін",
+        "estimatedTime": "Разліковы час",
+        "leaveAt": "Я хачу пакінуць у",
+        "offerAtMostPeople": "Я магу прапанаваць паездку на самай большым",
+        "people": "людзі",
+        "maxDetour": "макс аб&#39;езд",
+        "share": "доля",
+        "tripComplete": "поўны",
+        "driverDiscontinue": "спыняць",
+        "passengerRefuse": "Адмена паездкі",
+        "AreYouSure": "Вы ўпэўнены?",
+        "CancellTripWarning": "Вашы пасажыры будуць апавешчаныя, што вы адмянілі паездку",
+        "TripAlreadyClosed": "Гэтая паездка ўжо зачынена.",
+        "preview": {
+            "Departs": "вылятае",
+            "Departed": "адступнікі",
+            "Arrives": "прыбыў",
+            "Arrived": "які прыбыў"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Што вы хочаце прапанаваць?",
+        "PassengertripCanceled": "адмоўцеся Trip",
+        "Subscribe": "падпісвацца",
+        "Subscribed": "падпісны",
+        "Unsubscribe": "Адмовіцца ад падпіскі",
+        "NeedRide": "патрэбна Паездку",
+        "OfferRide": "прапанова Паездкі",
+        "RideFrom": "язды ад",
+        "RideTo": "паездка да",
+        "WhereToPick": "Дзе забраць вас?",
+        "WhereToDrop": "Дзе высадзіць вас?",
+        "Recurring": "перыядычная",
+        "locationSubscribeNotice": "Вы будзеце апавешчаныя, калі новыя паездкі размешчаны.",
+        "locationUnsubscribeNotice": "Спыніць апавяшчэння, калі новыя паездкі размешчаны."
+    },
+    "navigation": {
+        "loadingNavigation": "Загрузка навігацыі ...",
+        "routePanelError": "Немагчыма ўсталяваць панэль маршруту",
+        "routeRecalculate": "пераразлік маршруту",
+        "passengerPickedUp": "пасажыр ўзяў",
+        "nextRoute": "Разлік наступны маршрут",
+        "routeError": {
+            "INVALID_REQUEST": "НЯПРАВІЛЬНЫ ЗАПЫТ",
+            "MAX_WAYPOINTS_EXCEEDED": "MAX WAYPOINTS перавышаны",
+            "NOT_FOUND": "Не знойдзена",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "Запыт ЗАБАРОНЕНЫ",
+            "UNKNOWN_ERROR": "НЕВЯДОМАЯ ПАМЫЛКА",
+            "ZERO_RESULTS": "ZERO ВЫНІКІ"
+        },
+        "reCenter": "RE-CENTER",
+        "kilometr": "км",
+        "meter": "м",
+        "minutes": "мінімум",
+        "hours": "ч.",
+        "messages": {
+            "said": "сказаў,",
+            "pickuplocationChange": "{{userName}} змяніў размяшчэнне пікап",
+            "canceledTrip": "{{userName}} адмяніла паездку"
+        },
+        "speechFarManeuver": "у {{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Маршрутны {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} з&#39;яўляецца {{state}} у вашай групе язды.",
+        "Travel\/trip\/arriving": "Ваш кіроўца набліжаецца, каб забраць вас.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} быў падабраны.",
+        "Travel\/trip\/started": "Ваша паездка пачалася",
+        "Travel\/trip\/completed": "Ваша паездка была завершана.",
+        "Travel\/trip\/discontinued": "Кіроўца спыніў сваё падарожжа.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} перамясцілася",
+        "Travel\/trip\/added": "Новая паездка дадаецца ў кірунак, зацікаўленым."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Уяўляе сабой падарожжа, якое людзі здзяйсняюць у адзіноце ці разам",
+            "displayType": "Паездка"
+        }
+    }
+}

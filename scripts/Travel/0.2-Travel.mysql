@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS {{prefix}}trip (
+	publisherId varbinary(31) NOT NULL,
+	streamName varbinary(255) NOT NULL,
+	route TEXT NULL,
+	coordinates TEXT NULL COMMENT 'json of {userId: {latitude, longitude, heading}}',
+	PRIMARY KEY (publisherId, streamName)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -1,0 +1,106 @@
+{
+    "trip": {
+        "Yes": "Taip",
+        "No": "Ne",
+        "to": "į",
+        "from": "nuo",
+        "departTime": "išvykti",
+        "arriveTime": "atvykti",
+        "OfferRide": "Siūlo važiavimą",
+        "whatToOffer": "Ką norite pasiūlyti?",
+        "tripTo": "Kelione į",
+        "tripFrom": "Kelionė nuo",
+        "startDriving": "Pradėkite vairuoti",
+        "pickUpName": "Pasirinkta {{name}}",
+        "pickedUp": "Man buvo paimtas",
+        "pickMeUp": "Pasirinkite mane",
+        "pickupLocation": "Paėmimo vieta",
+        "cancel": "Atšaukti",
+        "center": "Centras",
+        "shouldDepart": "Turėtų išvykti",
+        "departs": "Išeina",
+        "departed": "Išvyko",
+        "shouldArrive": "atvykti",
+        "arrives": "Atvyksta",
+        "arrived": "Atvyko",
+        "minutes": "minučių",
+        "estimatedTime": "Apskaičiuotas laikas",
+        "leaveAt": "Noriu palikti",
+        "offerAtMostPeople": "Aš galiu pasiūlyti važiavimą ne daugiau",
+        "people": "Žmonės",
+        "maxDetour": "Maksimalus apvažiavimas",
+        "share": "Dalintis",
+        "tripComplete": "Baigta",
+        "driverDiscontinue": "Nutraukti",
+        "passengerRefuse": "Atšaukti kelionę",
+        "AreYouSure": "Ar tu tuo tikras?",
+        "CancellTripWarning": "Jūsų keleiviams bus pranešta, kad atšaukėte kelionę",
+        "TripAlreadyClosed": "Ši kelionė jau baigta.",
+        "preview": {
+            "Departs": "Išeina",
+            "Departed": "Išvyko",
+            "Arrives": "Atvyksta",
+            "Arrived": "Atvyko"
+        }
+    },
+    "trips": {
+        "WhatToOffer": "Ką norite pasiūlyti?",
+        "PassengertripCanceled": "Atmesti kelionę",
+        "Subscribe": "Prenumeruoti",
+        "Subscribed": "Prenumeruota",
+        "Unsubscribe": "Atsisakyti prenumeratos",
+        "NeedRide": "Reikia pavežti",
+        "OfferRide": "Siūlo važiavimą",
+        "RideFrom": "Kelionė iš",
+        "RideTo": "Važiuoti į",
+        "WhereToPick": "Kur jus pasiimti?",
+        "WhereToDrop": "Kur nuleisti jus?",
+        "Recurring": "Pasikartojantis",
+        "locationSubscribeNotice": "Jums bus pranešta, kai bus paskelbtos naujos kelionės.",
+        "locationUnsubscribeNotice": "Nustokite pranešti, kai paskelbiamos naujos kelionės."
+    },
+    "navigation": {
+        "loadingNavigation": "Įkeliama navigacija ...",
+        "routePanelError": "Negalima nustatyti maršruto skydelio",
+        "routeRecalculate": "Perskaičiuoti maršrutą",
+        "passengerPickedUp": "Keleivis pakilo",
+        "nextRoute": "Kito maršruto apskaičiavimas",
+        "routeError": {
+            "INVALID_REQUEST": "NETEISINGAS PRAŠYMAS",
+            "MAX_WAYPOINTS_EXCEEDED": "MOKESČIAI, KURIEMS TAIKOMI MOKESČIAI",
+            "NOT_FOUND": "NERASTAS",
+            "OVER_QUERY_LIMIT": "OVER QUERY LIMIT",
+            "REQUEST_DENIED": "PRAŠYMAS NUTRAUKTA",
+            "UNKNOWN_ERROR": "NEŽINOMA KLAIDA",
+            "ZERO_RESULTS": "NULINIAI REZULTATAI"
+        },
+        "reCenter": "RE-CENTRAS",
+        "kilometr": "km",
+        "meter": "m",
+        "minutes": "min.",
+        "hours": "val.",
+        "messages": {
+            "said": "sakė,",
+            "pickuplocationChange": "{{userName}} pakeitė paėmimo vietą",
+            "canceledTrip": "{{userName}} atšaukė kelionę"
+        },
+        "speechFarManeuver": "{{distance}}, {{maneuver}}"
+    },
+    "notifications": {
+        "Travel\/trip\/state": "Kelionė {{state}}",
+        "Travel\/trip\/user\/state": "{{avatar.displayName}} yra {{state}} jūsų grupėje.",
+        "Travel\/trip\/arriving": "Jūsų vairuotojas artėja prie jūsų.",
+        "Travel\/trip\/pickedup": "{{avatar.displayName}} buvo paimtas.",
+        "Travel\/trip\/started": "Jūsų kelionė prasidėjo",
+        "Travel\/trip\/completed": "Jūsų kelionė baigta.",
+        "Travel\/trip\/discontinued": "Vairuotojas nutraukė kelionę.",
+        "Travel\/coordinates\/updated": "{{avatar.displayName}} persikėlė",
+        "Travel\/trip\/added": "Nauja kelionė papildė jus dominančią kryptį."
+    },
+    "types": {
+        "Travel\/trip": {
+            "description": "Atstovauja kelionei, kurią žmonės vykdo vieni arba kartu",
+            "displayType": "Kelionė"
+        }
+    }
+}

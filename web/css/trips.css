@@ -252,10 +252,10 @@ table.Travel_trips_loc {
 	display: inline-block;
 	width: 120px;
 	padding: 0 3px;
+	height: 40px;
 }
-.Q_dialog_content .Travel_trips_composer {
-	margin: 10px;
-	max-height: 70vh;
+.Travel_trips_composer .Q_dialog_content {
+	padding: 10px;
 }
 .Travel_trips_composer table.Travel_trips_loc[data-direction='from'] .Travel_trips_loc_fromtoo,
 .Travel_trips_composer table.Travel_trips_loc[data-fromTripExists='true'] .Travel_trips_loc_fromtoo {

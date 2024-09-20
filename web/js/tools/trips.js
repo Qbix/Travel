@@ -559,6 +559,7 @@
 				var offerRide = (state.text.OfferRide || 'Offer a Ride');
 				Q.Dialogs.push({
 					title: offerRide,
+					className: "Travel_trips_composer",
 					template: {
 						name: 'Travel/trips/composer',
 						fields: {
@@ -948,7 +949,7 @@
 									}
 
 									// get trip stream and execute onCreate event
-									Streams.get(response.slots.stream.fields.publisherId, response.slots.stream.fields.name, function () {
+									Streams.get(response.slots.stream.publisherId, response.slots.stream.name, function () {
 										var stream = this;
 
 										Q.Dialogs.pop();
@@ -1116,8 +1117,7 @@
 	);
 
 	Q.Template.set('Travel/trips/composer',
-		'  <div class="Travel_trips_composer">'
-		+ ' <div class="Travel_trips_composer_selectTripType">'
+		' <div class="Travel_trips_composer_selectTripType">'
 		+ ' 	<div>{{trips.WhatToOffer}}</div>'
 		+ '		<label class="Travel_trips_composer_offerTrip"><input type="checkbox" name="offerTripTo" value="tripTo"> {{trip.tripTo}}</label>'
 		+ '		<label class="Travel_trips_composer_offerTrip"><input type="checkbox" name="offerTripFrom" value="tripFrom"> {{trip.tripFrom}}</label>'
@@ -1175,8 +1175,7 @@
 		+ '					<button class="Q_button Travel_trips_share_button">{{trip.share}}</button>'
 		+ '				</td>'
 		+ '			</tr>'
-		+ '		</table>'
-		+ '</div>',
+		+ '		</table>',
 		{text: "Travel/content"}
 	);
 

@@ -21,14 +21,12 @@ function Travel_after_Streams_create_Travel_trip($params)
 	$streamType = "Travel/trips";
 	foreach ($experienceIds as $experienceId) {
 		$streamName = $streamType . "/" . $experienceId;
-		$categoryStream = Streams_Stream::fetch($communityId, $communityId, $streamName);
-
-		if (empty($categoryStream)) {
-			$categoryStream = Streams::create($communityId, $communityId, $streamType, array(
-				"name" => $streamName
-			));
-		}
-
+		$categoryStream = Streams_Stream::fetchOrCreate(
+			$communityId,
+			$communityId,
+			$streamName,
+			array('skipAccess' => true)
+		);
 		$trip->relateTo($categoryStream, 'Travel/trip', null, array(
 			'skipAccess' => true,
 			'weight' => $weight

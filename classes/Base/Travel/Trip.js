@@ -381,7 +381,7 @@ Base.prototype.maxSize_directions = function () {
 	 */
 Base.column_directions = function () {
 
-return [["mediumtext",16777216,"",false],true,"",null];
+return [["mediumtext",16777216,null,null],true,"",null];
 };
 
 /**
@@ -417,7 +417,7 @@ Base.prototype.maxSize_coordinates = function () {
 	 */
 Base.column_coordinates = function () {
 
-return [["text",65535,"",false],true,"",null];
+return [["text",65535,null,null],true,"",null];
 };
 
 /**
@@ -437,6 +437,12 @@ Base.prototype.beforeSave = function (value) {
 				throw new Error("the field "+table+"."+fields[i]+" needs a value, because it is NOT NULL, not auto_increment, and lacks a default value.");
 			}
 		}
+	}
+	if (this.fields["publisherId"] == undefined) {
+		this.fields["publisherId"] = value["publisherId"] = "";
+	}
+	if (this.fields["streamName"] == undefined) {
+		this.fields["streamName"] = value["streamName"] = "";
 	}
 	return value;
 };

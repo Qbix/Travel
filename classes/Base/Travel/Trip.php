@@ -417,8 +417,8 @@ return array (
   array (
     0 => 'mediumtext',
     1 => 16777216,
-    2 => '',
-    3 => false,
+    2 => NULL,
+    3 => NULL,
   ),
   1 => true,
   2 => '',
@@ -472,8 +472,8 @@ return array (
   array (
     0 => 'text',
     1 => 65535,
-    2 => '',
-    3 => false,
+    2 => NULL,
+    3 => NULL,
   ),
   1 => true,
   2 => '',
@@ -497,6 +497,12 @@ return array (
 					throw new Exception("the field $table.$name needs a value, because it is NOT NULL, not auto_increment, and lacks a default value.");
 				}
 			}
+		}
+		if (!isset($value["publisherId"])) {
+			$this->publisherId = $value["publisherId"] = "";
+		}
+		if (!isset($value["streamName"])) {
+			$this->streamName = $value["streamName"] = "";
 		}
 		return $value;			
 	}

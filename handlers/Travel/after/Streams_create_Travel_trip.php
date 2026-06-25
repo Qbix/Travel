@@ -25,7 +25,7 @@ function Travel_after_Streams_create_Travel_trip($params)
 			$communityId,
 			$communityId,
 			$streamName,
-			array('skipAccess' => true)
+			array('skipAccess' => true, 'type' => 'Streams/category')
 		);
 		$trip->relateTo($categoryStream, 'Travel/trip', null, array(
 			'skipAccess' => true,
